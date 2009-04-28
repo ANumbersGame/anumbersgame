@@ -1,0 +1,9 @@
+To get you started, here are MySQL-friendly database dumps for [http://commweb.fullerton.edu/jbruschke/web/ResultsArchives/archiveindex.aspx some of the data] on [http://debateresults.com DebateResults]:
+
+  * [http://anumbersgame.googlecode.com/svn/trunk/data/debateresults/converted/mysql/0304.mysql 2003-2004]
+  * [http://anumbersgame.googlecode.com/svn/trunk/data/debateresults/converted/mysql/0405.mysql 2004-2005]
+  * [http://anumbersgame.googlecode.com/svn/trunk/data/debateresults/converted/mysql/0506.mysql 2005-2006]
+  * [http://anumbersgame.googlecode.com/svn/trunk/data/debateresults/converted/mysql/0607.mysql 2006-2007]
+  * [http://anumbersgame.googlecode.com/svn/trunk/data/debateresults/converted/mysql/0708.mysql 2007-2008]
+
+Please note that these database dumps are not perfect; see [http://code.google.com/p/anumbersgame/source/browse/trunk/data/debateresults/converted/mysql/README.txt the README] and [http://code.google.com/p/anumbersgame/source/browse/trunk/data/scripts/access2mysql.sh the script used to produce them] for more details.
