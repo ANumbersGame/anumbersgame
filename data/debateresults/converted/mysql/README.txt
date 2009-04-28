@@ -1,0 +1,1 @@
+These files have every "Div" replaced with "Diiv", since MySQL doesn't like "Div" as a column name and mbdtools doesn't know that. The replacement is global, so some spelling may be broken in the judge philosophies and some names may be incorrect.
