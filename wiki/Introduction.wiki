@@ -1,3 +1,9 @@
+=Purpose=
+
+Hopefully, I can produce some interesting statistics from aggregated debate results
+
+=Raw Material=
+
 To get you started, here are MySQL-friendly database dumps for [http://commweb.fullerton.edu/jbruschke/web/ResultsArchives/archiveindex.aspx some of the data] on [http://debateresults.com DebateResults]:
 
   * [http://anumbersgame.googlecode.com/svn/trunk/data/debateresults/converted/mysql/0304.mysql 2003-2004]
