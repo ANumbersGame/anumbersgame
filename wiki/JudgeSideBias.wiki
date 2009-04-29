@@ -4,6 +4,8 @@ This page lists historical judge side bias derived from the [DebateResultsDotCom
 
 The column labeled "*prob*" is an upper limit on the probability that the decisions by that judge were actually no more biased that those of the judge population as a whole. This is calculated from the binomial distribution and the Clopper-Pearson confidence interval. For more information on binomial confidence intervals, see [http://dx.doi.org/10.1111/j.1467-842X.2007.00501.x Problems with Binomial Two-sided Tests and the Associated Confidence Intervals]. All judges with more than a 98% probability of side bias are shown.
 
+[http://code.google.com/p/anumbersgame/source/browse/#svn/trunk/tests/judge-side-bias The code to calculate this data can be found in the source tree under "tests/judge-side-bias"].
+
 <br/>
 = 2007-2008 =
 ----
