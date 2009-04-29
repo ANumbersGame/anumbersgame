@@ -1,25 +1,9 @@
-=Purpose=
+#summary Purpose, data used, and statistics offered
 
-The goal of this project is to produce some interesting statistics from aggregated debate results
+The goal of this project is to produce some interesting statistics from aggregated debate results.
 
-=Raw Material=
+Right now, the only raw data used is from DebateResultsDotCom.
 
-To get you started, here are MySQL-friendly database dumps for [http://commweb.fullerton.edu/jbruschke/web/ResultsArchives/archiveindex.aspx some of the data] on [http://debateresults.com DebateResults]:
+Right now, the only statistic offered is JudgeSideBias.
 
-  * [http://anumbersgame.googlecode.com/svn/trunk/data/debateresults/converted/mysql/0304.mysql 2003-2004]
-  * [http://anumbersgame.googlecode.com/svn/trunk/data/debateresults/converted/mysql/0405.mysql 2004-2005]
-  * [http://anumbersgame.googlecode.com/svn/trunk/data/debateresults/converted/mysql/0506.mysql 2005-2006]
-  * [http://anumbersgame.googlecode.com/svn/trunk/data/debateresults/converted/mysql/0607.mysql 2006-2007]
-  * [http://anumbersgame.googlecode.com/svn/trunk/data/debateresults/converted/mysql/0708.mysql 2007-2008]
-
-Please note that these database dumps are not perfect; see [http://code.google.com/p/anumbersgame/source/browse/trunk/data/debateresults/converted/mysql/README.txt the README] and [http://code.google.com/p/anumbersgame/source/browse/trunk/data/scripts/access2mysql.sh the script used to produce them] for more details.
-
-=Team Ratings=
-
-To read more about team ratings, see
-
-  * [http://scholar.google.com/scholar?cluster=1976262193035074609 "Ranking Participants in Tournaments by means of Rating Functions"]
-  * [http://scholar.google.com/scholar?cluster=1588533582049225873 "Ranking Participants in Generalized Tournaments"]
-  * [http://commweb.fullerton.edu/jbruschke/web/BruschkeExplanation.aspx Jon Bruschke's and Jim Hanson's team ratings algorithms]
-  * [http://www.ndtceda.com/pipermail/edebate/2009-January/077568.html Will Repko's system for rating NDT first round applicants]
-  * Many posts at [http://art-of-logic.blogspot.com/ The Art of Logic].
+Please feel free to recommend statistics you would like to see by using [http://code.google.com/p/anumbersgame/issues/list the issue tracker].
