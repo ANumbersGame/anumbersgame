@@ -1,0 +1,19 @@
+CREATE DATABASE DebateResults0304 
+  CHARACTER SET utf8;
+GRANT ALL ON DebateResults0304.* TO '';
+
+CREATE DATABASE DebateResults0405 
+  CHARACTER SET utf8;
+GRANT ALL ON DebateResults0405.* TO '';
+
+CREATE DATABASE DebateResults0506 
+  CHARACTER SET utf8;
+GRANT ALL ON DebateResults0506.* TO '';
+
+CREATE DATABASE DebateResults0607 
+  CHARACTER SET utf8;
+GRANT ALL ON DebateResults0607.* TO '';
+
+CREATE DATABASE DebateResults0708 
+  CHARACTER SET utf8;
+GRANT ALL ON DebateResults0708.* TO '';

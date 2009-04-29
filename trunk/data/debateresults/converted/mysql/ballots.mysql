@@ -1,0 +1,141 @@
+DROP VIEW
+IF EXISTS
+Ballots;
+
+CREATE TABLE
+IF NOT EXISTS
+Ballots
+(SELECT ID as MasterResultsID,
+	Judge1 as Judge, 
+	JudgeDec1 as JudgeDec, 
+	PointsAff11 as PointsAff1, 
+	PointsAff12 as PointsAff2, 
+	PointsNeg11 as PointsNeg1, 
+	PointsNeg12 as PointsNeg2, 
+	RankAff11 as RankAff1,
+	RankAff12 as RankAff2,
+	RankNeg11 as RankNeg1,
+	RankNeg12 as RankNeg2
+FROM MasterResults 
+WHERE Judge1 != 0 
+AND AffTeam != 0 
+AND NegTeam != 0 
+AND JudgeDec1 != 0
+)
+UNION ALL
+(SELECT ID,
+	Judge2,
+	JudgeDec2,
+	PointsAff21,
+	PointsAff22,
+	PointsNeg21,
+	PointsNeg22,
+	RankAff21,
+	RankAff22,
+	RankNeg21,
+	RankNeg22
+FROM MasterResults 
+WHERE Judge2 != 0 
+AND AffTeam != 0 
+AND NegTeam != 0 
+AND JudgeDec2 != 0
+)
+UNION ALL
+(SELECT ID,
+	Judge3,
+	JudgeDec3,
+	PointsAff31,
+	PointsAff32,
+	PointsNeg31,
+	PointsNeg32,
+	RankAff31,
+	RankAff32,
+	RankNeg31,
+	RankNeg32
+FROM MasterResults 
+WHERE Judge3 != 0 
+AND AffTeam != 0 
+AND NegTeam != 0 
+AND JudgeDec3 != 0
+)
+UNION ALL
+(SELECT ID,
+	Judge4,
+	JudgeDec4,
+	0,0,0,0,
+	0,0,0,0
+FROM MasterResults 
+WHERE Judge4 != 0 
+AND AffTeam != 0 
+AND NegTeam != 0 
+AND JudgeDec4 != 0
+)
+UNION ALL
+(SELECT ID,
+	Judge5,
+	JudgeDec5,
+	0,0,0,0,
+	0,0,0,0
+FROM MasterResults 
+WHERE Judge5 != 0 
+AND AffTeam != 0 
+AND NegTeam != 0 
+AND JudgeDec5 != 0
+)
+UNION ALL
+(SELECT ID,
+	Judge6,
+	JudgeDec6,
+	0,0,0,0,
+	0,0,0,0
+FROM MasterResults 
+WHERE Judge6 != 0 
+AND AffTeam != 0 
+AND NegTeam != 0 
+AND JudgeDec6 != 0
+)
+UNION ALL
+(SELECT ID,
+	Judge7,
+	JudgeDec7,
+	0,0,0,0,
+	0,0,0,0
+FROM MasterResults 
+WHERE Judge7 != 0 
+AND AffTeam != 0 
+AND NegTeam != 0 
+AND JudgeDec7 != 0
+)
+UNION ALL
+(SELECT ID,
+	Judge8,
+	JudgeDec8,
+	0,0,0,0,
+	0,0,0,0
+FROM MasterResults 
+WHERE Judge8 != 0 
+AND AffTeam != 0 
+AND NegTeam != 0 
+AND JudgeDec8 != 0
+)
+UNION ALL
+(SELECT ID,
+	Judge9,
+	JudgeDec9,
+	0,0,0,0,
+	0,0,0,0
+FROM MasterResults 
+WHERE Judge9 != 0 
+AND AffTeam != 0 
+AND NegTeam != 0 
+AND JudgeDec9 != 0
+);
+
+ALTER TABLE Ballots
+ADD INDEX (MasterResultsID);
+
+ALTER TABLE Ballots
+ADD INDEX (Judge);
+
+ALTER TABLE Ballots
+ADD INDEX (JudgeDec);
