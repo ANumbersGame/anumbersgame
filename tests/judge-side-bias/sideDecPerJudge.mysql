@@ -1,0 +1,13 @@
+SELECT 
+CONCAT('((',Judge,',"',REPLACE(FirstName,'"','\\"'),' ',REPLACE(LastName,'"','\\"'),'"), ('
+,IF(JudgeDec=1,'Aff','Neg'),', '
+,COUNT(*),'))') as ``
+FROM MasterJudges
+JOIN Ballots
+ON Judge=JudgeID
+WHERE (JudgeDec=1 OR JudgeDec=2) 
+AND FirstName IS NOT NULL 
+AND LastName IS NOT NULL 
+AND Judge IS NOT NULL
+GROUP BY Judge, JudgeDec;
+
