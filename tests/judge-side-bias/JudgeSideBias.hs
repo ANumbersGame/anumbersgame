@@ -35,7 +35,7 @@ prettyPrint decs affBias negBias =
 
 biasOf (pro,con) (name,(aff,neg)) =
     let rat = (pro-aff)%(con-neg+pro-aff)
-        (affFair,negFair) = toFloat $ binomialTest (aff+neg) aff rat
+        (affFair,negFair) = binomialTest (aff+neg) aff rat
     in ((negFair,name,aff,neg),
         (affFair,name,aff,neg))
 
@@ -68,6 +68,6 @@ printList =
     in map mprint . filter sig
 
 mprint (v,(n,p),q,r) = 
-    (showPercent $ confidence v)++" #"++(show n)++": "++p++", Aff:"++(show q)++", Neg:"++(show r)
+    (showPercent $ fromRational $ confidence v)++" #"++(show n)++": "++p++", Aff:"++(show q)++", Neg:"++(show r)
 
 showPercent v = showFFloat (Just 2) (100*v) "%"
