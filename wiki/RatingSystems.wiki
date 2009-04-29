@@ -1,0 +1,17 @@
+#summary Discussion of ratings systems
+
+In addition to ranking teams by hand, there are numerous ways to rate teams numerically. 
+
+=Debate Specific=
+
+  * Many posts at [http://art-of-logic.blogspot.com/ The Art of Logic] discuss the ranking of teams by opponent wins, rather than by speaker points, in order to pair tournaments fairly.
+  * [http://commweb.fullerton.edu/jbruschke/web/BruschkeExplanation.aspx Jon Bruschke's and Jim Hanson's team ratings algorithms] explained on DebateResultsDotCom.
+
+=Generic=
+
+  * [http://scholar.google.com/scholar?cluster=1976262193035074609 "Ranking Participants in Tournaments by means of Rating Functions"], which introduces the RecursivePerformance metric.
+  * [http://scholar.google.com/scholar?cluster=1588533582049225873 "Ranking Participants in Generalized Tournaments"], which uniquely characterizes the FairBets metric (and its dual).
+
+=Other Domains=
+
+  * [http://en.wikipedia.org/wiki/Ratings_Percentage_Index The Ratings Percentage Index] for NCAA college basketball.
