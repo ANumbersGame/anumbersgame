@@ -48,6 +48,53 @@ Resolved: The United States Federal Government should increase its constructive 
 
 Resolved: The United States Supreme Court should overrule one or more of the following decisions: Planned Parenthood v. Casey, 505 U.S. 833 (1992); Ex parte Quirin, 317 U.S. 1 (1942); U.S. v. Morrison, 529 U.S. 598 (2000); Milliken v. Bradley, 418 U.S. 717 (1974).
 
+<table border="1px" cellpadding="5%" valign="top">
+<tr>
+<th colspan="2">Aff win rate: 50.10%</th>
+</tr><tr>
+<th>Aff bias:</th>
+<th>Neg bias:</th>
+</tr><tr valign="top">
+<td><table border="1px" cellpadding="5%">
+<tr>
+<th>prob</th>
+<th>name</th>
+<th>votes</th>
+</tr>
+<tr>
+<td> 0.67% </td><td> Joe  Koehle </td><td> Aff:56, Neg:30
+</td>
+</tr><tr>
+<td> 1.15% </td><td> Kirk Evans  </td><td> Aff:26, Neg:10
+</td>
+</tr><tr>
+<td> 1.19% </td><td> Austin Carson </td><td> Aff:10, Neg:1
+</td>
+</tr>
+</table>
+</td>
+<td><table border="1px" cellpadding="5%">
+<tr>
+<th>prob</th>
+<th>name</th>
+<th>votes</th>
+</tr>
+<tr>
+<td> 0.62% </td><td> Joe Patrice </td><td> Aff:22, Neg:45</td>
+</tr><tr>
+<td> 0.72% </td><td> Greta Stahl </td><td> Aff:26, Neg:50</td>
+</tr><tr>
+<td> 1.15% </td><td> Erik Holland  </td><td> Aff:1, Neg:10</td>
+</tr><tr>
+<td> 1.30% </td><td> Brian !DeLong </td><td> Aff:23, Neg:44</td>
+</tr><tr>
+<td> 1.76% </td><td> John Nagy </td><td> Aff:15, Neg:32</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+
 <table border="1px" cellpadding="5%">
 <tr>
 <th colspan="6">Aff win rate: 50.10%</th>
@@ -72,7 +119,7 @@ Resolved: The United States Supreme Court should overrule one or more of the fol
 </td><td> 1.15% </td><td> Erik Holland  </td><td> Aff:1, Neg:10</td>
 </tr><tr>
 <td border="0"></td><td border="0"></td><td border="0"></td>
-<td> 1.30% </td><td> Brian DeLong </td><td> Aff:23, Neg:44</td>
+<td> 1.30% </td><td> Brian !DeLong </td><td> Aff:23, Neg:44</td>
 </tr><tr>
 <td border="0"></td><td border="0"></td><td border="0"></td>
 <td> 1.76% </td><td> John Nagy </td><td> Aff:15, Neg:32</td>
