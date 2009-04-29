@@ -2,7 +2,15 @@
 
 =Ratings and rankings of college policy debate teams=
 
+==Numerical==
+
   * [http://commweb.fullerton.edu/jbruschke/web/BruschkeResults.aspx Most recent ratings by Jon Bruschke's and Jim Hanson's methods]
+
+==Partially Numerical==
+
+  * [http://www.ndtceda.com/pipermail/edebate/attachments/20090129/5312929c/attachment.doc Will Repko's hypothetical (he was not a voter that year) 2007-2008 NDT first round ranking]
+
+==Experts Polls==
+
   * [http://commweb.fullerton.edu/jbruschke/NDT/NDTDocs/FirstRds08-09.xls 2008-2009 NDT first round bid balloting]
   * [http://commweb.fullerton.edu/jbruschke/NDT/NDTDocs/NDT%202nd%20rounds%20again.xls 2008-2009 NDT first round bid balloting]
-  * [http://www.ndtceda.com/pipermail/edebate/attachments/20090129/5312929c/attachment.doc Will Repko's hypothetical (he was not a voter that year) 2007-2008 NDT first round ranking]
