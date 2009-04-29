@@ -4,8 +4,9 @@ This page lists historical judge side bias derived from the [DebateResultsDotCom
 
 The column labeled "*prob*" is an upper limit on the probability that the decisions by that judge were actually no more biased that those of the judge population as a whole. This is calculated from the binomial distribution and the Clopper-Pearson confidence interval. For more information on binomial confidence intervals, see [http://dx.doi.org/10.1111/j.1467-842X.2007.00501.x Problems with Binomial Two-sided Tests and the Associated Confidence Intervals]. All judges with more than a 98% probability of side bias are shown.
 
+<br/>
 = 2007-2008 =
-
+----
 Resolved: The United States Federal Government should increase its constructive engagement with the government of one or more of the following countries: Afghanistan, Iran, Lebanon, the Palestinian Authority, and Syria, and it should include offering them a security guarantee(s) and/or a substantial increase in foreign assistance.
 
 <table border="1px" cellpadding="5%">
@@ -44,7 +45,9 @@ Resolved: The United States Federal Government should increase its constructive 
 </tr>
 </table>
 
+<br/>
 = 2006-2007 =
+----
 
 Resolved: The United States Supreme Court should overrule one or more of the following decisions: Planned Parenthood v. Casey, 505 U.S. 833 (1992); Ex parte Quirin, 317 U.S. 1 (1942); U.S. v. Morrison, 529 U.S. 598 (2000); Milliken v. Bradley, 418 U.S. 717 (1974).
 
@@ -129,8 +132,9 @@ Another way to write the table:
 </tr>
 </table>
 
+<br/>
 = 2005-2006 =
-
+----
 Resolved: The United States federal government should substantially increase diplomatic and economic pressure on the People's Republic of China in one or more of the following areas: trade, human rights, weapons nonproliferation, Taiwan.
 
 <table border="1px" cellpadding="5%">
@@ -158,9 +162,9 @@ Resolved: The United States federal government should substantially increase dip
 </tr>
 </table>
 
-
+<br/>
 = 2004-2005 =
-
+----
 Resolved: The United States federal government should establish an energy policy requiring a substantial reduction in the total non-governmental consumption of fossil fuels in the United States.
 
 <table border="1px" cellpadding="5%">
@@ -191,8 +195,9 @@ Resolved: The United States federal government should establish an energy policy
 </tr>
 <table>
 
+<br/>
 = 2003-2004 =
-
+----
 Resolved: The United States federal government should enact one or more of the following:
 
     * Withdrawal of its World Trade Organization complaint against the European Union’s restrictions on genetically modified foods;
