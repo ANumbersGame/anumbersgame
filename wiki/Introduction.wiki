@@ -1,4 +1,4 @@
-#summary Purpose, data used, and statistics offered
+#summary Getting started
 
 The goal of this project is to produce some interesting statistics from aggregated debate results.
 
