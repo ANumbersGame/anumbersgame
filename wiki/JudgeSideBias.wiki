@@ -166,35 +166,30 @@ Resolved: The United States federal government should establish an energy policy
 <table border="1px" cellpadding="5%">
 <tr>
 <th colspan="6">Aff win rate: 48.40%</th>
-<tr></tr>
+</tr><tr>
 <th colspan="3">Aff bias:</th>
 <th colspan="3">Neg bias:</th>
-<tr></tr>
+</tr><tr>
 <th>prob</th>
 <th>name</th>
 <th>votes</th>
 <th>prob</th>
 <th>name</th>
 <th>votes</th>
-<tr></tr>
+</tr><tr>
 <td>0.41%</td><td>Matt Doggett</td><td>Aff:27, Neg:10</td>
 <td>0.24%</td><td>Dave Strauss</td><td>Aff:3, Neg:18</td>
-<tr></tr>
+</tr><tr>
 <td>0.63%</td><td>Louie Petit</td><td>Aff:26, Neg:10</td>
 <td>0.61%</td><td>Geoff Bowser</td><td>Aff:6, Neg:22</td>
-<tr></tr>
+</tr><tr>
 <td>0.67%</td><td>Peggi Wood</td><td>Aff:18, Neg:5</td>
 <td>0.73%</td><td>Steve  Mancuso</td><td>Aff:14, Neg:35</td>
-<tr></tr>
+</tr><tr>
 <td>0.76%</td><td>Rae Lynn Schwartz</td><td>Aff:21, Neg:7</td>
 <td>1.78%</td><td>Keith  Gibeling</td><td>Aff:2, Neg:12</td>
 </tr>
 <table>
-
-
-
-
-
 
 == 2003-2004 ==
 
@@ -208,16 +203,38 @@ Resolved: The United States federal government should enact one or more of the f
     * Harmonization of its intellectual property law with the European Union in the area of human DNA sequences;
     * Rescission of all or nearly all agriculture subsidy increases in the 2002 Farm Bill.
 
-Aff win rate: 50.65%
-Aff bias:
-0.07% #274: Beth Skinner, Aff:28, Neg:7
-0.19% #327: Daryl Burch, Aff:31, Neg:10
-0.94% #789: Ryan  Galloway, Aff:27, Neg:10
-Neg bias:
-0.21% #97: Ken Sherwood, Aff:3, Neg:17
-0.48% #826: Katie Richey, Aff:25, Neg:49
-0.54% #269: Brian McBride, Aff:18, Neg:39
-0.70% #465: Aaron Moburg-Jones, Aff:0, Neg:8
-1.04% #860: Ben Sovacool, Aff:30, Neg:53
-1.42% #908: Mark Arnold, Aff:0, Neg:7
-1.98% #558: B. Hansford, Aff:2, Neg:11
+<table border="1px" cellpadding="5%">
+<tr>
+<th colspan="6">Aff win rate: 50.65%</th>
+</tr><tr>
+<th colspan="3">Aff bias:</th>
+<th colspan="3">Neg bias:</th>
+</tr><tr>
+<th>prob</th>
+<th>name</th>
+<th>votes</th>
+<th>prob</th>
+<th>name</th>
+<th>votes</th>
+</tr><tr>
+<td>0.07%</td><td>Beth Skinner</td><td>Aff:28, Neg:7</td>
+<td>0.21%</td><td>Ken Sherwood</td><td>Aff:3, Neg:17</td>
+</tr><tr>
+<td>0.19%</td><td>Daryl Burch</td><td>Aff:31, Neg:10</td>
+<td>0.48%</td><td>Katie Richey</td><td>Aff:25, Neg:49</td>
+</tr><tr>
+<td>0.94%</td><td>Ryan  Galloway</td><td>Aff:27, Neg:10</td>
+<td>0.54%</td><td>Brian !McBride</td><td>Aff:18, Neg:39</td>
+</tr><tr>
+<td></td><td></td><td></td>
+<td>0.70%</td><td>Aaron Moburg-Jones</td><td>Aff:0, Neg:8</td>
+</tr><tr>
+<td></td><td></td><td></td>
+<td>1.04%</td><td>Ben Sovacool</td><td>Aff:30, Neg:53</td>
+</tr><tr>
+<td></td><td></td><td></td>
+<td>1.42%</td><td>Mark Arnold</td><td>Aff:0, Neg:7</td>
+</tr><tr>
+<td></td><td></td><td></td>
+<td>1.98%</td><td>B. Hansford</td><td>Aff:2, Neg:11</td>
+</tr>
