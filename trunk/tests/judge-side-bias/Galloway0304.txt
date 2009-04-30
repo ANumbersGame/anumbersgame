@@ -1,0 +1,41 @@
++---------------------------------------------+-------+--------------------------------+------------------------------+----------+
+| TourneyName                                 | Round | FullName                       | FullName                     | Decision |
++---------------------------------------------+-------+--------------------------------+------------------------------+----------+
+| (Wayne) Motor City Classic                  |     1 | MichDear Smith/Fraser          | JCU DeLeon/Crimmins          | neg      | 
+| (Wayne) Motor City Classic                  |     3 | Iowa Johnson/Carpenter         | Baylor Lansford/Works        | AFF      | 
+| (Wayne) Motor City Classic                  |     4 | NoIowa Harr/Fredercicks        | WayneSt. Jankowski/Greenwalt | neg      | 
+| (Wayne) Motor City Classic                  |     7 | Iowa Cowart/Schwartz           | Weber Schakelford/Roake      | AFF      | 
+| (Wayne) Motor City Classic                  |     8 | Mia OH Glass/Kern              | JCU Thomas/Zurn              | AFF      | 
+| (Wayne) Motor City Classic                  |    13 | Baylor Garcia/Cheek            | NoIowa Short/Kelsey          | AFF      | 
+| Augustana Debate Tournament                 |    16 | Mia OH Kern/Licata             | KCKCC Rundus/Meyers          | neg      | 
+| Augustana Debate Tournament                 |    16 | Iowa Cowart/Schwartz           | Maclstr Cram/Weber           | AFF      | 
+| CEDA nationals                              |     3 | Nrthridg Levitt/Cohen          | Alabama Wyatt/Owens          | neg      | 
+| CEDA nationals                              |     4 | ASU Gray/Russell               | Ga St. Eback/Summers         | AFF      | 
+| CEDA nationals                              |     5 | Kansas Tinsley/Jordan          | Gonzo Sullivan/Meuer         | AFF      | 
+| CEDA nationals                              |     6 | Mercer Beerman/Witte           | SMSU Jobe/Wilson             | AFF      | 
+| CEDA nationals                              |    11 | Mia OH Bisbee/Spring           | Alabama Grayson/Smith        | AFF      | 
+| CEDA nationals                              |    12 | Harvard Luxemburg/Malumphy     | MictSt Reed/Burke            | AFF      | 
+| John Carroll University (Austin J. Freeley) |     1 | BosColl Nguyen/Thai            | Capital Jackson/Thrush       | AFF      | 
+| John Carroll University (Austin J. Freeley) |     2 | Clarion Noerr/Kennedy          | Liberty Bryant/Shirkey       | AFF      | 
+| John Carroll University (Austin J. Freeley) |     5 | Liberty Burns/Surratt          | BosColl Hays/Bowden          | AFF      | 
+| John Carroll University (Austin J. Freeley) |     6 | Mia OH Glass/Kern              | WayneSt. Richtie/Rancilio    | neg      | 
+| John Carroll University (Austin J. Freeley) |    13 | WayneSt. Murillo/Schraeder     | CaseWst Dorsey/Denissen      | neg      | 
+| Loyola Rambler 2003                         |     1 | CaseWst Dorsey/Denissen        | WayneSt. Jankowski/Greenwalt | AFF      | 
+| Loyola Rambler 2003                         |     2 | Concord Hailer/Conley          | MiaFL Campbell/Zwick         | AFF      | 
+| Loyola Rambler 2003                         |     6 | WayneSt./Mia OH Rancilio/Glass | MiaFL Denman/Acosta          | AFF      | 
+| Loyola Rambler 2003                         |    14 | Maclstr Dineen/Weber           | WayneSt. Newill/Timmons      | AFF      | 
+| Loyola Rambler 2003                         |    16 | Concord Richter/Faltesek       | Maclstr Cram/Kantor          | AFF      | 
+| UNI Ulrich Season Opener                    |     1 | WayneSt. Jankowski/Greenwalt   | Wichita Bouska/Burke         | AFF      | 
+| UNI Ulrich Season Opener                    |     2 | Wichita Jones/Wasson           | Denver Shaw/Nedergaard       | neg      | 
+| UNI Ulrich Season Opener                    |     4 | Kansas Simonsen/Cormack        | Iowa Cowart/Schwartz         | AFF      | 
+| UNI Ulrich Season Opener                    |     6 | Iowa Akella/Pomeranz           | Wichita Williams/Doris       | AFF      | 
+| UNI Ulrich Season Opener                    |     7 | Kansas Tinsley/Jordan          | Maclstr Cram/Kantor          | AFF      | 
+| UNI Ulrich Season Opener                    |     8 | SMSU Allen/Caine               | Kansas Kimmel/Wright         | AFF      | 
+| UNI Ulrich Season Opener                    |    14 | Kansas Simonsen/Cormack        | SMSU Allen/Caine             | AFF      | 
+| UNI Ulrich Season Opener                    |    14 | Baylor Rhoden/Nuffer           | Wichita Moon/Poirier         | neg      | 
+| UNI Ulrich Season Opener                    |    16 | Missouri Hedrick/Lawson        | Kansas Simonsen/Cormack      | AFF      | 
+| University of Kentucky                      |     3 | MictSt Hatman/Jenio            | Samfor li/bowers             | neg      | 
+| University of Kentucky                      |     4 | MictSt Reed/Burke              | WayneSt. Richtie/Rancilio    | AFF      | 
+| University of Kentucky                      |     6 | FortHays mabrey/odekirk        | WakeFrst Carroll/Hall        | neg      | 
+| University of Kentucky                      |    12 | LVille Jones/Green             | MictSt Reed/Burke            | AFF      | 
++---------------------------------------------+-------+--------------------------------+------------------------------+----------+
