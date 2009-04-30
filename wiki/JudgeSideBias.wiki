@@ -6,6 +6,8 @@ The column labeled "*prob*" is an upper limit on the probability that the decisi
 
 [http://code.google.com/p/anumbersgame/source/browse/#svn/trunk/tests/judge-side-bias The code to calculate this data can be found in the source tree under "tests/judge-side-bias"].
 
+As always, these accuracy of these statistical results is reduced by any inaccuracies in the raw data.
+
 <br/>
 = 2007-2008 =
 ----
