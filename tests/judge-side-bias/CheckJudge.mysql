@@ -1,0 +1,13 @@
+/*Check Ryan Galloway's 03-04 voting record */
+USE DebateResults0304;
+SELECT TourneyName,Round,aff.FullName,neg.FullName,Decision 
+FROM (
+SELECT TourneyName,Round,AffTeam,NegTeam,IF(JudgeDec=1,'AFF','neg') as Decision  
+FROM Ballots,MasterTournaments,MasterResults  
+WHERE MasterResults.Tournament = MasterTournaments.ID  
+AND MasterResultsID=MasterResults.ID  
+AND Judge=789) as res,
+TeamNumbers as aff, TeamNumbers as neg 
+WHERE AffTeam = aff.TeamNum 
+AND NegTeam = neg.TeamNum 
+ORDER BY TourneyName, Round;
