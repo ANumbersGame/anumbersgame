@@ -26,7 +26,7 @@ end = struct
     for j=0 to !s-2 do
       mat.(j).(i) <- mat.(j).(!s-1)
     done;
-    obs := i+1 :: !obs;
+    obs := nom.(i) :: !obs;
     nom.(i) <- nom.(!s-1);
     s := !s-1
       
@@ -55,7 +55,7 @@ let clearLosersIter i x =
   if Square.size x <= 1
   then false
   else 
-    if i >= (Square.size x)-1
+    if i > (Square.size x)-1
     then false
     else 
       if Square.rowsum x i <> 0.0

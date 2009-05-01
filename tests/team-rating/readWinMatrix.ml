@@ -1,4 +1,4 @@
-open ClearLosers
+(* open ClearLosers *)
 
 let emptyWins () = 
   let _ = read_line () in
@@ -21,8 +21,9 @@ let fillWins () =
   let records = read_int () in
   let _ = read_line () in
     fillWinsEach records wins
-
-let wins = 
+(*
+let wins () = 
   let v = fillWins () in
   let (nom,mat,out) = clearLosers v in
   print_int (Array.length nom)
+*)
