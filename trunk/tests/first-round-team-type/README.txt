@@ -26,3 +26,20 @@ In rounds between first round teams that year, the aff won 251 out of 528 ballot
 Excluding rounds with Northwestern BM or Emory MS on the affirmative, the aff won 233 out of 487, or 47.84%.
 
 The total aff win percentage in 2007-2008 was 48.64%.
+
+Nate also characterized the afiirmative style of first rounds from 2006-2007. The results for that year are:
+
++---------------+--------+----------+
+| aff type      | winner | COUNT(*) |
++---------------+--------+----------+
+| critique      | AFF    |       96 | 
+| critique      |    neg |      112 | 
+| policy        | AFF    |      102 | 
+| policy        |    neg |      132 | 
+| mainly policy | AFF    |       66 | 
+| mainly policy |    neg |       47 | 
++---------------+--------+----------+
+
+That's 46% for critical affirmatives, 58% for mainly policy affirmatives, and 44% for policy affirmatives.
+
+The total aff win percentage in 2006-2007 was 50.10%
