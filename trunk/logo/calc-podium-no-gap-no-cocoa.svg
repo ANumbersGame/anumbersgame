@@ -12,7 +12,7 @@
    id="svg6034"
    sodipodi:version="0.32"
    inkscape:version="0.46"
-   width="503"
+   width="505"
    height="497"
    version="1.0"
    sodipodi:docname="calc-podium-no-gap-no-cocoa.svg"
@@ -235,7 +235,7 @@
        cy="21.731947"
        fx="15.902422"
        fy="21.731947"
-       r="2.9999985" />
+       r="2.9999986" />
     <linearGradient
        inkscape:collect="always"
        xlink:href="#linearGradient3221"
@@ -279,8 +279,8 @@
      pagecolor="#ffffff"
      id="base"
      showgrid="false"
-     inkscape:zoom="1.8511066"
-     inkscape:cx="393.8388"
+     inkscape:zoom="0.65446503"
+     inkscape:cx="372.07008"
      inkscape:cy="357.29233"
      inkscape:window-x="0"
      inkscape:window-y="25"
