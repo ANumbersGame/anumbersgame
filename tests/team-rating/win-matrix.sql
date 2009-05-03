@@ -1,6 +1,13 @@
 SELECT MAX(TeamNum) as ``
 FROM TeamNumbers;
 
+SELECT COUNT(*) AS ``
+FROM TeamNumbers;
+
+SELECT CONCAT(TeamNum,'\n',Acronym) as ``
+FROM TeamNumbers;
+
+
 SELECT COUNT(*) as `` 
 FROM 
 (
@@ -14,7 +21,18 @@ AND (JudgeDec=1 OR JudgeDec=2)
 /*
 AND AffTeam+NegTeam < 800
 */
-AND (Tournament < 29000) /* 156 is very interesting, 211, 225, 160 is CEDA, 222 is D1, 123 is first, < 150 is nice*/
+/* 2007 -2008 tournaments */
+/* 156 is very interesting, 211, 225, 160 is CEDA, 222 is D1, 123 is first, < 150 is nice*/
+/* 196, 143, adn 123 together is nice */
+/* NORCAL:
+AND (Tournament = 196 OR Tournament = 143 OR Tournament = 123 OR Tournament = 217 OR Tournament = 212 OR Tournament = 222)*/
+/* NDT is 149 */
+/* 183 is odd */
+/* 189 has mnay levels */
+/* 180 has a hidden JV? */
+/* 130 looks funny: average */
+AND Round < 10
+AND (Tournament = 179)
 GROUP BY Win, Lose
 ORDER BY Win, Lose
 ) as must;
@@ -32,7 +50,8 @@ AND (JudgeDec=1 OR JudgeDec=2)
 /*
 AND AffTeam+NegTeam < 800
 */
-AND (Tournament < 29000)
+AND Round < 10
+AND (Tournament = 179)
 GROUP BY Win, Lose
 ORDER BY Win, Lose
 ) as must;

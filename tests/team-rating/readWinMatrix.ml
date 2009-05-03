@@ -15,12 +15,31 @@ let rec fillWinsEach n wins =
 	  wins.(i-1).(j-1) <- num;
 	  fillWinsEach (n-1) wins
 
+let rec teamNames n nom =
+  match n with
+    | 0 -> nom
+    | _ -> 
+	let i = read_int () in
+	let j = read_line () in
+	  nom.(i-1) <- j;
+	  teamNames (n-1) nom
+
+
 let fillWins () =
   let wins = emptyWins () in
   let _ = read_line () in
-  let records = read_int () in
+  let numnames = read_int () in
   let _ = read_line () in
-    fillWinsEach records wins
+  let nom = teamNames numnames (Array.make (Array.length wins) "") in
+  let _ = read_line () in
+  let records = read_int () in
+    if records > 0
+    then 
+      let _ = read_line () in
+      let mat = fillWinsEach records wins in
+	nom,mat
+    else
+      nom,wins
 (*
 let wins () = 
   let v = fillWins () in
