@@ -1,31 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <rss xmlns:media='http://search.yahoo.com/mrss/' version='2.0'>
   <channel>
-    <lastBuildDate>Sat, 21 Apr 2007 22:22:22 PST</lastBuildDate>
-    <title>AJAX Feed API SlideShow Sample Feed</title>
-    <description>These are a sampling of free images from Digital Blasphemy.</description>
-    <link>http://www.digitalblasphemy.com/freegallery.shtml</link>
-    <image>
-      <url>
-        http://lh3.google.com/image/dlc0421/RkIgzsaPRvE/AAAAAAAAACY/h9B8JdS1w58/DigitalBlasphemy.jpg?imgmax=160&amp;crop=1
-      </url>
-      <title>Digital Blasphemy Samples</title>
-      <link>http://www.digitalblasphemy.com/freegallery.shtml</link>
-    </image>
-    <managingEditor>dlc0421@gmail.com</managingEditor>
+    <title>ANumbersGame.net tournament charts</title>
+    <description>College policy debate tournament charts.</description>
+    <link>http://code.google.com/p/anumbersgame/wiki/TournamentCharts</link>
     <item>
-      <guid isPermaLink='false'>
-        http://picasaweb.google.com/data/entry/base/user/dlc0421/albumid/5062645003584489201/photoid/5062645007879456514?hl=en_US
-      </guid>
-      <pubDate>Wed, 09 May 2007 19:28:15 +0000</pubDate>
-      <title>Fluorescence</title>
+      <title>UOP 0708</title>
       <link>
-	http://www.digitalblasphemy.com/fshow.shtml?i=fluorescence6&amp;w=1152&amp;h=864&amp;y=2000&amp;n=Fluorescence
+	http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize/thumbs/DebateResults0708/UOP%20Paul%20Winters%20Invitational.png
       </link>
       <media:group>
         <media:title type='plain'>fluorescence61600.jpg</media:title>
-        <media:description type='plain'>Fluorescence</media:description>
-        <media:keywords>Digital Blasphemy, Ryan Bliss</media:keywords>
         <media:content
             url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize/DebateResults0708/UOP%20Paul%20Winters%20Invitational.png'
             type='image/png'
@@ -35,7 +20,24 @@
             url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize/thumbs/DebateResults0708/UOP%20Paul%20Winters%20Invitational.png'
             >
 	</media:thumbnail>
-        <media:credit>Ryan Bliss - Digital Blasphemy</media:credit>
+      </media:group>
+    </item>
+    <item>
+      <title>Richmond 0708</title>
+      <link>
+	http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize/thumbs/DebateResults0708/UOP%20Paul%20Winters%20Invitational.png
+      </link>
+      <media:group>
+        <media:title type='plain'>fluorescence61600.jpg</media:title>
+        <media:content
+            url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize/DebateResults0708/Jay%20Weinberg%20%20Richmond.png'
+            type='image/png'
+            medium='image'>
+	</media:content>
+        <media:thumbnail
+            url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize/thumbs/DebateResults0708/Jay%20Weinberg%20%20Richmond.png'
+            >
+	</media:thumbnail>
       </media:group>
     </item>
   </channel>
