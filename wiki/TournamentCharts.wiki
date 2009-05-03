@@ -1,0 +1,13 @@
+#summary Visualizing the win-loss network
+
+= Motivation =
+
+One way to measure debate team performance is with a metric called FairBets. A good presentation of the metric can be found in [http://scholar.google.com/scholar?cluster=1588533582049225873 "Ranking participants in generalized tournaments"], by Giora Slutzki and Oscar Volij.
+
+FairBets has many good properties, but one of its weakness is that it produces rankings that preserve _dominance_, which is described below. Dominance-preserving rankings may not be appropriate for debate tournaments.
+
+To investigate this, I produced graphs displaying the dominance hierarchy in debate tournaments. Some are pictured below. The rest may be found in [http://code.google.com/p/anumbersgame/source/browse/trunk/tests/team-rating/scc-visualize/ the subdirectories of tests/team-rating/scc-visualize].
+
+= What is dominance? =
+
+= Does normal tournament ranking preserve dominance? =
