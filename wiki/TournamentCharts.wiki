@@ -36,12 +36,12 @@ We say A and B are _indirectly tied_ if A indirectly beat B and B indirectly bea
 Under this definition, for every pair of leagues P,Q, either:
 
 <dl>
-<dt>P and Q are _incomparable_
-<dd>No team in P debated any team in Q
-<dt>P _dominates_ Q
-<dd>In every debate between members of P and Q, the team from *P* won
-<dt>Q _dominates_ P
-<dd>In every debate between members of P and Q, the team from *Q* won
+<dt>P and Q are _incomparable_</dt>
+<dd>No team in P debated any team in Q</dd>
+<dt>P _dominates_ Q</dt>
+<dd>In every debate between members of P and Q, the team from *P* won</dd>
+<dt>Q _dominates_ P</dt>
+<dd>In every debate between members of P and Q, the team from *Q* won</dd>
 </dl>
 
 When a league P dominates a league Q, FairBets ranks every team in P higher than every team in Q. When P and Q are incomparable, FairBets ranks every team in P as incomparable to every team in Q.
