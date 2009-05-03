@@ -11,11 +11,12 @@
 <description>CEDA Nats chart</description>
 <guid isPermaLink="false"> http://www.webmonkey.com/ourband.html</guid>
 
-<media:content url="http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize/DebateResults0708/CEDA%20Nationals%202008%20at%20Wichita%20State%20University.png" medium="image" isDefault="true">
+<media:content url="http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize/DebateResults0708/CEDA%20Nationals%202008%20at%20Wichita%20State%20University.png" medium="image">
 <media:title>The Webmonkey Band "Monkey Rock"</media:title>
 <media:description>See Rocking Webmonkey Garage Band playing our 
 classic song "Monkey Rock" to a sold-out audience at the Fillmore 
 Auditorium.</media:description>
+<media:thumbnail url="http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize/DebateResults0708/CEDA%20Nationals%202008%20at%20Wichita%20State%20University.png"/>
 </media:content>
 
 </item>
@@ -28,9 +29,11 @@ Auditorium.</media:description>
 <guid isPermaLink="false"> http://www.webmonkey.com/noband.html</guid>
 
 <media:content url="http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize/DebateResults0708/Augustana%20College%20Tournament.png" 
-type="image/png">
+type="image/png" isDefault="true">
 <media:title>second title</media:title>
 <media:description>is a descrip mandatory</media:description>
+<media:thumbnail url="http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize/DebateResults0708/Augustana%20College%20Tournament.png"/>
+
 </media:content>
 
 </item>
