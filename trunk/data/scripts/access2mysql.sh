@@ -33,7 +33,8 @@ else
 
     mv $TEMP $OUT
     #"Div" is not a valid MySQL column name.
-    cat $OUT | sed s/Div/Diiv/g
+    #MS Access's date type is MySQL's DATETIME, but in the wrong order
+    cat $OUT | sed s/Div/Diiv/g | sed 's/\tdate/\tVARCHAR(100)/g'
     rm $OUT
 
     for TABLE in $(mdb-tables $1)
