@@ -6,8 +6,26 @@ One way to measure debate team performance is with a metric called FairBets. A g
 
 FairBets has many good properties, but one of its weakness is that it produces rankings that preserve _dominance_, which is described below. Dominance-preserving rankings may not be appropriate for debate tournaments.
 
-To investigate this, I produced graphs displaying the dominance hierarchy in debate tournaments. Some are pictured below. The rest may be found in [http://code.google.com/p/anumbersgame/source/browse/trunk/tests/team-rating/scc-visualize/ the subdirectories of tests/team-rating/scc-visualize].
+To investigate this, I produced graphs displaying the dominance hierarchy in some debate tournaments. Some are pictured below. The rest may be found in [http://code.google.com/p/anumbersgame/source/browse/trunk/tests/team-rating/scc-visualize/ the subdirectories of tests/team-rating/scc-visualize].
 
-= What is dominance? =
+Graphs for every tournament in the DebateResultsDotCom archive (from the 2003-2004 season to the 2007-2008 season) are available.
+
+<a href="http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize/DebateResults0708/Augustana%20College%20Tournament.png"><img width="90%" src="http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize/DebateResults0708/Augustana%20College%20Tournament.png"></img></a>
+
+= How to read the graphs =
+
+In general, better teams are found at the top of the graph, colored green. Worse teams are at the bottom and in red. An arrow pointing from A to B means they debated and A won.
+
+To be more specific, each node represents a league (see below). Leagues with only one member are labeled with the team name and their number of wins. Larger leagues get proportionally larger nodes, which  are labeled with the least and most wins by any member of that league.
+
+Nodes are colored by their average win percentage: maroon is 0%, forest green is 100%.
+
+There is an arrow from a node A to a node B when a member of A debated and beat a member of B. Consistent with the definition of league, there is no cycle of arrows between a set of nodes.
+
+For the fine print, see "Graph infelicities" below.
+
+= Leagues and dominance =
 
 = Does normal tournament ranking preserve dominance? =
+
+= Graph infelicities =
