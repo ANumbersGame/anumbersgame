@@ -6,7 +6,7 @@ One way to measure debate team performance is with a metric called FairBets. A g
 
 FairBets has many good properties, but one of its weakness is that it produces rankings that preserve _dominance_, which is described below. Dominance-preserving rankings may not be appropriate for debate tournaments.
 
-To investigate this, I produced graphs displaying the dominance hierarchy in some debate tournaments. Some are pictured below. The rest may be found in [http://code.google.com/p/anumbersgame/source/browse/trunk/tests/team-rating/scc-visualize/ the subdirectories of tests/team-rating/scc-visualize].
+To investigate this, I produced graphs displaying the dominance hierarchy in some debate tournaments. Some are pictured below. The rest may be found in [http://code.google.com/p/anumbersgame/source/browse/trunk/tests/team-rating/scc-visualize/ the subdirectories of tests/team-rating/scc-visualize], along with code for generating these graphs in SVG or PDF.
 
 Graphs for every tournament in the DebateResultsDotCom archive (from the 2003-2004 season to the 2007-2008 season) are available.
 
@@ -14,9 +14,9 @@ Graphs for every tournament in the DebateResultsDotCom archive (from the 2003-20
 
 = How to read the graphs =
 
-In general, better teams are found at the top of the graph, colored green. Worse teams are at the bottom and in red. An arrow pointing from A to B means they debated and A won.
+In general, better teams are found at the top of the graph, colored green. Worse teams are at the bottom and in red. An arrow pointing from A to B means they debated and A won. The graphs ignore speaker points.
 
-To be more specific, each node represents a league (see below). Leagues with only one member are labeled with the team name and their number of wins. Larger leagues get proportionally larger nodes, which  are labeled with the least and most wins by any member of that league.
+To be more specific, each node represents a "league" (see below). Leagues with only one member are labeled with the team name and their number of wins. Larger leagues get proportionally larger nodes, which  are labeled with the least and most wins by any member of that league.
 
 Nodes are colored by their average win percentage: maroon is 0%, forest green is 100%.
 
@@ -25,6 +25,26 @@ There is an arrow from a node A to a node B when a member of A debated and beat 
 For the fine print, see "Graph infelicities" below.
 
 = Leagues and dominance =
+
+We say team A _indirectly beat_ team B when either:
+
+  * A beat B in a debate
+  * There is a team C such that A beat C in a debate and C indirectly beat B
+
+We say A and B are _indirectly tied_ if A indirectly beat B and B indirectly beat A. A _league_ is a maximal set of indirectly tied teams. That is, no two teams are both indirectly tied and no in the same league.
+
+Under this definition, for every pair of leagues P,Q, either:
+
+<dl>
+<dt>P and Q are _incomparable_
+<dd>No team in P debated any team in Q
+<dt>P _dominates_ Q
+<dd>In every debate between members of P and Q, the team from *P* won
+<dt>Q _dominates_ P
+<dd>In every debate between members of P and Q, the team from *Q* won
+</dl>
+
+When a league P dominates a league Q, FairBets ranks every team in P higher than every team in Q. When P and Q are incomparable, FairBets ranks every team in P as incomparable to every team in Q.
 
 = Does normal tournament ranking preserve dominance? =
 
