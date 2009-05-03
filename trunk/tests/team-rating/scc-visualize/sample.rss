@@ -27,17 +27,13 @@
         <media:description type='plain'>Fluorescence</media:description>
         <media:keywords>Digital Blasphemy, Ryan Bliss</media:keywords>
         <media:content
-            url='http://lh5.google.com/image/dlc0421/RkIgz8aPRwI/AAAAAAAAAAs/ZN4b3-rhYhM/fluorescence61600.jpg'
-            height='1200' width='1600' type='image/jpeg'
+            url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize/DebateResults0708/UOP%20Paul%20Winters%20Invitational.png'
+            type='image/png'
             medium='image'>
 	</media:content>
         <media:thumbnail
-            url='http://lh5.google.com/image/dlc0421/RkIgz8aPRwI/AAAAAAAAAAs/ZN4b3-rhYhM/fluorescence61600.jpg?imgmax=72'
-            height='54' width='72'>
-	</media:thumbnail>
-        <media:thumbnail
-            url='http://lh5.google.com/image/dlc0421/RkIgz8aPRwI/AAAAAAAAAAs/ZN4b3-rhYhM/fluorescence61600.jpg?imgmax=288'
-            height='216' width='288'>
+            url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize/thumbs/DebateResults0708/UOP%20Paul%20Winters%20Invitational.png'
+            >
 	</media:thumbnail>
         <media:credit>Ryan Bliss - Digital Blasphemy</media:credit>
       </media:group>
