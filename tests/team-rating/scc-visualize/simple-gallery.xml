@@ -1,0 +1,39 @@
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/">
+<channel>
+<title>Charts 07-08</title>
+<link>http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize/DebateResults0708/</link>
+<description>Charts from DebateResults.com data</description>
+
+<item>
+
+<title>CEDA Nats</title>
+<link>http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize/DebateResults0708/CEDA%20Nationals%202008%20at%20Wichita%20State%20University.png</link>
+<description>CEDA Nats chart</description>
+<guid isPermaLink="false"> http://www.webmonkey.com/ourband.html</guid>
+
+<media:content url="http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize/DebateResults0708/CEDA%20Nationals%202008%20at%20Wichita%20State%20University.png" medium="image" isDefault="true">
+<media:title>The Webmonkey Band "Monkey Rock"</media:title>
+<media:description>See Rocking Webmonkey Garage Band playing our 
+classic song "Monkey Rock" to a sold-out audience at the Fillmore 
+Auditorium.</media:description>
+</media:content>
+
+</item>
+
+<<item>
+
+<title>Augustana</title>
+<link>http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize/DebateResults0708/Augustana%20College%20Tournament.png</link>
+<description>Augustana chart</description>
+<guid isPermaLink="false"> http://www.webmonkey.com/noband.html</guid>
+
+<media:content url="http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize/DebateResults0708/Augustana%20College%20Tournament.png" 
+type="image/png">
+<media:title>second title</media:title>
+<media:description>is a descrip mandatory</media:description>
+</media:content>
+
+</item>
+
+</channel>
+</rss>
