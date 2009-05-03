@@ -1,0 +1,423 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:media='http://search.yahoo.com/mrss/' version='2.0'>
+  <channel>
+    <lastBuildDate>Sat, 21 Apr 2007 22:22:22 PST</lastBuildDate>
+    <title>AJAX Feed API SlideShow Sample Feed</title>
+    <description>These are a sampling of free images from Digital Blasphemy.</description>
+    <link>http://www.digitalblasphemy.com/freegallery.shtml</link>
+    <image>
+      <url>
+        http://lh3.google.com/image/dlc0421/RkIgzsaPRvE/AAAAAAAAACY/h9B8JdS1w58/DigitalBlasphemy.jpg?imgmax=160&amp;crop=1
+      </url>
+      <title>Digital Blasphemy Samples</title>
+      <link>http://www.digitalblasphemy.com/freegallery.shtml</link>
+    </image>
+    <managingEditor>dlc0421@gmail.com</managingEditor>
+    <item>
+      <guid isPermaLink='false'>
+        http://picasaweb.google.com/data/entry/base/user/dlc0421/albumid/5062645003584489201/photoid/5062645007879456514?hl=en_US
+      </guid>
+      <pubDate>Wed, 09 May 2007 19:28:15 +0000</pubDate>
+      <title>Fluorescence</title>
+      <link>
+	http://www.digitalblasphemy.com/fshow.shtml?i=fluorescence6&amp;w=1152&amp;h=864&amp;y=2000&amp;n=Fluorescence
+      </link>
+      <media:group>
+        <media:title type='plain'>fluorescence61600.jpg</media:title>
+        <media:description type='plain'>Fluorescence</media:description>
+        <media:keywords>Digital Blasphemy, Ryan Bliss</media:keywords>
+        <media:content
+            url='http://lh5.google.com/image/dlc0421/RkIgz8aPRwI/AAAAAAAAAAs/ZN4b3-rhYhM/fluorescence61600.jpg'
+            height='1200' width='1600' type='image/jpeg'
+            medium='image'>
+	</media:content>
+        <media:thumbnail
+            url='http://lh5.google.com/image/dlc0421/RkIgz8aPRwI/AAAAAAAAAAs/ZN4b3-rhYhM/fluorescence61600.jpg?imgmax=72'
+            height='54' width='72'>
+	</media:thumbnail>
+        <media:thumbnail
+            url='http://lh5.google.com/image/dlc0421/RkIgz8aPRwI/AAAAAAAAAAs/ZN4b3-rhYhM/fluorescence61600.jpg?imgmax=288'
+            height='216' width='288'>
+	</media:thumbnail>
+        <media:credit>Ryan Bliss - Digital Blasphemy</media:credit>
+      </media:group>
+    </item>
+    <item>
+      <guid isPermaLink='false'>
+        http://picasaweb.google.com/data/entry/base/user/dlc0421/albumid/5062645003584489201/photoid/5062645007879456530?hl=en_US
+      </guid>
+      <pubDate>Wed, 09 May 2007 19:28:15 +0000</pubDate>
+      <title>Cosmogony</title>
+      <link>
+	http://www.digitalblasphemy.com/fshow.shtml?i=cosmogony&amp;w=1152&amp;h=864&amp;y=2000&amp;n=Cosmogony
+      </link>
+      <media:group>
+        <media:title type='plain'>cosmogony1600.jpg</media:title>
+        <media:description type='plain'>Cosmogony</media:description>
+        <media:keywords>Digital Blasphemy, Ryan Bliss</media:keywords>
+        <media:content
+            url='http://lh5.google.com/image/dlc0421/RkIgz8aPRxI/AAAAAAAAAA0/4SdteW9SyXQ/cosmogony1600.jpg'
+            height='1200' width='1600' type='image/jpeg'
+            medium='image'>
+	</media:content>
+        <media:thumbnail
+            url='http://lh5.google.com/image/dlc0421/RkIgz8aPRxI/AAAAAAAAAA0/4SdteW9SyXQ/cosmogony1600.jpg?imgmax=72'
+            height='54' width='72'>
+	</media:thumbnail>
+        <media:thumbnail
+            url='http://lh5.google.com/image/dlc0421/RkIgz8aPRxI/AAAAAAAAAA0/4SdteW9SyXQ/cosmogony1600.jpg?imgmax=288'
+            height='216' width='288'>
+	</media:thumbnail>
+        <media:credit>Ryan Bliss - Digital Blasphemy</media:credit>
+      </media:group>
+    </item>
+    <item>
+      <guid isPermaLink='false'>
+        http://picasaweb.google.com/data/entry/base/user/dlc0421/albumid/5062645003584489201/photoid/5062645016469391138?hl=en_US
+      </guid>
+      <pubDate>Wed, 09 May 2007 19:28:17 +0000</pubDate>
+      <title>Chikusei</title>
+      <link>
+	http://www.digitalblasphemy.com/fshow.shtml?i=chikusei&amp;w=1152&amp;h=864&amp;y=2000&amp;n=Chikusei
+      </link>
+      <media:group>
+        <media:title type='plain'>chikusei1600.jpg</media:title>
+        <media:description type='plain'>Chikusei</media:description>
+        <media:keywords>Digital Blasphemy, Ryan Bliss</media:keywords>
+        <media:content
+            url='http://lh3.google.com/image/dlc0421/RkIg0caPRyI/AAAAAAAAAA8/OdPTIlzinw0/chikusei1600.jpg'
+            height='1200' width='1600' type='image/jpeg'
+            medium='image'>
+	</media:content>
+        <media:thumbnail
+            url='http://lh3.google.com/image/dlc0421/RkIg0caPRyI/AAAAAAAAAA8/OdPTIlzinw0/chikusei1600.jpg?imgmax=72'
+            height='54' width='72'>
+	</media:thumbnail>
+        <media:thumbnail
+            url='http://lh3.google.com/image/dlc0421/RkIg0caPRyI/AAAAAAAAAA8/OdPTIlzinw0/chikusei1600.jpg?imgmax=288'
+            height='216' width='288'>
+	</media:thumbnail>
+        <media:credit>Ryan Bliss - Digital Blasphemy</media:credit>
+      </media:group>
+    </item>
+    <item>
+      <guid isPermaLink='false'>
+        http://picasaweb.google.com/data/entry/base/user/dlc0421/albumid/5062645003584489201/photoid/5062645020764358450?hl=en_US
+      </guid>
+      <pubDate>Wed, 09 May 2007 19:28:18 +0000</pubDate>
+      <title>Archipelago</title>
+      <link>
+	http://www.digitalblasphemy.com/fshow.shtml?i=archipelago&amp;w=1152&amp;h=864&amp;y=2000&amp;n=Archipelago
+      </link>
+      <media:group>
+        <media:title type='plain'>archipelago1600.jpg</media:title>
+        <media:description type='plain'>Archipelago</media:description>
+        <media:keywords>blasphemy, bliss, digital, ryan</media:keywords>
+        <media:content
+            url='http://lh4.google.com/image/dlc0421/RkIg0saPRzI/AAAAAAAAABE/dS7ur0_mg5Q/archipelago1600.jpg'
+            height='1200' width='1600' type='image/jpeg'
+            medium='image'>
+	</media:content>
+        <media:thumbnail
+            url='http://lh4.google.com/image/dlc0421/RkIg0saPRzI/AAAAAAAAABE/dS7ur0_mg5Q/archipelago1600.jpg?imgmax=72'
+            height='54' width='72'>
+	</media:thumbnail>
+        <media:thumbnail
+            url='http://lh4.google.com/image/dlc0421/RkIg0saPRzI/AAAAAAAAABE/dS7ur0_mg5Q/archipelago1600.jpg?imgmax=288'
+            height='216' width='288'>
+	</media:thumbnail>
+        <media:credit>Ryan Bliss - Digital Blasphemy</media:credit>
+      </media:group>
+    </item>
+    <item>
+      <guid isPermaLink='false'>
+        http://picasaweb.google.com/data/entry/base/user/dlc0421/albumid/5062645003584489201/photoid/5062645025059325762?hl=en_US
+      </guid>
+      <pubDate>Wed, 09 May 2007 19:28:19 +0000</pubDate>
+      <title>Arctica</title>
+      <link>
+	http://www.digitalblasphemy.com/fshow.shtml?i=arctica&amp;w=1152&amp;h=864&amp;y=2000&amp;n=Arctica
+      </link>
+      <media:group>
+        <media:title type='plain'>arctica1600.jpg</media:title>
+        <media:description type='plain'>Arctica</media:description>
+        <media:keywords>Digital Blasphemy, Ryan Bliss</media:keywords>
+        <media:content
+            url='http://lh5.google.com/image/dlc0421/RkIg08aPR0I/AAAAAAAAABM/trjE3kEX-Nw/arctica1600.jpg'
+            height='1200' width='1600' type='image/jpeg'
+            medium='image'>
+	</media:content>
+        <media:thumbnail
+            url='http://lh5.google.com/image/dlc0421/RkIg08aPR0I/AAAAAAAAABM/trjE3kEX-Nw/arctica1600.jpg?imgmax=72'
+            height='54' width='72'>
+	</media:thumbnail>
+        <media:thumbnail
+            url='http://lh5.google.com/image/dlc0421/RkIg08aPR0I/AAAAAAAAABM/trjE3kEX-Nw/arctica1600.jpg?imgmax=288'
+            height='216' width='288'>
+	</media:thumbnail>
+        <media:credit>Ryan Bliss - Digital Blasphemy</media:credit>
+      </media:group>
+    </item>
+    <item>
+      <guid isPermaLink='false'>
+        http://picasaweb.google.com/data/entry/base/user/dlc0421/albumid/5062645003584489201/photoid/5062645029354293074?hl=en_US
+      </guid>
+      <pubDate>Wed, 09 May 2007 19:28:20 +0000</pubDate>
+      <title>Last Light of the Sun</title>
+      <link>
+	http://www.digitalblasphemy.com/fshow.shtml?i=lastlight&amp;w=1152&amp;h=864&amp;y=2000&amp;n=Last%20Light%20of%20the%20Sun
+      </link>
+      <media:group>
+        <media:title type='plain'>lastlight1600.jpg</media:title>
+        <media:description type='plain'>Last Light of the Sun</media:description>
+        <media:keywords>Digital Blasphemy, Ryan Bliss</media:keywords>
+        <media:content
+            url='http://lh6.google.com/image/dlc0421/RkIg1MaPR1I/AAAAAAAAABU/tZ2tZc0MiK0/lastlight1600.jpg'
+            height='1200' width='1600' type='image/jpeg'
+            medium='image'>
+	</media:content>
+        <media:thumbnail
+            url='http://lh6.google.com/image/dlc0421/RkIg1MaPR1I/AAAAAAAAABU/tZ2tZc0MiK0/lastlight1600.jpg?imgmax=72'
+            height='54' width='72'>
+	</media:thumbnail>
+        <media:thumbnail
+            url='http://lh6.google.com/image/dlc0421/RkIg1MaPR1I/AAAAAAAAABU/tZ2tZc0MiK0/lastlight1600.jpg?imgmax=288'
+            height='216' width='288'>
+	</media:thumbnail>
+        <media:credit>Ryan Bliss - Digital Blasphemy</media:credit>
+      </media:group>
+    </item>
+    <item>
+      <guid isPermaLink='false'>
+        http://picasaweb.google.com/data/entry/base/user/dlc0421/albumid/5062645003584489201/photoid/5062645033649260386?hl=en_US
+      </guid>
+      <pubDate>Wed, 09 May 2007 19:28:21 +0000</pubDate>
+      <title>Desert Snow</title>
+      <link>
+	http://www.digitalblasphemy.com/fshow.shtml?i=desertsnow&amp;w=1152&amp;h=864&amp;y=2000&amp;n=Desert%20Snow
+      </link>
+      <media:group>
+        <media:title type='plain'>desertsnow1600.jpg</media:title>
+        <media:description type='plain'>Desert Snow</media:description>
+        <media:keywords>Digital Blasphemy, Ryan Bliss</media:keywords>
+        <media:content
+            url='http://lh3.google.com/image/dlc0421/RkIg1caPR2I/AAAAAAAAABc/1PKxzgyEo2I/desertsnow1600.jpg'
+            height='1200' width='1600' type='image/jpeg'
+            medium='image'>
+	</media:content>
+        <media:thumbnail
+            url='http://lh3.google.com/image/dlc0421/RkIg1caPR2I/AAAAAAAAABc/1PKxzgyEo2I/desertsnow1600.jpg?imgmax=72'
+            height='54' width='72'>
+	</media:thumbnail>
+        <media:thumbnail
+            url='http://lh3.google.com/image/dlc0421/RkIg1caPR2I/AAAAAAAAABc/1PKxzgyEo2I/desertsnow1600.jpg?imgmax=288'
+            height='216' width='288'>
+	</media:thumbnail>
+        <media:credit>Ryan Bliss - Digital Blasphemy</media:credit>
+      </media:group>
+    </item>
+    <item>
+      <guid isPermaLink='false'>
+        http://picasaweb.google.com/data/entry/base/user/dlc0421/albumid/5062645003584489201/photoid/5062645042239194994?hl=en_US
+      </guid>
+      <pubDate>Wed, 09 May 2007 19:28:23 +0000</pubDate>
+      <title>Idyll</title>
+      <link>
+	http://www.digitalblasphemy.com/fshow.shtml?i=idyll&amp;w=1152&amp;h=864&amp;y=2000&amp;n=Idyll
+      </link>
+      <media:group>
+        <media:title type='plain'>idyll1600.jpg</media:title>
+        <media:description type='plain'>Idyll</media:description>
+        <media:keywords>Digital Blasphemy, Ryan Bliss</media:keywords>
+        <media:content
+            url='http://lh5.google.com/image/dlc0421/RkIg18aPR3I/AAAAAAAAABk/-4pHuAGR1ZE/idyll1600.jpg'
+            height='1200' width='1600' type='image/jpeg'
+            medium='image'>
+	</media:content>
+        <media:thumbnail
+            url='http://lh5.google.com/image/dlc0421/RkIg18aPR3I/AAAAAAAAABk/-4pHuAGR1ZE/idyll1600.jpg?imgmax=72'
+            height='54' width='72'>
+	</media:thumbnail>
+        <media:thumbnail
+            url='http://lh5.google.com/image/dlc0421/RkIg18aPR3I/AAAAAAAAABk/-4pHuAGR1ZE/idyll1600.jpg?imgmax=288'
+            height='216' width='288'>
+	</media:thumbnail>
+        <media:credit>Ryan Bliss - Digital Blasphemy</media:credit>
+      </media:group>
+    </item>
+    <item>
+      <guid isPermaLink='false'>
+        http://picasaweb.google.com/data/entry/base/user/dlc0421/albumid/5062645003584489201/photoid/5062645050829129602?hl=en_US
+      </guid>
+      <pubDate>Wed, 09 May 2007 19:28:25 +0000</pubDate>
+      <title>Satori</title>
+      <link>
+	http://www.digitalblasphemy.com/fshow.shtml?i=satori&amp;w=1152&amp;h=864&amp;y=2000&amp;n=Satori
+      </link>
+      <media:group>
+        <media:title type='plain'>satori1600.jpg</media:title>
+        <media:description type='plain'>Satori</media:description>
+        <media:keywords>Digital Blasphemy, Ryan Bliss</media:keywords>
+        <media:content
+            url='http://lh3.google.com/image/dlc0421/RkIg2caPR4I/AAAAAAAAABs/nZwo-DnX3SI/satori1600.jpg'
+            height='1200' width='1600' type='image/jpeg'
+            medium='image'>
+	</media:content>
+        <media:thumbnail
+            url='http://lh3.google.com/image/dlc0421/RkIg2caPR4I/AAAAAAAAABs/nZwo-DnX3SI/satori1600.jpg?imgmax=72'
+            height='54' width='72'>
+	</media:thumbnail>
+        <media:thumbnail
+            url='http://lh3.google.com/image/dlc0421/RkIg2caPR4I/AAAAAAAAABs/nZwo-DnX3SI/satori1600.jpg?imgmax=288'
+            height='216' width='288'>
+	</media:thumbnail>
+        <media:credit>Ryan Bliss - Digital Blasphemy</media:credit>
+      </media:group>
+    </item>
+    <item>
+      <guid isPermaLink='false'>
+        http://picasaweb.google.com/data/entry/base/user/dlc0421/albumid/5062645003584489201/photoid/5062645059419064210?hl=en_US
+      </guid>
+      <pubDate>Wed, 09 May 2007 19:28:27 +0000</pubDate>
+      <title>November Snow</title>
+      <link>
+	http://www.digitalblasphemy.com/fshow.shtml?i=novembersnow&amp;w=1152&amp;h=864&amp;y=2000&amp;n=November%20Snow
+      </link>
+      <media:group>
+        <media:title type='plain'>novembersnow1600.jpg</media:title>
+        <media:description type='plain'>November Snow</media:description>
+        <media:keywords>Digital Blasphemy, Ryan Bliss</media:keywords>
+        <media:content
+            url='http://lh5.google.com/image/dlc0421/RkIg28aPR5I/AAAAAAAAAB0/WKDQXKvIWXA/novembersnow1600.jpg'
+            height='1200' width='1600' type='image/jpeg'
+            medium='image'>
+	</media:content>
+        <media:thumbnail
+            url='http://lh5.google.com/image/dlc0421/RkIg28aPR5I/AAAAAAAAAB0/WKDQXKvIWXA/novembersnow1600.jpg?imgmax=72'
+            height='54' width='72'>
+	</media:thumbnail>
+        <media:thumbnail
+            url='http://lh5.google.com/image/dlc0421/RkIg28aPR5I/AAAAAAAAAB0/WKDQXKvIWXA/novembersnow1600.jpg?imgmax=288'
+            height='216' width='288'>
+	</media:thumbnail>
+        <media:credit>Ryan Bliss - Digital Blasphemy</media:credit>
+      </media:group>
+    </item>
+    <item>
+      <guid isPermaLink='false'>
+        http://picasaweb.google.com/data/entry/base/user/dlc0421/albumid/5062645003584489201/photoid/5062645063714031522?hl=en_US
+      </guid>
+      <pubDate>Wed, 09 May 2007 19:28:28 +0000</pubDate>
+      <title>Coalescence</title>
+      <link>
+	http://www.digitalblasphemy.com/fshow.shtml?i=coalescence&amp;w=1152&amp;h=864&amp;y=2000&amp;n=Coalescence
+      </link>
+      <media:group>
+        <media:title type='plain'>coalescence1600.jpg</media:title>
+        <media:description type='plain'>Coalescence</media:description>
+        <media:keywords>Digital Blasphemy, Ryan Bliss</media:keywords>
+        <media:content
+            url='http://lh6.google.com/image/dlc0421/RkIg3MaPR6I/AAAAAAAAAB8/fSF0PTNIZcs/coalescence1600.jpg'
+            height='1200' width='1600' type='image/jpeg'
+            medium='image'>
+	</media:content>
+        <media:thumbnail
+            url='http://lh6.google.com/image/dlc0421/RkIg3MaPR6I/AAAAAAAAAB8/fSF0PTNIZcs/coalescence1600.jpg?imgmax=72'
+            height='54' width='72'>
+	</media:thumbnail>
+        <media:thumbnail
+            url='http://lh6.google.com/image/dlc0421/RkIg3MaPR6I/AAAAAAAAAB8/fSF0PTNIZcs/coalescence1600.jpg?imgmax=288'
+            height='216' width='288'>
+	</media:thumbnail>
+        <media:credit>Ryan Bliss - Digital Blasphemy</media:credit>
+      </media:group>
+    </item>
+    <item>
+      <guid isPermaLink='false'>
+        http://picasaweb.google.com/data/entry/base/user/dlc0421/albumid/5062645003584489201/photoid/5062645068008998834?hl=en_US
+      </guid>
+      <pubDate>Wed, 09 May 2007 19:28:29 +0000</pubDate>
+      <title>Endless Blue</title>
+      <link>
+	http://www.digitalblasphemy.com/fshow.shtml?i=endlessblue&amp;w=1152&amp;h=864&amp;y=2000&amp;n=Endless%20Blue
+      </link>
+      <media:group>
+        <media:title type='plain'>endlessblue1600.jpg</media:title>
+        <media:description type='plain'>Endless Blue</media:description>
+        <media:keywords>Digital Blasphemy, Ryan Bliss</media:keywords>
+        <media:content
+            url='http://lh3.google.com/image/dlc0421/RkIg3caPR7I/AAAAAAAAACE/Wiaq2cVqyGg/endlessblue1600.jpg'
+            height='1200' width='1600' type='image/jpeg'
+            medium='image'>
+	</media:content>
+        <media:thumbnail
+            url='http://lh3.google.com/image/dlc0421/RkIg3caPR7I/AAAAAAAAACE/Wiaq2cVqyGg/endlessblue1600.jpg?imgmax=72'
+            height='54' width='72'>
+	</media:thumbnail>
+        <media:thumbnail
+            url='http://lh3.google.com/image/dlc0421/RkIg3caPR7I/AAAAAAAAACE/Wiaq2cVqyGg/endlessblue1600.jpg?imgmax=288'
+            height='216' width='288'>
+	</media:thumbnail>
+        <media:credit>Ryan Bliss - Digital Blasphemy</media:credit>
+      </media:group>
+    </item>
+    <item>
+      <guid isPermaLink='false'>
+        http://picasaweb.google.com/data/entry/base/user/dlc0421/albumid/5062645003584489201/photoid/5062645072303966146?hl=en_US
+      </guid>
+      <pubDate>Wed, 09 May 2007 19:28:30 +0000</pubDate>
+      <title>Orthohedron</title>
+      <link>
+	http://www.digitalblasphemy.com/fshow.shtml?i=orthohedron&amp;w=1152&amp;h=864&amp;y=2000&amp;n=Orthohedron
+      </link>
+      <media:group>
+        <media:title type='plain'>orthohedron1600.jpg</media:title>
+        <media:description type='plain'>Orthohedron</media:description>
+        <media:keywords>Digital Blasphemy, Ryan Bliss</media:keywords>
+        <media:content
+            url='http://lh4.google.com/image/dlc0421/RkIg3saPR8I/AAAAAAAAACM/8AgDe-Ubd5w/orthohedron1600.jpg'
+            height='1200' width='1600' type='image/jpeg'
+            medium='image'>
+	</media:content>
+        <media:thumbnail
+            url='http://lh4.google.com/image/dlc0421/RkIg3saPR8I/AAAAAAAAACM/8AgDe-Ubd5w/orthohedron1600.jpg?imgmax=72'
+            height='54' width='72'>
+	</media:thumbnail>
+        <media:thumbnail
+            url='http://lh4.google.com/image/dlc0421/RkIg3saPR8I/AAAAAAAAACM/8AgDe-Ubd5w/orthohedron1600.jpg?imgmax=288'
+            height='216' width='288'>
+	</media:thumbnail>
+        <media:credit>Ryan Bliss - Digital Blasphemy</media:credit>
+      </media:group>
+    </item>
+    <item>
+      <guid isPermaLink='false'>
+        http://picasaweb.google.com/data/entry/base/user/dlc0421/albumid/5062645003584489201/photoid/5062645076598933458?hl=en_US
+      </guid>
+      <pubDate>Wed, 09 May 2007 19:28:31 +0000</pubDate>
+      <title>Vigil</title>
+      <link>
+	http://www.digitalblasphemy.com/fshow.shtml?i=vigil&amp;w=1152&amp;h=864&amp;y=2000&amp;n=Vigil
+      </link>
+      <media:group>
+        <media:title type='plain'>vigil1600.jpg</media:title>
+        <media:description type='plain'>Vigil</media:description>
+        <media:keywords>Digital Blasphemy, Ryan Bliss</media:keywords>
+        <media:content
+            url='http://lh5.google.com/image/dlc0421/RkIg38aPR9I/AAAAAAAAACU/96C6j3MCfQY/vigil1600.jpg'
+            height='1200' width='1600' type='image/jpeg'
+            medium='image'>
+	</media:content>
+        <media:thumbnail
+            url='http://lh5.google.com/image/dlc0421/RkIg38aPR9I/AAAAAAAAACU/96C6j3MCfQY/vigil1600.jpg?imgmax=72'
+            height='54' width='72'>
+	</media:thumbnail>
+        <media:thumbnail
+            url='http://lh5.google.com/image/dlc0421/RkIg38aPR9I/AAAAAAAAACU/96C6j3MCfQY/vigil1600.jpg?imgmax=288'
+            height='216' width='288'>
+	</media:thumbnail>
+        <media:credit>Ryan Bliss - Digital Blasphemy</media:credit>
+      </media:group>
+    </item>
+  </channel>
+</rss>
