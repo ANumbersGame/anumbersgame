@@ -46,6 +46,14 @@ Under this definition, for every pair of leagues P,Q, either:
 
 When a league P dominates a league Q, FairBets ranks every team in P higher than every team in Q. When P and Q are incomparable, FairBets ranks every team in P as incomparable to every team in Q.
 
+For intra-league ratings, FairBets is much more sophisticated, producing not just _rankings_ (who is better than whom?) but _ratings_ (and how much better are they?). It does not classify any two league-mates as incomparable, and it gives an estimation of every team's odds against every other team, should they meet again. Furthermore, these odds are _fair_: had you used these odds to bet on any team in all of their intra-league play, you would have come out even.
+
 = Does normal tournament ranking preserve dominance? =
+
+Using the terminology from above, a normal tournament with N rounds places the teams in N+1 leagues, then uses speaker points for intra-league ranking.
+
+It's easy to find historical examples of tournaments where teams with lower win records dominate teams with higher win records.
+
+= Is FairBets useful for ranking debate teams? =
 
 = Graph infelicities =
