@@ -9,6 +9,6 @@ cat <<EOF
     <link>http://code.google.com/p/anumbersgame/wiki/TournamentCharts</link>
 EOF
 
-find thumbs -iname '*.png' -exec ./rssItem.sh "{}" \;
+find thumbs/DebateResults0708 -iname '*.png' -exec ./rssItem.sh "{}" \;
 
 echo "</channel></rss>"
