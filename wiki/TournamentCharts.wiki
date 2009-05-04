@@ -16,13 +16,17 @@ These are charts of the win-loss network in all 2007-2008 tournaments from Debat
 
 = How to read the graphs =
 
-In general, better teams are found at the top of the graph, colored green. Worse teams are at the bottom and in red. An arrow pointing from A to B means they has a debate and A won. The graphs ignore speaker points.
+In general, better teams are found at the top of the graph, colored green. Worse teams are at the bottom and in red. An arrow pointing from A to B means they had a debate and A won. The graphs ignore speaker points.
 
-To be more specific, each node represents a "league" (see below). Leagues with only one member are labeled with the team name and their number of wins. Larger leagues get proportionally larger nodes, which  are labeled with the least and most wins by any member of that league.
+To be more specific, each node represents a _league_: a group of teams connected by the [http://cfbanalyzer.com transitive property of wins]. If A beat B, B beat C, and C beat A, they are all in the same league. (For details, see the next section)
+
+In the charts above, leagues with only one member are labeled with the team name and their number of wins. Larger leagues get proportionally larger nodes, which are labeled with the least and most wins by any member of that league.
 
 Nodes are colored by their average win percentage: maroon is 0%, forest green is 100%.
 
-For nodes represent leagues P and Q, there is an arrow from a P to Q when a member of P debated and beat a member of Q. Consistent with the definition of league, there is no cycle of arrows between a set of nodes.
+For nodes representing leagues P and Q, there is an arrow from a P to Q when a member of P debated and beat a member of Q. Consistent with the definition of league, there is no cycle of arrows between a set of nodes.
+
+Disconnected charts on one page represent the various divisions of the tournament. (novice, JV, open)
 
 = What is a league? =
 
@@ -35,11 +39,11 @@ We say A and B are *indirectly tied* if A indirectly beat B and B indirectly bea
 
 = Why make the charts? =
 
-One way to measure debate team performance is with a metric called FairBets. A good presentation of the metric can be found in [http://scholar.google.com/scholar?cluster=1588533582049225873 "Ranking participants in generalized tournaments"], by Giora Slutzki and Oscar Volij.
+One way to measure tournament performance is with a metric called FairBets. A good presentation of the metric can be found in [http://scholar.google.com/scholar?cluster=1588533582049225873 "Ranking participants in generalized tournaments"], by Giora Slutzki and Oscar Volij.
 
-FairBets has many good properties, but one of its weakness is that it produces rankings that preserve _dominance_, described below. Dominance-preserving rankings may not be appropriate for debate tournaments.
+FairBets has many nice properties, but one of its weakness is that it can only produce rankings that preserve _dominance_, described below. Dominance-preserving rankings may not be appropriate for debate tournaments.
 
-To investigate this, I produced the charts above.
+To investigate this, I produced these charts.
 
 = What is dominance? =
 
@@ -61,7 +65,7 @@ We say a league P *weakly dominates* a league Q when
 
 When P weakly dominates Q, FairBets ranks every team in P higher than every team in Q. When P and Q are incomparable, FairBets does not produce a comparison between any team in P and any team in Q.
 
-For intra- (rather than _inter-_) league ratings, FairBets is much more sophisticated, producing not just _rankings_ (who is better than whom?) but _ratings_ (and how much better are they?). It does not classify any two league-mates as incomparable, and it gives an estimation of every team's odds against every other team, should they meet again. Furthermore, these odds are _fair_: had every team  in the league used these odds to bet on themselves in every league game, they all would have found themselves with the same amount of money they started with.
+For intra- (rather than _inter-_) league ratings, FairBets is much more sophisticated, producing not just _rankings_ (who is better than whom?) but _ratings_ (and how much better are they?). It gives an estimation of every team's odds against every other team, should they meet again. Furthermore, these odds are _fair_: had every team  in the league used these odds to bet on themselves in every league game, they all would have found themselves with the same amount of money they started with.
 
 = Does normal tournament ranking respect dominance? =
 
