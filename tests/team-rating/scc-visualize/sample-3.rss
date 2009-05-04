@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:media='http://search.yahoo.com/mrss/' version='2.0'>
+  <channel>
+    <title>ANumbersGame.net tournament charts</title>
+    <description>College policy debate tournament charts.</description>
+    <link>http://code.google.com/p/anumbersgame/wiki/TournamentCharts</link>
+    <item>
+      <title>UOP 0708</title>
+      <link>
+	http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize//DebateResults0708/UOP%20Paul%20Winters%20Invitational.png
+      </link>
+      <media:group>
+        <media:title type='plain'>fluorescence61600.jpg</media:title>
+        <media:content
+            url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize/DebateResults0708/UOP%20Paul%20Winters%20Invitational.png'
+            type='image/png'
+            medium='image'>
+	</media:content>
+        <media:thumbnail
+            url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize//DebateResults0708/UOP%20Paul%20Winters%20Invitational.png'
+            >
+	</media:thumbnail>
+      </media:group>
+    </item>
+    <item>
+      <pubDate>Wed, 09 May 2009 19:28:15 +0000</pubDate>
+      <title>Richmond 0708</title>
+      <link>
+	http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize//DebateResults0708/UOP%20Paul%20Winters%20Invitational.png
+      </link>
+      <media:group>
+        <media:title type='plain'>fluorescence61600.jpg</media:title>
+        <media:content
+            url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize/DebateResults0708/Jay%20Weinberg%20%20Richmond.png'
+            type='image/png'
+            medium='image'>
+	</media:content>
+        <media:thumbnail
+            url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize//DebateResults0708/Jay%20Weinberg%20%20Richmond.png'
+            >
+	</media:thumbnail>
+      </media:group>
+    </item>
+  </channel>
+</rss>
