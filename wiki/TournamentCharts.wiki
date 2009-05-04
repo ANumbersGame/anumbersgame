@@ -12,7 +12,7 @@
 </tr>
 </table>
 
-These are charts of the win-loss network in all 2007-2008 tournaments from DebateResultsDotCom. [TournamentWinLossNetworkCharts Slideshows for other seasons are also available], and individual tournament network charts can be downloaded for the [http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize/DebateResults0304/ 2003-04], [http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize/DebateResults0405/ 2004-05], [http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize/DebateResults0506/ 2005-06],  [http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize/DebateResults0607/ 2006-07] and [http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize/DebateResults0708/ 2007-08] seasons.
+These are charts of the win-loss network in all 2007-2008 tournaments from DebateResultsDotCom. [TournamentWinLossNetworkCharts Slideshows for the other seasons are also available], and individual tournament network charts can be downloaded for the [http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize/DebateResults0304/ 2003-04], [http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize/DebateResults0405/ 2004-05], [http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize/DebateResults0506/ 2005-06],  [http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize/DebateResults0607/ 2006-07] and [http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize/DebateResults0708/ 2007-08] years.
 
 = How to read the graphs =
 
