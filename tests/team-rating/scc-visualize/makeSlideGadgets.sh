@@ -20,8 +20,8 @@ do
   <style type="text/css">
     .gss a img {border : none;}
     .gss {
-      width: 640px;
-      height: 480px;
+      width: 400px;
+      height: 300px;
       color: #dddddd;
       background-color: #000000;
     }
@@ -31,8 +31,7 @@ do
     function load() {
       var samples = "http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize/thumbs${YEAR}.rss";
       var options = {
-        scaleImages : true,
-        displayTime: 5000,
+        displayTime: 4000,
         transistionTime: 300,
     fullControlPanel : true,
         linkTarget : google.feeds.LINK_TARGET_BLANK
