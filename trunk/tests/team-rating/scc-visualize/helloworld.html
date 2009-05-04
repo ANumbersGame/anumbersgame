@@ -11,8 +11,8 @@
   <style type="text/css">
     .gss a img {border : none;}
     .gss {
-      width: 400px;
-      height: 300px;
+      width: 800px;
+      height: 600px;
       color: #dddddd;
       background-color: #000000;
     }
@@ -22,8 +22,10 @@
     function load() {
       var samples = "http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize/all-images.rss";
       var options = {
+        scaleImages : true,
         displayTime: 2000,
-        transistionTime: 600,
+        transistionTime: 300,
+    fullControlPanel : true,
         linkTarget : google.feeds.LINK_TARGET_BLANK
       };
       new GFslideShow(samples, "slideshow", options);
