@@ -34,7 +34,8 @@ do
         displayTime: 4000,
         transistionTime: 300,
     fullControlPanel : true,
-        linkTarget : google.feeds.LINK_TARGET_BLANK
+        linkTarget : google.feeds.LINK_TARGET_BLANK,
+    pauseOnHover : false
       };
       new GFslideShow(samples, "slideshow", options);
     }
