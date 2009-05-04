@@ -32,7 +32,7 @@ do
       var samples = "http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize/fullPics${YEAR}.rss";
       var options = {
         scaleImages : true,
-        displayTime: 2000,
+        displayTime: 5000,
         transistionTime: 300,
     fullControlPanel : true,
         linkTarget : google.feeds.LINK_TARGET_BLANK
