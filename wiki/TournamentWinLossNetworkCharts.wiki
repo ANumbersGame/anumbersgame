@@ -1,5 +1,7 @@
 #summary Tournament win-loss network charts, season by season
 
+These results were extracted from the college policy tournament data at DebateResultsDotCom.
+
 = 2007-2008 =
 
 <table border="0" align="center">
