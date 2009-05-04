@@ -1,3 +1,8 @@
+#!/bin/bash
+
+for YEAR in 0304 0405 0506 0607 0708
+do
+    cat >show${YEAR}.xml <<EOF
 <?xml version="1.0" encoding="UTF-8" ?> 
 <Module>
   <ModulePrefs title="hello world example" /> 
@@ -15,8 +20,8 @@
   <style type="text/css">
     .gss a img {border : none;}
     .gss {
-      width: 800px;
-      height: 600px;
+      width: 640px;
+      height: 480px;
       color: #dddddd;
       background-color: #000000;
     }
@@ -49,3 +54,5 @@
      ]]>
   </Content> 
 </Module>
+EOF
+done

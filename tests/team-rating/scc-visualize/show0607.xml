@@ -15,8 +15,8 @@
   <style type="text/css">
     .gss a img {border : none;}
     .gss {
-      width: 800px;
-      height: 600px;
+      width: 640px;
+      height: 480px;
       color: #dddddd;
       background-color: #000000;
     }
@@ -24,7 +24,7 @@
   </style>
   <script type="text/javascript">
     function load() {
-      var samples = "http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize/fullPics${YEAR}.rss";
+      var samples = "http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize/fullPics0607.rss";
       var options = {
         scaleImages : true,
         displayTime: 2000,
