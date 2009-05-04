@@ -41,7 +41,7 @@ We say A and B are *indirectly tied* if A indirectly beat B and B indirectly bea
 
 One way to measure tournament performance is with a metric called FairBets. A good presentation of the metric can be found in [http://scholar.google.com/scholar?cluster=1588533582049225873 "Ranking participants in generalized tournaments"], by Giora Slutzki and Oscar Volij.
 
-FairBets has many nice properties, but one of its weakness is that it can only produce rankings that preserve _dominance_, described below. Dominance-preserving rankings may not be appropriate for debate tournaments.
+FairBets has many nice properties, but one of its weakness is that it can only produce rankings that preserve *dominance*, defined below. Dominance-preserving rankings may not be appropriate for debate tournaments.
 
 To investigate this, I produced these charts.
 
