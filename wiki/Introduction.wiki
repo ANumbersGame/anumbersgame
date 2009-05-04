@@ -4,6 +4,9 @@ The goal of this project is to produce some interesting statistics from aggregat
 
 Right now, the only raw data used is from DebateResultsDotCom.
 
-Right now, the only statistic offered is JudgeSideBias.
+As of May 4, 2009, the novel measurements here are:
+
+  * JudgeSideBias
+  * TournamentCharts
 
 Please feel free to recommend statistics you would like to see by using [http://code.google.com/p/anumbersgame/issues/list the issue tracker].
