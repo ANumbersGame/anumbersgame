@@ -20,7 +20,7 @@ type='image/png'
 medium='image'>
 </media:content>
 <media:thumbnail
- url='${URLBASE}${THUMBURL}'
+ url='${URLBASE}${ORIGURL}'
 >
 </media:thumbnail>
 </media:group>
