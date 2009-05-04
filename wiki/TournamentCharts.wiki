@@ -1,41 +1,49 @@
 #summary Visualizing the win-loss network
 
-<wiki:toc />
+<table border="0" align="center">
+<tr align="center">
+<td align="center">
+<wiki:gadget url="http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize/show0708.xml" width="400" height="300" border="0" /> 
+</td>
+</tr>
+<tr>
+<td align="center">Click on any image to view a full-sized version.
+</td>
+</tr>
+</table>
 
-= Motivation =
-
-One way to measure debate team performance is with a metric called FairBets. A good presentation of the metric can be found in [http://scholar.google.com/scholar?cluster=1588533582049225873 "Ranking participants in generalized tournaments"], by Giora Slutzki and Oscar Volij.
-
-FairBets has many good properties, but one of its weakness is that it produces rankings that preserve _dominance_, which is described below. Dominance-preserving rankings may not be appropriate for debate tournaments.
-
-To investigate this, I produced graphs displaying the dominance hierarchy in some debate tournaments. Some are pictured below. The rest may be found in [http://code.google.com/p/anumbersgame/source/browse/trunk/tests/team-rating/scc-visualize/ the subdirectories of tests/team-rating/scc-visualize], along with code for generating these graphs in SVG or PDF.
-
-Graphs for every tournament in the DebateResultsDotCom archive (from the 2003-2004 season to the 2007-2008 season) are available.
-
-<a href="http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize/DebateResults0708/Augustana%20College%20Tournament.png"><img width="90%" src="http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize/DebateResults0708/Augustana%20College%20Tournament.png"></img></a>
+These are charts of the win-loss network in all 2007-2008 tournaments from DebateResultsDotCom. [TournamentWinLossNetworkCharts Slideshows for other seasons are also available], and individual tournament network charts can be downloaded for the [http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize/DebateResults0304/ 2003-04], [http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize/DebateResults0405/ 2004-05], [http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize/DebateResults0506/ 2005-06], and [http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize/DebateResults0607/ 2006-07] seasons.
 
 = How to read the graphs =
 
-In general, better teams are found at the top of the graph, colored green. Worse teams are at the bottom and in red. An arrow pointing from A to B means they debated and A won. The graphs ignore speaker points.
+In general, better teams are found at the top of the graph, colored green. Worse teams are at the bottom and in red. An arrow pointing from A to B means they has a debate and A won. The graphs ignore speaker points.
 
 To be more specific, each node represents a "league" (see below). Leagues with only one member are labeled with the team name and their number of wins. Larger leagues get proportionally larger nodes, which  are labeled with the least and most wins by any member of that league.
 
 Nodes are colored by their average win percentage: maroon is 0%, forest green is 100%.
 
-There is an arrow from a node A to a node B when a member of A debated and beat a member of B. Consistent with the definition of league, there is no cycle of arrows between a set of nodes.
+For nodes represent leagues P and Q, there is an arrow from a P to Q when a member of P debated and beat a member of Q. Consistent with the definition of league, there is no cycle of arrows between a set of nodes.
 
-For the fine print, see "Graph infelicities" below.
-
-= Leagues and dominance =
+= What is a league? =
 
 We say team A *indirectly beat* team B when either:
 
   * A beat B in a debate
   * There is a team C such that A beat C in a debate and C indirectly beat B
 
-We say A and B are *indirectly tied* if A indirectly beat B and B indirectly beat A. A *league* is a maximal set of indirectly tied teams. That is, no two teams are both indirectly tied and not in the same league.
+We say A and B are *indirectly tied* if A indirectly beat B and B indirectly beat A. A *league* is a maximal set of indirectly tied teams. That is, no two teams are both indirectly tied and not in the same league. In the charts above, you can see than many leagues have only one member. Some tournaments have no leagues with more than one member, and a few tournaments have only one league.
 
-Under this definition, for every pair of leagues P,Q, either:
+= Why make the charts? =
+
+One way to measure debate team performance is with a metric called FairBets. A good presentation of the metric can be found in [http://scholar.google.com/scholar?cluster=1588533582049225873 "Ranking participants in generalized tournaments"], by Giora Slutzki and Oscar Volij.
+
+FairBets has many good properties, but one of its weakness is that it produces rankings that preserve _dominance_, described below. Dominance-preserving rankings may not be appropriate for debate tournaments.
+
+To investigate this, I produced the charts above.
+
+= What is dominance? =
+
+For every pair of leagues P,Q, either:
 
 <dl>
 <dt>P and Q are *incomparable*</dt>
@@ -51,7 +59,7 @@ We say a league P *weakly dominates* a league Q when
   * P dominates Q
   * There is a league R such that P dominates R and R weakly dominates Q
 
-When P weakly dominates Q, FairBets ranks every team in P higher than every team in Q. When P and Q are incomparable, FairBets ranks every team in P incomparable to every team in Q.
+When P weakly dominates Q, FairBets ranks every team in P higher than every team in Q. When P and Q are incomparable, FairBets does not produce a comparison between any team in P and any team in Q.
 
 For intra- (rather than _inter-_) league ratings, FairBets is much more sophisticated, producing not just _rankings_ (who is better than whom?) but _ratings_ (and how much better are they?). It does not classify any two league-mates as incomparable, and it gives an estimation of every team's odds against every other team, should they meet again. Furthermore, these odds are _fair_: had every team  in the league used these odds to bet on themselves in every league game, they all would have found themselves with the same amount of money they started with.
 
@@ -67,11 +75,8 @@ For example, at the Emporia debate tournament during the 2006-2007 season], KSta
 
 = Is FairBets useful for ranking debate teams? =
 
-COMING SOON
+Probably not for individual tournaments with more than one league.
 
-= Graph infelicities =
+I don't see a compelling reason why dominance should be valued over total number of wins. On the other hand, FairBets might produce good rankings for tournaments with one league. 
 
-Some of the stranger tournament graphs can be explained by:
-
-  * Teams getting early byes, then winning many later rounds
-  * Errors in the data provided by DebateResultsDotCom
+By the end of a debate season, nearly every team is in the same league, so FairBets will be much more interesting in that case.
