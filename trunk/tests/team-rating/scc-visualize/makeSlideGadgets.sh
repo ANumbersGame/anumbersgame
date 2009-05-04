@@ -29,7 +29,7 @@ do
   </style>
   <script type="text/javascript">
     function load() {
-      var samples = "http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize/fullPics${YEAR}.rss";
+      var samples = "http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize/thumbs${YEAR}.rss";
       var options = {
         scaleImages : true,
         displayTime: 5000,

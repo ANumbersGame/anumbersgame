@@ -17,7 +17,7 @@ type='image/png'
 medium='image'>
 </media:content>
 <media:thumbnail
- url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize//DebateResults0304/CEDA%20nationals.png'
+ url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize/thumbs/DebateResults0304/CEDA%20nationals.png'
 >
 </media:thumbnail>
 </media:group>
@@ -35,7 +35,7 @@ type='image/png'
 medium='image'>
 </media:content>
 <media:thumbnail
- url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize//DebateResults0304/Vanderbilt%20Invitational%20Tournament.png'
+ url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize/thumbs/DebateResults0304/Vanderbilt%20Invitational%20Tournament.png'
 >
 </media:thumbnail>
 </media:group>
@@ -53,7 +53,7 @@ type='image/png'
 medium='image'>
 </media:content>
 <media:thumbnail
- url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize//DebateResults0304/American%20Debate%20Association%20National%20Championship%20.png'
+ url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize/thumbs/DebateResults0304/American%20Debate%20Association%20National%20Championship%20.png'
 >
 </media:thumbnail>
 </media:group>
@@ -71,7 +71,7 @@ type='image/png'
 medium='image'>
 </media:content>
 <media:thumbnail
- url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize//DebateResults0304/No%20Illinois%20M%20Jack%20Parker.png'
+ url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize/thumbs/DebateResults0304/No%20Illinois%20M%20Jack%20Parker.png'
 >
 </media:thumbnail>
 </media:group>
@@ -89,7 +89,7 @@ type='image/png'
 medium='image'>
 </media:content>
 <media:thumbnail
- url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize//DebateResults0304/Binghamton%2016th%20Annual%20Forensic%20Festival.png'
+ url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize/thumbs/DebateResults0304/Binghamton%2016th%20Annual%20Forensic%20Festival.png'
 >
 </media:thumbnail>
 </media:group>
@@ -107,7 +107,7 @@ type='image/png'
 medium='image'>
 </media:content>
 <media:thumbnail
- url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize//DebateResults0304/Liberty%20University%20Debate%20Tournament.png'
+ url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize/thumbs/DebateResults0304/Liberty%20University%20Debate%20Tournament.png'
 >
 </media:thumbnail>
 </media:group>
@@ -125,7 +125,7 @@ type='image/png'
 medium='image'>
 </media:content>
 <media:thumbnail
- url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize//DebateResults0304/Alan%20Nichols%20Debate%20Tournament%20at%20USC.png'
+ url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize/thumbs/DebateResults0304/Alan%20Nichols%20Debate%20Tournament%20at%20USC.png'
 >
 </media:thumbnail>
 </media:group>
@@ -143,7 +143,7 @@ type='image/png'
 medium='image'>
 </media:content>
 <media:thumbnail
- url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize//DebateResults0304/Willamette%20Mark%20O%20Hatfield%20Debates.png'
+ url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize/thumbs/DebateResults0304/Willamette%20Mark%20O%20Hatfield%20Debates.png'
 >
 </media:thumbnail>
 </media:group>
@@ -161,7 +161,7 @@ type='image/png'
 medium='image'>
 </media:content>
 <media:thumbnail
- url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize//DebateResults0304/CSU%20Northridge%20Policy%20Diivision.png'
+ url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize/thumbs/DebateResults0304/CSU%20Northridge%20Policy%20Diivision.png'
 >
 </media:thumbnail>
 </media:group>
@@ -179,7 +179,7 @@ type='image/png'
 medium='image'>
 </media:content>
 <media:thumbnail
- url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize//DebateResults0304/Blue%20Devil%20Debates%20Kansas%20City%20Kansas%20CC.png'
+ url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize/thumbs/DebateResults0304/Blue%20Devil%20Debates%20Kansas%20City%20Kansas%20CC.png'
 >
 </media:thumbnail>
 </media:group>
@@ -197,7 +197,7 @@ type='image/png'
 medium='image'>
 </media:content>
 <media:thumbnail
- url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize//DebateResults0304/Kings%2052nd%20ConnellyGarvey%20Debate%20Tournament.png'
+ url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize/thumbs/DebateResults0304/Kings%2052nd%20ConnellyGarvey%20Debate%20Tournament.png'
 >
 </media:thumbnail>
 </media:group>
@@ -215,7 +215,7 @@ type='image/png'
 medium='image'>
 </media:content>
 <media:thumbnail
- url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize//DebateResults0304/UCO%20Joe%20C%20Jackson.png'
+ url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize/thumbs/DebateResults0304/UCO%20Joe%20C%20Jackson.png'
 >
 </media:thumbnail>
 </media:group>
@@ -233,7 +233,7 @@ type='image/png'
 medium='image'>
 </media:content>
 <media:thumbnail
- url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize//DebateResults0304/Fullerton%20tournament.png'
+ url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize/thumbs/DebateResults0304/Fullerton%20tournament.png'
 >
 </media:thumbnail>
 </media:group>
@@ -251,7 +251,7 @@ type='image/png'
 medium='image'>
 </media:content>
 <media:thumbnail
- url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize//DebateResults0304/Georgia%202004%20Bulldog%20Debate.png'
+ url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize/thumbs/DebateResults0304/Georgia%202004%20Bulldog%20Debate.png'
 >
 </media:thumbnail>
 </media:group>
@@ -269,7 +269,7 @@ type='image/png'
 medium='image'>
 </media:content>
 <media:thumbnail
- url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize//DebateResults0304/Idaho%20State%20University%20Bengal%20Classic.png'
+ url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize/thumbs/DebateResults0304/Idaho%20State%20University%20Bengal%20Classic.png'
 >
 </media:thumbnail>
 </media:group>
@@ -287,7 +287,7 @@ type='image/png'
 medium='image'>
 </media:content>
 <media:thumbnail
- url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize//DebateResults0304/GMU%20Patriot%20Debates.png'
+ url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize/thumbs/DebateResults0304/GMU%20Patriot%20Debates.png'
 >
 </media:thumbnail>
 </media:group>
@@ -305,7 +305,7 @@ type='image/png'
 medium='image'>
 </media:content>
 <media:thumbnail
- url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize//DebateResults0304/NDT%20D1%20Qualifying%20and%20CA%20JuniorNovice%20Champs.png'
+ url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize/thumbs/DebateResults0304/NDT%20D1%20Qualifying%20and%20CA%20JuniorNovice%20Champs.png'
 >
 </media:thumbnail>
 </media:group>
@@ -323,7 +323,7 @@ type='image/png'
 medium='image'>
 </media:content>
 <media:thumbnail
- url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize//DebateResults0304/Debate%20League%202004.png'
+ url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize/thumbs/DebateResults0304/Debate%20League%202004.png'
 >
 </media:thumbnail>
 </media:group>
@@ -341,7 +341,7 @@ type='image/png'
 medium='image'>
 </media:content>
 <media:thumbnail
- url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize//DebateResults0304/UNT%20William%20DeMougeot.png'
+ url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize/thumbs/DebateResults0304/UNT%20William%20DeMougeot.png'
 >
 </media:thumbnail>
 </media:group>
@@ -359,7 +359,7 @@ type='image/png'
 medium='image'>
 </media:content>
 <media:thumbnail
- url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize//DebateResults0304/District%205%20Qualifier.png'
+ url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize/thumbs/DebateResults0304/District%205%20Qualifier.png'
 >
 </media:thumbnail>
 </media:group>
@@ -377,7 +377,7 @@ type='image/png'
 medium='image'>
 </media:content>
 <media:thumbnail
- url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize//DebateResults0304/Loyola%20Rambler%202003.png'
+ url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize/thumbs/DebateResults0304/Loyola%20Rambler%202003.png'
 >
 </media:thumbnail>
 </media:group>
@@ -395,7 +395,7 @@ type='image/png'
 medium='image'>
 </media:content>
 <media:thumbnail
- url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize//DebateResults0304/LACC%20Tina%20J%20Herman%20Policy%20Invitational.png'
+ url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize/thumbs/DebateResults0304/LACC%20Tina%20J%20Herman%20Policy%20Invitational.png'
 >
 </media:thumbnail>
 </media:group>
@@ -413,7 +413,7 @@ type='image/png'
 medium='image'>
 </media:content>
 <media:thumbnail
- url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize//DebateResults0304/University%20of%20Kentucky.png'
+ url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize/thumbs/DebateResults0304/University%20of%20Kentucky.png'
 >
 </media:thumbnail>
 </media:group>
@@ -431,7 +431,7 @@ type='image/png'
 medium='image'>
 </media:content>
 <media:thumbnail
- url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize//DebateResults0304/Weber%20Round%20Robin.png'
+ url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize/thumbs/DebateResults0304/Weber%20Round%20Robin.png'
 >
 </media:thumbnail>
 </media:group>
@@ -449,7 +449,7 @@ type='image/png'
 medium='image'>
 </media:content>
 <media:thumbnail
- url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize//DebateResults0304/Macalester.png'
+ url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize/thumbs/DebateResults0304/Macalester.png'
 >
 </media:thumbnail>
 </media:group>
@@ -467,7 +467,7 @@ type='image/png'
 medium='image'>
 </media:content>
 <media:thumbnail
- url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize//DebateResults0304/Chico%20Sierra%20Nevada%20Invitational.png'
+ url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize/thumbs/DebateResults0304/Chico%20Sierra%20Nevada%20Invitational.png'
 >
 </media:thumbnail>
 </media:group>
@@ -485,7 +485,7 @@ type='image/png'
 medium='image'>
 </media:content>
 <media:thumbnail
- url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize//DebateResults0304/Vanderbilt%20Invitational.png'
+ url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize/thumbs/DebateResults0304/Vanderbilt%20Invitational.png'
 >
 </media:thumbnail>
 </media:group>
@@ -503,7 +503,7 @@ type='image/png'
 medium='image'>
 </media:content>
 <media:thumbnail
- url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize//DebateResults0304/District%20VII%20Qualifying%20Tournament.png'
+ url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize/thumbs/DebateResults0304/District%20VII%20Qualifying%20Tournament.png'
 >
 </media:thumbnail>
 </media:group>
@@ -521,7 +521,7 @@ type='image/png'
 medium='image'>
 </media:content>
 <media:thumbnail
- url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize//DebateResults0304/West%20Georgia.png'
+ url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize/thumbs/DebateResults0304/West%20Georgia.png'
 >
 </media:thumbnail>
 </media:group>
@@ -539,7 +539,7 @@ type='image/png'
 medium='image'>
 </media:content>
 <media:thumbnail
- url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize//DebateResults0304/Rochester.png'
+ url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize/thumbs/DebateResults0304/Rochester.png'
 >
 </media:thumbnail>
 </media:group>
@@ -557,7 +557,7 @@ type='image/png'
 medium='image'>
 </media:content>
 <media:thumbnail
- url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize//DebateResults0304/Dartmouth%20Round%20Robin.png'
+ url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize/thumbs/DebateResults0304/Dartmouth%20Round%20Robin.png'
 >
 </media:thumbnail>
 </media:group>
@@ -575,7 +575,7 @@ type='image/png'
 medium='image'>
 </media:content>
 <media:thumbnail
- url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize//DebateResults0304/SMSU%20Virginia%20Craig%20Debate%20Tournament.png'
+ url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize/thumbs/DebateResults0304/SMSU%20Virginia%20Craig%20Debate%20Tournament.png'
 >
 </media:thumbnail>
 </media:group>
@@ -593,7 +593,7 @@ type='image/png'
 medium='image'>
 </media:content>
 <media:thumbnail
- url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize//DebateResults0304/Fresno%20Raisin%20Center%20Invitational.png'
+ url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize/thumbs/DebateResults0304/Fresno%20Raisin%20Center%20Invitational.png'
 >
 </media:thumbnail>
 </media:group>
@@ -611,7 +611,7 @@ type='image/png'
 medium='image'>
 </media:content>
 <media:thumbnail
- url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize//DebateResults0304/UNI%20Ulrich%20Season%20Opener.png'
+ url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize/thumbs/DebateResults0304/UNI%20Ulrich%20Season%20Opener.png'
 >
 </media:thumbnail>
 </media:group>
@@ -629,7 +629,7 @@ type='image/png'
 medium='image'>
 </media:content>
 <media:thumbnail
- url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize//DebateResults0304/NDT%20District%208.png'
+ url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize/thumbs/DebateResults0304/NDT%20District%208.png'
 >
 </media:thumbnail>
 </media:group>
@@ -647,7 +647,7 @@ type='image/png'
 medium='image'>
 </media:content>
 <media:thumbnail
- url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize//DebateResults0304/ASU%20Fiesta.png'
+ url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize/thumbs/DebateResults0304/ASU%20Fiesta.png'
 >
 </media:thumbnail>
 </media:group>
@@ -665,7 +665,7 @@ type='image/png'
 medium='image'>
 </media:content>
 <media:thumbnail
- url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize//DebateResults0304/Vermont%20Robert%20Huber%20Debates.png'
+ url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize/thumbs/DebateResults0304/Vermont%20Robert%20Huber%20Debates.png'
 >
 </media:thumbnail>
 </media:group>
@@ -683,7 +683,7 @@ type='image/png'
 medium='image'>
 </media:content>
 <media:thumbnail
- url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize//DebateResults0304/Heart%20of%20America.png'
+ url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize/thumbs/DebateResults0304/Heart%20of%20America.png'
 >
 </media:thumbnail>
 </media:group>
@@ -701,7 +701,7 @@ type='image/png'
 medium='image'>
 </media:content>
 <media:thumbnail
- url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize//DebateResults0304/Red%20Rock%20Classic.png'
+ url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize/thumbs/DebateResults0304/Red%20Rock%20Classic.png'
 >
 </media:thumbnail>
 </media:group>
@@ -719,7 +719,7 @@ type='image/png'
 medium='image'>
 </media:content>
 <media:thumbnail
- url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize//DebateResults0304/Chicago%20National%20Novice%20at%20Northwestern.png'
+ url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize/thumbs/DebateResults0304/Chicago%20National%20Novice%20at%20Northwestern.png'
 >
 </media:thumbnail>
 </media:group>
@@ -737,7 +737,7 @@ type='image/png'
 medium='image'>
 </media:content>
 <media:thumbnail
- url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize//DebateResults0304/WVU%20Jacobsohn%20Memorial%20Mountaineer%20Classic.png'
+ url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize/thumbs/DebateResults0304/WVU%20Jacobsohn%20Memorial%20Mountaineer%20Classic.png'
 >
 </media:thumbnail>
 </media:group>
@@ -755,7 +755,7 @@ type='image/png'
 medium='image'>
 </media:content>
 <media:thumbnail
- url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize//DebateResults0304/Novice%20and%20JV%20Nationals%20at%20Towson.png'
+ url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize/thumbs/DebateResults0304/Novice%20and%20JV%20Nationals%20at%20Towson.png'
 >
 </media:thumbnail>
 </media:group>
@@ -773,7 +773,7 @@ type='image/png'
 medium='image'>
 </media:content>
 <media:thumbnail
- url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize//DebateResults0304/Mardi%20Gras%20Vanderbilt%20Invitational%20Tournament.png'
+ url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize/thumbs/DebateResults0304/Mardi%20Gras%20Vanderbilt%20Invitational%20Tournament.png'
 >
 </media:thumbnail>
 </media:group>
@@ -791,7 +791,7 @@ type='image/png'
 medium='image'>
 </media:content>
 <media:thumbnail
- url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize//DebateResults0304/Baylor.png'
+ url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize/thumbs/DebateResults0304/Baylor.png'
 >
 </media:thumbnail>
 </media:group>
@@ -809,7 +809,7 @@ type='image/png'
 medium='image'>
 </media:content>
 <media:thumbnail
- url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize//DebateResults0304/The%20Gateway%20Invitational.png'
+ url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize/thumbs/DebateResults0304/The%20Gateway%20Invitational.png'
 >
 </media:thumbnail>
 </media:group>
@@ -827,7 +827,7 @@ type='image/png'
 medium='image'>
 </media:content>
 <media:thumbnail
- url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize//DebateResults0304/Augustana%20Debate%20Tournament.png'
+ url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize/thumbs/DebateResults0304/Augustana%20Debate%20Tournament.png'
 >
 </media:thumbnail>
 </media:group>
@@ -845,7 +845,7 @@ type='image/png'
 medium='image'>
 </media:content>
 <media:thumbnail
- url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize//DebateResults0304/The%20Gonzaga%20University%20Jesuit%20Debates.png'
+ url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize/thumbs/DebateResults0304/The%20Gonzaga%20University%20Jesuit%20Debates.png'
 >
 </media:thumbnail>
 </media:group>
@@ -863,7 +863,7 @@ type='image/png'
 medium='image'>
 </media:content>
 <media:thumbnail
- url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize//DebateResults0304/Pepperdine%206th%20Annual%20Ray%20Buchanan%20Invitational.png'
+ url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize/thumbs/DebateResults0304/Pepperdine%206th%20Annual%20Ray%20Buchanan%20Invitational.png'
 >
 </media:thumbnail>
 </media:group>
@@ -881,7 +881,7 @@ type='image/png'
 medium='image'>
 </media:content>
 <media:thumbnail
- url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize//DebateResults0304/NCFA%20Championships.png'
+ url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize/thumbs/DebateResults0304/NCFA%20Championships.png'
 >
 </media:thumbnail>
 </media:group>
@@ -899,7 +899,7 @@ type='image/png'
 medium='image'>
 </media:content>
 <media:thumbnail
- url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize//DebateResults0304/Wake%20Franklin%20R%20Shirley%20Classic.png'
+ url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize/thumbs/DebateResults0304/Wake%20Franklin%20R%20Shirley%20Classic.png'
 >
 </media:thumbnail>
 </media:group>
@@ -917,7 +917,7 @@ type='image/png'
 medium='image'>
 </media:content>
 <media:thumbnail
- url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize//DebateResults0304/Cornell%20Tournament%20of%20Love.png'
+ url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize/thumbs/DebateResults0304/Cornell%20Tournament%20of%20Love.png'
 >
 </media:thumbnail>
 </media:group>
@@ -935,7 +935,7 @@ type='image/png'
 medium='image'>
 </media:content>
 <media:thumbnail
- url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize//DebateResults0304/Georgia%20State%20University%20National%20Tournament.png'
+ url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize/thumbs/DebateResults0304/Georgia%20State%20University%20National%20Tournament.png'
 >
 </media:thumbnail>
 </media:group>
@@ -953,7 +953,7 @@ type='image/png'
 medium='image'>
 </media:content>
 <media:thumbnail
- url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize//DebateResults0304/Emporia%20George%20RR%20Pflaum%20Invitational.png'
+ url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize/thumbs/DebateResults0304/Emporia%20George%20RR%20Pflaum%20Invitational.png'
 >
 </media:thumbnail>
 </media:group>
@@ -971,7 +971,7 @@ type='image/png'
 medium='image'>
 </media:content>
 <media:thumbnail
- url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize//DebateResults0304/Northwest%20CEDA%20Champs%20at%20Puget%20Sound.png'
+ url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize/thumbs/DebateResults0304/Northwest%20CEDA%20Champs%20at%20Puget%20Sound.png'
 >
 </media:thumbnail>
 </media:group>
@@ -989,7 +989,7 @@ type='image/png'
 medium='image'>
 </media:content>
 <media:thumbnail
- url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize//DebateResults0304/App%20State%20Mountaineer%20Forensics.png'
+ url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize/thumbs/DebateResults0304/App%20State%20Mountaineer%20Forensics.png'
 >
 </media:thumbnail>
 </media:group>
@@ -1007,7 +1007,7 @@ type='image/png'
 medium='image'>
 </media:content>
 <media:thumbnail
- url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize//DebateResults0304/SECEDASCCEDAD6.png'
+ url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize/thumbs/DebateResults0304/SECEDASCCEDAD6.png'
 >
 </media:thumbnail>
 </media:group>
@@ -1025,7 +1025,7 @@ type='image/png'
 medium='image'>
 </media:content>
 <media:thumbnail
- url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize//DebateResults0304/Las%20Vegas%20Round%20Robin.png'
+ url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize/thumbs/DebateResults0304/Las%20Vegas%20Round%20Robin.png'
 >
 </media:thumbnail>
 </media:group>
@@ -1043,7 +1043,7 @@ type='image/png'
 medium='image'>
 </media:content>
 <media:thumbnail
- url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize//DebateResults0304/Harvard%20College%20Invitational.png'
+ url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize/thumbs/DebateResults0304/Harvard%20College%20Invitational.png'
 >
 </media:thumbnail>
 </media:group>
@@ -1061,7 +1061,7 @@ type='image/png'
 medium='image'>
 </media:content>
 <media:thumbnail
- url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize//DebateResults0304/Owen%20L%20Coon%20Memorial%20at%20Northwestern.png'
+ url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize/thumbs/DebateResults0304/Owen%20L%20Coon%20Memorial%20at%20Northwestern.png'
 >
 </media:thumbnail>
 </media:group>
@@ -1079,7 +1079,7 @@ type='image/png'
 medium='image'>
 </media:content>
 <media:thumbnail
- url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize//DebateResults0304/District%209%20NDT%20Qualifier.png'
+ url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize/thumbs/DebateResults0304/District%209%20NDT%20Qualifier.png'
 >
 </media:thumbnail>
 </media:group>
@@ -1097,7 +1097,7 @@ type='image/png'
 medium='image'>
 </media:content>
 <media:thumbnail
- url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize//DebateResults0304/Wichita%20Mel%20Moorhouse%20Debate%20Tournament.png'
+ url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize/thumbs/DebateResults0304/Wichita%20Mel%20Moorhouse%20Debate%20Tournament.png'
 >
 </media:thumbnail>
 </media:group>
@@ -1115,7 +1115,7 @@ type='image/png'
 medium='image'>
 </media:content>
 <media:thumbnail
- url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize//DebateResults0304/National%20Debate%20Tournament.png'
+ url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize/thumbs/DebateResults0304/National%20Debate%20Tournament.png'
 >
 </media:thumbnail>
 </media:group>
@@ -1133,7 +1133,7 @@ type='image/png'
 medium='image'>
 </media:content>
 <media:thumbnail
- url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize//DebateResults0304/District%20IV%20NDT%20Qualifier.png'
+ url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize/thumbs/DebateResults0304/District%20IV%20NDT%20Qualifier.png'
 >
 </media:thumbnail>
 </media:group>
@@ -1151,7 +1151,7 @@ type='image/png'
 medium='image'>
 </media:content>
 <media:thumbnail
- url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize//DebateResults0304/Santa%20Rosa.png'
+ url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize/thumbs/DebateResults0304/Santa%20Rosa.png'
 >
 </media:thumbnail>
 </media:group>
@@ -1169,7 +1169,7 @@ type='image/png'
 medium='image'>
 </media:content>
 <media:thumbnail
- url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize//DebateResults0304/Wyoming.png'
+ url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize/thumbs/DebateResults0304/Wyoming.png'
 >
 </media:thumbnail>
 </media:group>
@@ -1187,7 +1187,7 @@ type='image/png'
 medium='image'>
 </media:content>
 <media:thumbnail
- url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize//DebateResults0304/2003%20UK%20Round%20Robin.png'
+ url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize/thumbs/DebateResults0304/2003%20UK%20Round%20Robin.png'
 >
 </media:thumbnail>
 </media:group>
@@ -1205,7 +1205,7 @@ type='image/png'
 medium='image'>
 </media:content>
 <media:thumbnail
- url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize//DebateResults0304/Capital%20Cities.png'
+ url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize/thumbs/DebateResults0304/Capital%20Cities.png'
 >
 </media:thumbnail>
 </media:group>
@@ -1223,7 +1223,7 @@ type='image/png'
 medium='image'>
 </media:content>
 <media:thumbnail
- url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize//DebateResults0304/Richmond%20Jay%20Weinberg%20Autumn%20Debate%20Tourn.png'
+ url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize/thumbs/DebateResults0304/Richmond%20Jay%20Weinberg%20Autumn%20Debate%20Tourn.png'
 >
 </media:thumbnail>
 </media:group>
@@ -1241,7 +1241,7 @@ type='image/png'
 medium='image'>
 </media:content>
 <media:thumbnail
- url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize//DebateResults0304/CEDA%20East%20Champs.png'
+ url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize/thumbs/DebateResults0304/CEDA%20East%20Champs.png'
 >
 </media:thumbnail>
 </media:group>
@@ -1259,7 +1259,7 @@ type='image/png'
 medium='image'>
 </media:content>
 <media:thumbnail
- url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize//DebateResults0304/New%20York%20University%20Subway%20Seris.png'
+ url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize/thumbs/DebateResults0304/New%20York%20University%20Subway%20Seris.png'
 >
 </media:thumbnail>
 </media:group>
@@ -1277,7 +1277,7 @@ type='image/png'
 medium='image'>
 </media:content>
 <media:thumbnail
- url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize//DebateResults0304/CSU%20Intramural.png'
+ url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize/thumbs/DebateResults0304/CSU%20Intramural.png'
 >
 </media:thumbnail>
 </media:group>
@@ -1295,7 +1295,7 @@ type='image/png'
 medium='image'>
 </media:content>
 <media:thumbnail
- url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize//DebateResults0304/Wayne%20Motor%20City%20Classic.png'
+ url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize/thumbs/DebateResults0304/Wayne%20Motor%20City%20Classic.png'
 >
 </media:thumbnail>
 </media:group>
@@ -1313,7 +1313,7 @@ type='image/png'
 medium='image'>
 </media:content>
 <media:thumbnail
- url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize//DebateResults0304/United%20States%20Naval%20Academy%20Debate%20Tournament.png'
+ url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize/thumbs/DebateResults0304/United%20States%20Naval%20Academy%20Debate%20Tournament.png'
 >
 </media:thumbnail>
 </media:group>
@@ -1331,7 +1331,7 @@ type='image/png'
 medium='image'>
 </media:content>
 <media:thumbnail
- url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize//DebateResults0304/John%20Carroll%20University%20Austin%20J%20Freeley.png'
+ url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize/thumbs/DebateResults0304/John%20Carroll%20University%20Austin%20J%20Freeley.png'
 >
 </media:thumbnail>
 </media:group>
@@ -1349,7 +1349,7 @@ type='image/png'
 medium='image'>
 </media:content>
 <media:thumbnail
- url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize//DebateResults0304/Capital%20University%20Squirrel%20Shooter.png'
+ url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize/thumbs/DebateResults0304/Capital%20University%20Squirrel%20Shooter.png'
 >
 </media:thumbnail>
 </media:group>
@@ -1367,7 +1367,7 @@ type='image/png'
 medium='image'>
 </media:content>
 <media:thumbnail
- url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize//DebateResults0304/MTSU%20Naveen%20Pejaver%20Debates.png'
+ url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize/thumbs/DebateResults0304/MTSU%20Naveen%20Pejaver%20Debates.png'
 >
 </media:thumbnail>
 </media:group>
@@ -1385,7 +1385,7 @@ type='image/png'
 medium='image'>
 </media:content>
 <media:thumbnail
- url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize//DebateResults0304/Lewis%20Clark%20Pioneer%20Invitational.png'
+ url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize/thumbs/DebateResults0304/Lewis%20Clark%20Pioneer%20Invitational.png'
 >
 </media:thumbnail>
 </media:group>
@@ -1403,7 +1403,7 @@ type='image/png'
 medium='image'>
 </media:content>
 <media:thumbnail
- url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize//DebateResults0304/D3%20NDT%20Qualifying%20tournament.png'
+ url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize/thumbs/DebateResults0304/D3%20NDT%20Qualifying%20tournament.png'
 >
 </media:thumbnail>
 </media:group>
@@ -1421,7 +1421,7 @@ type='image/png'
 medium='image'>
 </media:content>
 <media:thumbnail
- url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize//DebateResults0304/UTD%20Fear%20and%20Loathing%20in%20Dallas%20.png'
+ url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize/thumbs/DebateResults0304/UTD%20Fear%20and%20Loathing%20in%20Dallas%20.png'
 >
 </media:thumbnail>
 </media:group>
@@ -1439,7 +1439,7 @@ type='image/png'
 medium='image'>
 </media:content>
 <media:thumbnail
- url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize//DebateResults0304/NW%20CEDA%20Championships.png'
+ url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize/thumbs/DebateResults0304/NW%20CEDA%20Championships.png'
 >
 </media:thumbnail>
 </media:group>
@@ -1457,7 +1457,7 @@ type='image/png'
 medium='image'>
 </media:content>
 <media:thumbnail
- url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize//DebateResults0304/Cal%20Invitational%20Debates%20at%20UC%20Berkeley.png'
+ url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize/thumbs/DebateResults0304/Cal%20Invitational%20Debates%20at%20UC%20Berkeley.png'
 >
 </media:thumbnail>
 </media:group>
@@ -1475,7 +1475,7 @@ type='image/png'
 medium='image'>
 </media:content>
 <media:thumbnail
- url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize//DebateResults0304/University%20of%20Alabama.png'
+ url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize/thumbs/DebateResults0304/University%20of%20Alabama.png'
 >
 </media:thumbnail>
 </media:group>
@@ -1493,7 +1493,7 @@ type='image/png'
 medium='image'>
 </media:content>
 <media:thumbnail
- url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize//DebateResults0304/West%20Point%20Debate%20Tournament%20West%20Point%20New%20York.png'
+ url='http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize/thumbs/DebateResults0304/West%20Point%20Debate%20Tournament%20West%20Point%20New%20York.png'
 >
 </media:thumbnail>
 </media:group>

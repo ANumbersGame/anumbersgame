@@ -24,7 +24,7 @@
   </style>
   <script type="text/javascript">
     function load() {
-      var samples = "http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize/fullPics0708.rss";
+      var samples = "http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize/thumbs0708.rss";
       var options = {
         scaleImages : true,
         displayTime: 5000,
