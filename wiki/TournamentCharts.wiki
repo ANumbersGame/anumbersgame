@@ -35,7 +35,7 @@ We say team A *indirectly beat* team B when either:
   * A beat B in a debate
   * There is a team C such that A beat C in a debate and C indirectly beat B
 
-We say A and B are *indirectly tied* if A indirectly beat B and B indirectly beat A. A *league* is a maximal set of indirectly tied teams. That is, no two teams are both indirectly tied and not in the same league. In the charts above, you can see than many leagues have only one member. Some tournaments have no leagues with more than one member, and a few tournaments have only one league.
+We say A and B are *indirectly tied* if A indirectly beat B and B indirectly beat A. A *league* is a maximal set of indirectly tied teams. That is, any two indirectly tied teams are in the same league. In the charts above, you can see than many leagues have only one member. Some tournaments have _no_ leagues with more than one member, and a few tournaments have only one league, meaning every team in a member of it.
 
 = Why make the charts? =
 
