@@ -1,17 +1,39 @@
+Sizes:
+
+Slices exact, pies very rough
+
+debater-years, team-years, not debaters or teams
+
 Teams:
 
 http://chart.apis.google.com/chart?cht=p&chd=t:2.70,64.65&chs=400x200&chl=Hybrid|Purebred&dummy=img.png
 
 Hybrid teams:
 
-http://chart.apis.google.com/chart?cht=p&chd=t:2.0,9.3,15.7&chs=200x100&chl=All+ringer|Mixed|All+drone&dummy=img.png
+http://chart.apis.google.com/chart?cht=p&chd=t:2.0,9.3,15.7&chs=250x100&chl=All+ringer|Mixed|All+drone&dummy=img.png
+
+Debaters:
+
+http://chart.apis.google.com/chart?cht=p&chd=t:4.78,72.99&chs=400x200&chl=Ever+hybrid|Never+hybrid&dummy=img.png
+
+Once-hybrid debaters:
+
+http://chart.apis.google.com/chart?cht=p&chd=t:11.1,36.7&chs=300x100&chl=Always+hybrid|Sometimes+hybrid&dummy=img.png
+
+Tournaments:
+
+http://chart.apis.google.com/chart?cht=p&chd=t:10.2,5.5,12.1,7.7&chs=350x100&chl=Disallowed|Secretly+allowed|Allowed|Hypothetically+allowed&dummy=img.png
+
+Ballots at tournaments:
+
+http://chart.apis.google.com/chart?cht=p&chd=t:20.060,14.002,33.083,13.845&chs=350x100&chl=Disallowed|Secretly+allowed|Allowed|Hypothetically+allowed&dummy=img.png
 
 Team divisions:
 
 Novice = Novice or Rookie
 
 All:
-<table border="1">
+<table>
 <tr>
 <th>
 Total:
@@ -22,7 +44,7 @@ Hybrid:
 </tr>
 <tr align="center">
 <td>
-http://chart.apis.google.com/chart?cht=p&chd=t:29.07,11.20,17.77,7.49&chs=420x300&chl=Open|JV|Novice|Two+or+more&dummy=img.png
+http://chart.apis.google.com/chart?cht=p&chd=t:29.07,11.20,17.77,7.49&chs=437x300&chl=Open|JV|Novice|Two+or+more&dummy=img.png
 </td>
 <td>
 http://chart.apis.google.com/chart?cht=p&chd=t:10.6,7.3,7.7,1.1&chs=320x150&chl=Open|JV|Novice|Two+or+more&dummy=img.png
@@ -41,19 +63,3 @@ http://chart.apis.google.com/chart?cht=p&chd=t:7,0,3,1&chs=300x75&chl=Open+and+J
 <wiki:comment>
 http://chart.apis.google.com/chart?cht=v&chs=600x400&chd=t:114,84,81,8,1,4,1&chl=Open|JV|Novice&dummy=img.png
 </wiki:comment>
-
-Debaters:
-
-http://chart.apis.google.com/chart?cht=p&chd=t:4.78,72.99&chs=400x200&chl=Ever+hybrid|Never+hybrid&dummy=img.png
-
-Once-hybrid debaters:
-
-http://chart.apis.google.com/chart?cht=p&chd=t:11.1,36.7&chs=300x100&chl=Always+hybrid|Sometimes+hybrid&dummy=img.png
-
-Tournaments:
-
-http://chart.apis.google.com/chart?cht=p&chd=t:10.2,5.5,12.1,7.7&chs=350x100&chl=Disallowed|Secretly+allowed|Allowed|Hypothetically+allowed&dummy=img.png
-
-Ballots at tournaments:
-
-http://chart.apis.google.com/chart?cht=p&chd=t:20.060,14.002,33.083,13.845&chs=350x100&chl=Disallowed|Secretly+allowed|Allowed|Hypothetically+allowed&dummy=img.png
