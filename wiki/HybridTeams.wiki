@@ -41,7 +41,7 @@ DebateResultsDotCom allows tournaments to specify whether or not they permit hyb
 
 http://chart.apis.google.com/chart?cht=p&chd=t:10.2,5.5,12.1,7.7&chs=420x200&chl=Disallowed|Quietly+allowed|Allowed|Hypothetically+allowed&chtt=Tournaments&dummy=img.png
 
-http://chart.apis.google.com/chart?cht=p&chd=t:20.060,14.002,33.083,13.845&chs=420x200&chl=Disallowed|Secretly+allowed|Allowed|Hypothetically+allowed&chtt=Ballots+at+tournaments&dummy=img.png
+http://chart.apis.google.com/chart?cht=p&chd=t:20.060,14.002,33.083,13.845&chs=420x200&chl=Disallowed|Quietly+allowed|Allowed|Hypothetically+allowed&chtt=Ballots+at+tournaments&dummy=img.png
 
 == Summary ==
 
