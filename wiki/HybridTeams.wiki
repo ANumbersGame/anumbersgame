@@ -4,20 +4,21 @@ These charts are based on the data from DebateResultsDotCom. They aggregate the 
 
 The charts are not accurately sized in relation to each other; this would make some of them too small to read.
 
+== Terminology ==
+
+On this page, a debater who has participated on a hybrid team is also called hybrid. Debaters who have _only_ participated on hybrid teams are called *ringers*, all others hybrid debaters are *drones*
+
 = Teams =
 
 || *<p align="center">All Teams:</p>* || <p align="center">*Hybrid teams:*</p> ||
-|| http://chart.apis.google.com/chart?cht=p&chd=t:2.70,64.65&chs=400x200&chl=Hybrid|Purebred&chco=FF0000,0000FF&dummy=img.png || http://chart.apis.google.com/chart?cht=p&chd=t:2.0,9.3,15.7&chs=250x100&chl=All+ringer|Mixed|All+drone&chco=FF0000&dummy=img.png ||
+|| http://chart.apis.google.com/chart?cht=p&chd=t:2.70,64.65&chs=300x200&chl=Hybrid|&chco=FF0000,0000FFA0&dummy=img.png || http://chart.apis.google.com/chart?cht=p&chd=t:2.0,9.3,15.7&chs=250x100&chl=All+ringer|Mixed|All+drone&chco=FF0000A0&dummy=img.png ||
 
 Only 4% of teams are hybrid. Of those, 7.4% are made up of members who only debated on hybrid teams (*"ringers"*), 58% are made up of members each of who debated at least once on at non-hybrid team (*"drones"*), and the remainder have at least one member of each type.
 
 = Debaters =
 
-http://chart.apis.google.com/chart?cht=p&chd=t:4.78,72.99&chs=400x200&chl=Ever+hybrid|Never+hybrid&dummy=img.png
-
-Once-hybrid debaters:
-
-http://chart.apis.google.com/chart?cht=p&chd=t:11.1,36.7&chs=300x100&chl=Always+hybrid|Sometimes+hybrid&dummy=img.png
+|| *<p align="center">All debaters:</p>* || *<p align="center">Hybrid debaters:</p>* ||
+|| http://chart.apis.google.com/chart?cht=p&chd=t:4.78,72.99&chs=300x200&chl=Hybrid|&chco=FF0000,0000FFA0&dummy=img.png || http://chart.apis.google.com/chart?cht=p&chd=t:11.1,36.7&chs=300x100&chl=Ringer|Drone&chco=FF0000A0&dummy=img.png ||
 
 Tournaments:
 
