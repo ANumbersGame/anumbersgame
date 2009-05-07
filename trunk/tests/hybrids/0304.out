@@ -1,20 +1,58 @@
-Tournaments disallowing hybrids:
-51
-Tournaments:
-83
-Rounds at tournaments disallowing hybrids:
-7100
-Rounds:
-13274
-Ballots at tournaments disallowing hybrids:
-8248
-Ballots:
-15017
 Hybrid teams that debated:
-59
+61
 Teams that debated:
 1345
-Hybrid teams that debated in open:
-29
-Teams that debated in open:
-737
+Competitors that debated at least once on a hybrid team:
+113
+Competitors that debated:
+1555
+Hybrid competitors that debated on some non-hybrid team:
+90
+Teams with two competitors who only debated on hybrid teams:
+5
+Teams with two competitors each of whom debated at least once on non-hybrid teams:
+38
+Hybrid teams that debated in each of open, JV, and novice or rookie at least once:
+0
+Hybrid teams that debated in both open and JV at least once, but never in novice or rookie:
+1
+Hybrid teams that debated in both novice (or rookie) and open at least once, but never in JV:
+0
+Hybrid teams that debated in both novice and JV at least once, but never in open:
+1
+Hybrid teams that debated only in open rounds:
+30
+Hybrid teams that debated only in JV rounds:
+11
+Hybrid teams that debated only in novice rounds:
+18
+Teams that debated in each of open, JV, and novice or rookie at least once:
+17
+Teams that debated in both open and JV at least once, but never in novice or rookie:
+114
+Teams that debated in both novice (or rookie) and open at least once, but never in JV:
+12
+Teams that debated in both novice and JV at least once, but never in open:
+37
+Teams that debated only in open rounds:
+594
+Teams that debated only in JV rounds:
+217
+Teams that debated only in novice rounds:
+354
+Tournaments disallowing hybrids:
+24
+Tournaments only nominally disallowing hybrids:
+20
+Tournaments allowing hybrids with hybrid entries:
+22
+Tournaments allowing hybrids with no hybrid entries:
+6
+Ballots at tournaments disallowing hybrids:
+3865
+Ballots at tournaments only nominally disallowing hybrids:
+4383
+Ballots at tournaments allowing hybrids with hybrid entries:
+5620
+Ballots at tournaments nominally allowing hybrids, but with no hybrid entries:
+1149
