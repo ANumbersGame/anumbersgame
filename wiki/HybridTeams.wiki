@@ -4,6 +4,8 @@ These charts are based on the data from DebateResultsDotCom. They aggregate the 
 
 The charts are not exactly accurately sized in relation to each other; this would make some of them too small to read.
 
+[http://code.google.com/p/anumbersgame/source/browse/trunk/tests/hybrids/ The raw numbers season-by-season are also available.]
+
 == Terminology ==
 
 On this page, a debater who has participated on a hybrid team is also called hybrid. Debaters who have _only_ participated on hybrid teams are called *ringers*, all others hybrid debaters are *drones*
