@@ -49,7 +49,7 @@ http://chart.apis.google.com/chart?cht=p&chd=t:20.060,14.002,33.083,13.845&chs=4
 
   * 157 tournaments registered as not allowing hybrids, but 35% of these actually did have hybrids competing.
   * 61% of the 198 tournaments that did allow hybrids actually had some hybrids debating.
-  * Tournaments where hybrids debated generated proportionally (and absolutely) more ballots than those where no hybrids debated: 50% of tournaments have some hybrid entries, but those tournaments generate 58% of the ballots.
+  * Tournaments where hybrids debated generated proportionally (and absolutely) more ballots than those where no hybrids debated: 50% of tournaments have some hybrid entries, but those tournaments generate 58% of the ballots. Of course, if hybrids are distributed among tournaments by size, then the tournaments with hybrids are likely to be larger.
 
 = Team divisions =
 
