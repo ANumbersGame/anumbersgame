@@ -1,27 +1,53 @@
 Teams:
 
-http://chart.apis.google.com/chart?cht=p&chd=t:2.70,64.65&chs=200x100&chl=Hybrid|Purebred&dummy=img.png
+http://chart.apis.google.com/chart?cht=p&chd=t:2.70,64.65&chs=400x200&chl=Hybrid|Purebred&dummy=img.png
 
 Hybrid teams:
 
-http://chart.apis.google.com/chart?cht=p&chd=t:2.0,9.3,15.7&chs=300x100&chl=Both+ringers|One+each|Both+drones&dummy=img.png
+http://chart.apis.google.com/chart?cht=p&chd=t:2.0,9.3,15.7&chs=200x100&chl=All+ringer|Mixed|All+drone&dummy=img.png
 
-Hybrid team divisions:
+Team divisions:
 
 Novice = Novice or Rookie
 
-http://chart.apis.google.com/chart?cht=p&chd=t:10.6,7.3,7.7,1.1&chs=300x100&chl=Open|JV|Novice|Two+or+more&dummy=img.png
-
-http://chart.apis.google.com/chart?cht=p&chd=t:7,0,3,1&chs=300x100&chl=Open+and+JV|Open+and+Novice|JV+and+Novice|All+three&dummy=img.png
-
+All:
+<table border="1">
+<tr>
+<th>
+Total:
+</th>
+<th>
+Hybrid:
+</th>
+</tr>
+<tr align="center">
+<td>
+http://chart.apis.google.com/chart?cht=p&chd=t:29.07,11.20,17.77,7.49&chs=420x300&chl=Open|JV|Novice|Two+or+more&dummy=img.png
+</td>
+<td>
+http://chart.apis.google.com/chart?cht=p&chd=t:10.6,7.3,7.7,1.1&chs=320x150&chl=Open|JV|Novice|Two+or+more&dummy=img.png
+</td>
+</tr>
+<tr align="center">
+<td>
+http://chart.apis.google.com/chart?cht=p&chd=t:58.8,7.6,18.5,8.2&chs=400x150&chl=Open+and+JV|Open+and+Novice|JV+and+Novice|All+three&dummy=img.png
+</td>
+<td>
+http://chart.apis.google.com/chart?cht=p&chd=t:7,0,3,1&chs=300x75&chl=Open+and+JV|Open+and+Novice|JV+and+Novice|All+three&dummy=img.png
+</td>
+</tr>
+</table>
 <wiki:comment>
 http://chart.apis.google.com/chart?cht=v&chs=600x400&chd=t:114,84,81,8,1,4,1&chl=Open|JV|Novice&dummy=img.png
 </wiki:comment>
 
+
+
+
 Debaters:
 
-http://chart.apis.google.com/chart?cht=p&chd=t:4.78,72.99&chs=300x100&chl=Ever+hybrid|Never+hybrid&dummy=img.png
+http://chart.apis.google.com/chart?cht=p&chd=t:4.78,72.99&chs=400x200&chl=Ever+hybrid|Never+hybrid&dummy=img.png
 
-Every-hybrid debaters:
+Ever-hybrid debaters:
 
 http://chart.apis.google.com/chart?cht=p&chd=t:11.1,36.7&chs=300x100&chl=Always+hybrid|Sometimes+hybrid&dummy=img.png
