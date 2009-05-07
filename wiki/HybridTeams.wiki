@@ -1,18 +1,17 @@
-Sizes:
+#summary The number and status of hybrid teams
 
-Slices exact, pies very rough
+These charts are based on the data from DebateResultsDotCom. They aggregate the results over all five years available (2003-2008), but do not track debaters though the years. That is, stats are tracked via *debater-years* or *team-years*.
 
-debater-years, team-years, not debaters or teams
+The charts are not accurately sized in relation to each other; this would make some of them too small to read.
 
-Teams:
+= Teams =
 
-http://chart.apis.google.com/chart?cht=p&chd=t:2.70,64.65&chs=400x200&chl=Hybrid|Purebred&dummy=img.png
+|| *<p align="center">All Teams:</p>* || <p align="center">*Hybrid teams:*</p> ||
+|| http://chart.apis.google.com/chart?cht=p&chd=t:2.70,64.65&chs=400x200&chl=Hybrid|Purebred&chco=FF0000,0000FF&dummy=img.png || http://chart.apis.google.com/chart?cht=p&chd=t:2.0,9.3,15.7&chs=250x100&chl=All+ringer|Mixed|All+drone&chco=FF0000&dummy=img.png ||
 
-Hybrid teams:
+Only 4% of teams are hybrid. Of those, 7.4% are made up of members who only debated on hybrid teams (*"ringers"*), 58% are made up of members each of who debated at least once on at non-hybrid team (*"drones"*), and the remainder have at least one member of each type.
 
-http://chart.apis.google.com/chart?cht=p&chd=t:2.0,9.3,15.7&chs=250x100&chl=All+ringer|Mixed|All+drone&dummy=img.png
-
-Debaters:
+= Debaters =
 
 http://chart.apis.google.com/chart?cht=p&chd=t:4.78,72.99&chs=400x200&chl=Ever+hybrid|Never+hybrid&dummy=img.png
 
