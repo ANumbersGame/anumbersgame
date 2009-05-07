@@ -1,0 +1,15 @@
+Teams:
+
+http://chart.apis.google.com/chart?cht=p&chd=t:2.70,64.65&chs=200x100&chl=Hybrid|Purebred&dummy=img.png
+
+Hybrid teams:
+
+http://chart.apis.google.com/chart?cht=p&chd=t:2.0,9.3,15.7&chs=300x100&chl=Both+ringers|One+each|Both+drones&dummy=img.png
+
+Debaters:
+
+http://chart.apis.google.com/chart?cht=p&chd=t:4.78,72.99&chs=300x100&chl=Ever+hybrid|Never+hybrid&dummy=img.png
+
+Every-hybrid debaters:
+
+http://chart.apis.google.com/chart?cht=p&chd=t:11.1,36.7&chs=300x100&chl=Always+hybrid|Sometimes+hybrid&dummy=img.png
