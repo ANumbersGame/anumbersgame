@@ -8,11 +8,11 @@ http://chart.apis.google.com/chart?cht=p&chd=t:2.0,9.3,15.7&chs=300x100&chl=Both
 
 Hybrid team divisions:
 
-http://chart.apis.google.com/chart?cht=p&chd=t:10.6,7.3,7.7&chs=660x440&chl=Open|JV|Novice+or+Rookie&dummy=img.png
+Novice = Novice or Rookie
 
-http://chart.apis.google.com/chart?cht=p&chd=t:7,0,3&chs=460x100&chl=Open+and+JV|Open+and+Novice+or+Rookie|JV+and+Novice+or+Rookie&dummy=img.png
+http://chart.apis.google.com/chart?cht=p&chd=t:10.6,7.3,7.7,1.1&chs=300x100&chl=Open|JV|Novice|Two+or+more&dummy=img.png
 
-http://chart.apis.google.com/chart?cht=p&chd=t:1&chs=460x25&chl=JV+and+Novice+or+Rookie+and+Open&dummy=img.png
+http://chart.apis.google.com/chart?cht=p&chd=t:7,0,3,1&chs=300x100&chl=Open+and+JV|Open+and+Novice|JV+and+Novice|All+three&dummy=img.png
 
 <wiki:comment>
 http://chart.apis.google.com/chart?cht=v&chs=600x400&chd=t:114,84,81,8,1,4,1&chl=Open|JV|Novice&dummy=img.png
