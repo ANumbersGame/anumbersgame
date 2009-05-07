@@ -1,3 +1,7 @@
+alter table TeamNumbers add index (Speaker1), add index (Speaker2), add index (Speaker3);
+alter table MasterResults add index (AffTeam), add index (NegTeam), add index (Diivision);
+alter table MasterCompetitors add index (FirstName), add index (LastName);
+
 /* Does not count tournaments like Liberty, which disallow hybrids in outrounds */
 
 /* Some data errors? WGA Binder/Shultz 07-08 */
@@ -567,10 +571,22 @@ group by etid, TeamNum is null;
 
 /*select * from enteredtourneys;*/
 
-select count(*) as 'Tournaments disallowing hybrids:'
-from enteredtourneys 
-where HybridsOK = 0
+
+create temporary table nohybridtourneys
+select * from
+(
+select *, count(*) as num
+from enteredtourneys
+group by etid
+) as must
+where num = 1
 and TeamNum is null;
+
+/*select * from nohybridtourneys;*/
+
+select count(*) as 'Tournaments disallowing hybrids:'
+from nohybridtourneys 
+where HybridsOK = 0;
 
 select count(*) as 'Tournaments only nominally disallowing hybrids:'
 from enteredtourneys 
@@ -583,9 +599,8 @@ where HybridsOK = 1
 and TeamNum is not null;
 
 select count(*) as 'Tournaments allowing hybrids with no hybrid entries:'
-from enteredtourneys
-where HybridsOK = 1
-and TeamNum is null;
+from nohybridtourneys
+where HybridsOK = 1;
 
 /*
 select count(*) as 'Tournaments:'
@@ -603,11 +618,10 @@ from MasterResults;
 */
 
 select count(*) 'Ballots at tournaments disallowing hybrids:'
-from Ballots, MasterResults, enteredtourneys
+from Ballots, MasterResults, nohybridtourneys
 where MasterResultsID = MasterResults.ID
 and Tournament = etid
-and HybridsOK = 0
-and TeamNum is null;
+and HybridsOK = 0;
 
 select count(*) 'Ballots at tournaments only nominally disallowing hybrids:'
 from Ballots, MasterResults, enteredtourneys
@@ -624,11 +638,10 @@ and HybridsOK = 1
 and TeamNum is not null;
 
 select count(*) 'Ballots at tournaments nominally allowing hybrids, but with no hybrid entries:'
-from Ballots, MasterResults, enteredtourneys
+from Ballots, MasterResults, nohybridtourneys
 where MasterResultsID = MasterResults.ID
 and Tournament = etid
-and HybridsOK = 1
-and TeamNum is null;
+and HybridsOK = 1;
 
 /*
 select count(*) 'Ballots:'
