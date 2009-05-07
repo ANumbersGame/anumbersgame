@@ -13,24 +13,45 @@ On this page, a debater who has participated on a hybrid team is also called hyb
 || *<p align="center">All Teams:</p>* || <p align="center">*Hybrid teams:*</p> ||
 || http://chart.apis.google.com/chart?cht=p&chd=t:2.70,64.65&chs=300x200&chl=Hybrid|&chco=FF0000,0000FFA0&dummy=img.png || http://chart.apis.google.com/chart?cht=p&chd=t:2.0,9.3,15.7&chs=250x100&chl=All+ringer|Mixed|All+drone&chco=FF0000A0&dummy=img.png ||
 
-Only 4% of teams are hybrid. Of those, 7.4% are made up of members who only debated on hybrid teams (*"ringers"*), 58% are made up of members each of who debated at least once on at non-hybrid team (*"drones"*), and the remainder have at least one member of each type.
+Only 4% of teams are hybrid. Of those, 7.4% are made up of ringers, 58% are made up of drones, and the remainder of teams are mixed.
 
 = Debaters =
 
 || *<p align="center">All debaters:</p>* || *<p align="center">Hybrid debaters:</p>* ||
 || http://chart.apis.google.com/chart?cht=p&chd=t:4.78,72.99&chs=300x200&chl=Hybrid|&chco=FF0000,0000FFA0&dummy=img.png || http://chart.apis.google.com/chart?cht=p&chd=t:11.1,36.7&chs=300x100&chl=Ringer|Drone&chco=FF0000A0&dummy=img.png ||
 
-Tournaments:
+6.1% of debaters are hybrids. 23% of these are ringers.
 
-http://chart.apis.google.com/chart?cht=p&chd=t:10.2,5.5,12.1,7.7&chs=350x100&chl=Disallowed|Secretly+allowed|Allowed|Hypothetically+allowed&dummy=img.png
+= Tournaments and Ballots =
 
-Ballots at tournaments:
+DebateResultsDotCom allows tournaments to specify whether or not they permit hybrid teams. Some tournaments, like Liberty, only allow hybrids in preliminary rounds, yet are still registered with "HybridsOK".
 
-http://chart.apis.google.com/chart?cht=p&chd=t:20.060,14.002,33.083,13.845&chs=350x100&chl=Disallowed|Secretly+allowed|Allowed|Hypothetically+allowed&dummy=img.png
+== Legend ==
 
-Team divisions:
+<dl>
+<dt>*Disallowed*</dt>
+<dd>Tournaments that disallowed hybrids</dd>
+<dt>*Quietly allowed*</dt>
+<dd>Tournaments that are registered as disallowing hybrids but that did have some hybrid teams competing</dd>
+<dt>*Allowed*</dt>
+<dd>Tournaments that allowed hybrids</dd>
+<dt>*Hypothetically allowed*</dt>
+<dd>Tournaments that are registered as allowing hybrids but did not have any hybrid teams competing</dd>
+</dl>
 
-Novice = Novice or Rookie
+http://chart.apis.google.com/chart?cht=p&chd=t:10.2,5.5,12.1,7.7&chs=420x200&chl=Disallowed|Quietly+allowed|Allowed|Hypothetically+allowed&chtt=Tournaments&dummy=img.png
+
+http://chart.apis.google.com/chart?cht=p&chd=t:20.060,14.002,33.083,13.845&chs=420x200&chl=Disallowed|Secretly+allowed|Allowed|Hypothetically+allowed&chtt=Ballots+at+tournaments&dummy=img.png
+
+== Summary ==
+
+  * 157 tournaments registered as not allowing hybrids, but 35% of these actually did have hybrids competing.
+  * 61% of the 198 tournaments that did allow hybrids actually had some hybrids debating.
+  * Tournaments where hybrids debated generated proportionally (and absolutely) more ballots than those where no hybrids debated.
+
+= Team divisions =
+
+For this section, the Novice and Rookie divisions are considered to be one.
 
 All:
 <table>
