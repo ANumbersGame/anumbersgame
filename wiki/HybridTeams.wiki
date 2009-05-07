@@ -57,3 +57,5 @@ For this section, the Novice and Rookie divisions are considered to be one.
 || || <p align="center">*One Division*</p> || <p align="center">*Multiple Divisions*</p> ||
 || *All debate teams* || http://chart.apis.google.com/chart?cht=p&chd=t:29.07,11.20,17.77,7.49&chs=437x300&chl=Open|JV|Novice|Combination&chco=00A000A0,00A00060,00A00020,004080&dummy=img.png || http://chart.apis.google.com/chart?cht=p&chd=t:58.8,7.6,18.5,8.2&chs=400x150&chl=Open+and+JV|Open+and+Novice|JV+and+Novice|All+three&chco=004080A0,00408060,00408020,800040&dummy=img.png ||
 || *Hybrid debate teams* || http://chart.apis.google.com/chart?cht=p&chd=t:10.6,7.3,7.7,1.1&chs=320x150&chl=Open|JV|Novice|Combination&chco=00A000A0,00A00060,00A00020,004080&dummy=img.png || http://chart.apis.google.com/chart?cht=p&chd=t:7,0,3,1&chs=300x75&chl=Open+and+JV|Open+and+Novice|JV+and+Novice|All+three&chco=004080A0,00408060,00408020,800040&dummy=img.png ||
+
+54% of teams participated in an open round. 29% of teams participated in a JV round. 31% of teams participated in a novice round.
