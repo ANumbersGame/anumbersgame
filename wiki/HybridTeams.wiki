@@ -37,17 +37,23 @@ http://chart.apis.google.com/chart?cht=p&chd=t:7,0,3,1&chs=300x75&chl=Open+and+J
 </td>
 </tr>
 </table>
+
 <wiki:comment>
 http://chart.apis.google.com/chart?cht=v&chs=600x400&chd=t:114,84,81,8,1,4,1&chl=Open|JV|Novice&dummy=img.png
 </wiki:comment>
-
-
-
 
 Debaters:
 
 http://chart.apis.google.com/chart?cht=p&chd=t:4.78,72.99&chs=400x200&chl=Ever+hybrid|Never+hybrid&dummy=img.png
 
-Ever-hybrid debaters:
+Once-hybrid debaters:
 
 http://chart.apis.google.com/chart?cht=p&chd=t:11.1,36.7&chs=300x100&chl=Always+hybrid|Sometimes+hybrid&dummy=img.png
+
+Tournaments:
+
+http://chart.apis.google.com/chart?cht=p&chd=t:10.2,5.5,12.1,7.7&chs=350x100&chl=Disallowed|Secretly+allowed|Allowed|Hypothetically+allowed&dummy=img.png
+
+Ballots at tournaments:
+
+http://chart.apis.google.com/chart?cht=p&chd=t:20.060,14.002,33.083,13.845&chs=350x100&chl=Disallowed|Secretly+allowed|Allowed|Hypothetically+allowed&dummy=img.png
