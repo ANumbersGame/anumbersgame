@@ -8,7 +8,7 @@ The charts are not exactly accurately sized in relation to each other; this woul
 
 == Terminology ==
 
-On this page, a debater who has participated on a hybrid team is also called hybrid. Debaters who have _only_ participated on hybrid teams are called *ringers*, all others hybrid debaters are *drones*
+On this page, a debater who has participated on a hybrid team is also called hybrid. Debaters who have _only_ participated on hybrid teams are called *ringers*, all other hybrid debaters are *drones*
 
 = Teams =
 
@@ -20,7 +20,7 @@ Only 4% of teams are hybrid. Of those, 7.4% are made up of ringers, 58% are made
 = Debaters =
 
 || *<p align="center">All debaters:</p>* || *<p align="center">Hybrid debaters:</p>* ||
-|| http://chart.apis.google.com/chart?cht=p&chd=t:4.78,72.99&chs=300x200&chl=Hybrid|&chco=FF0000,0000FFA0&dummy=img.png || http://chart.apis.google.com/chart?cht=p&chd=t:11.1,36.7&chs=300x100&chl=Ringer|Drone&chco=FF0000A0&dummy=img.png ||
+|| http://chart.apis.google.com/chart?cht=p&chd=t:4.78,72.99&chs=300x200&chl=Hybrid|&chco=FF0000,0000FFA0&dummy=img.png || http://chart.apis.google.com/chart?cht=p&chd=t:11.1,36.7&chs=300x100&chl=Ringers|Drones&chco=FF0000A0&dummy=img.png ||
 
 6.1% of debaters are hybrids. 23% of these are ringers.
 
