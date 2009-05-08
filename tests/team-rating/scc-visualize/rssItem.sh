@@ -2,7 +2,7 @@
 
 URLBASE="http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize/"
 THUMB=$1
-THUMBURL=$(echo $THUMB | sed 's/ /\%20/g')
+THUMBURL=$(echo "$THUMB" | sed 's/ /\%20/g')
 ORIGURL=${THUMBURL/thumbs\///}
 NAME=${THUMB/thumbs\/DebateResults//}
 
