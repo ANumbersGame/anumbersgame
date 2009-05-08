@@ -1,9 +1,9 @@
 open WinsGraph
 open ReadWinMatrix
 
-let wins = fillWins ()
+let _,wins = fillWins ()
 
-let _,arls,_ = sccDag (fromMatrix (Array.length wins) wins)
+let _,arls,_ = sizedSccDag (fromMatrix (Array.length wins) wins)
 
 let n = Array.length arls
 
