@@ -83,3 +83,15 @@ and
  terid = Speaker2
  OR
  terid = Speaker3);
+
+select concat(FirstName,' ',LastName) as '2007-2008 NDT freshperson list:'
+from ndters, freshdebaters, DebateResults0708.TeamNumbers, DebateResults0708.MasterCompetitors
+where TeamNum = ndtid
+and 
+(terid = Speaker1
+ OR
+ terid = Speaker2
+ OR
+ terid = Speaker3)
+and
+(terid = CompetitorID);
