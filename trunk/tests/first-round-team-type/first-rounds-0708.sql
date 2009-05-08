@@ -56,3 +56,12 @@ AND NegNum.RecvdFirstRd = b'1'
 AND AffTeam != 321 /* NW BM */
 AND AffTeam != 348 /* Emory MS */
 GROUP BY JudgeDec;
+
+SELECT JudgeDec, COUNT(*)
+FROM Ballots,MasterResults,TeamNumbers as AffNum, TeamNumbers as NegNum
+WHERE MasterResultsID = ID
+AND AffTeam = AffNum.TeamNum
+AND NegTeam = NegNum.TeamNum
+AND AffNum.FirstRd = 1
+AND NegNum.FirstRd = 1
+GROUP BY JudgeDec;

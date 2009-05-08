@@ -5,7 +5,7 @@ ADD COLUMN FirstRdCharacter
 ENUM('critique','policy','mainly policy')
 NULL
 DEFAULT NULL
-COMMENT 'Characterization of first rounds by Nate Cohn';
+COMMENT 'Characterization of aff strategies of first rounds by Nate Cohn';
 
 ALTER TABLE TeamNumbers
 ADD INDEX (FirstRdCharacter);
@@ -55,6 +55,7 @@ These are not the most efficient, but they're fast enough
 */
 
 SELECT AffNum.FirstRdCharacter as `aff type`, 
+NegNum.FirstRdCharacter as `neg type`, 
 IF(JudgeDec=1,'AFF','   neg') as `winner`, 
 COUNT(*)
 FROM Ballots,MasterResults,TeamNumbers as AffNum, TeamNumbers as NegNum
@@ -64,4 +65,4 @@ AND NegTeam = NegNum.TeamNum
 AND AffNum.FirstRdCharacter IS NOT NULL
 AND NegNum.FirstRdCharacter IS NOT NULL
 AND (JudgeDec = 1 OR JudgeDec = 2)
-GROUP BY AffNum.FirstRdCharacter, JudgeDec;
+GROUP BY AffNum.FirstRdCharacter, NegNum.FirstRdCharacter, JudgeDec;
