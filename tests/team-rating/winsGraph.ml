@@ -1,17 +1,5 @@
 open Graph
-(*
-module IntComp = struct 
-  type t = int 
-  let compare = compare 
-  let hash = Hashtbl.hash 
-  let equal = (=)
-end
-*)
 open Graph.Pack.Digraph
-(*
-module G = Imperative.Digraph.Concrete(IntComp)
-open G
-*)
 
 let vertices n = Array.mapi (fun i _ -> V.create i) (Array.make n ())
 
@@ -77,7 +65,7 @@ let sizedSccDag (wl,g) =
       let mean = listSum records /. m in
       let square x = x *. x in
       let devSum = listSum (List.map (fun v -> square (v -. mean)) records) in
-      let stddev = sqrt devSum /. m in
+      let _ = sqrt devSum /. m in
 	v.(i) <- (i,mean,arls.(i));
 	S.add_vertex ans v.(i)
     done;
