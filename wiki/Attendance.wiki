@@ -7,3 +7,5 @@ http://chart.apis.google.com/chart?cht=lc&chs=700x400&chd=t:174,180,180,176,183,
 </p>
 
 Note that there was a sharp drop off in CEDA attendance when it was in Pocatello. There was a similar increase for NDT district attendance when the NDT was in Evanston.
+
+[http://code.google.com/p/anumbersgame/source/browse/trunk/tests/attendance/ The actual attendance numbers are available in the source repository.]
