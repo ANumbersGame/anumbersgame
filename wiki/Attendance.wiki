@@ -1,0 +1,9 @@
+There has been some discussion on edebate about the effect of the location of CEDA Nationals on that tournament's attendance. [http://www.ndtceda.com/pipermail/edebate/2009-May/078672.html [1]] [http://www.mail-archive.com/edebate@www.ndtceda.com/msg08871.html [mirror 1]] [http://article.gmane.org/gmane.education.region.usa.edebate/9189 [mirror 2]] [http://www.ndtceda.com/pipermail/edebate/2009-May/078681.html [2]] [http://www.mail-archive.com/edebate@www.ndtceda.com/msg08880.html [mirror 1]] [http://article.gmane.org/gmane.education.region.usa.edebate/9198 [mirror 2]]
+
+I thought it might be interesting to compare past CEDA Nats attendance against past NDT district qualifying tournament attendance. Historical data on district qualifying tournament attendance is available for the years ending in 2004 through 2009, for all Districts except 2, 4, and 9. The comparison below is between the number of teams competing in those qualifiers and the number of teams at CEDA Nats.
+
+The location tags are incorrect.
+
+<p align="center">
+http://chart.apis.google.com/chart?cht=lc&chs=400x300&chd=t:174,180,180,176,183,146|95,109,131,111,110,112&chds=80,200,80,200&chm=o,,0,-1,5|o,,1,-1,5&chdl=CEDA|Districts&chxt=x,x,y&chxr=0,2004,2009,1|2,80,200,40&chxl=1:|Alabama|Alaska|Arizona|Arkansas|California|Colorado&chco=ff0000a0,0000ffa0&dummy=img.png
+</p>
