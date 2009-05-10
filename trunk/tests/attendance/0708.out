@@ -1,0 +1,21 @@
+count(*) = 8
+1
+Dist	Rounds	Div	TourneyName
+1	42	1	District 1 NDT Qualifier 
+3	96	1	District III Ndt Qualifying Tournament
+4	40	1	District IV NDT Qualifer @ Mac
+5	48	1	D5 Qualifier
+6	73	1	D6 & SE/C CEDA Regional
+7	109	1	District 7 Qualifier/Mid Atlantic Ceda Champs
+8	32	1	Northeast/District 8 Regional Championship
+9	48	1	District 9 Qualifier at ENMU
+1	55	2	District 1 NDT Qualifier 
+6	27	2	D6 & SE/C CEDA Regional
+8	49	2	Northeast/District 8 Regional Championship
+1	61	3	District 1 NDT Qualifier 
+6	33	3	D6 & SE/C CEDA Regional
+8	81	3	Northeast/District 8 Regional Championship
+District Teams
+110
+CEDA Teams
+183
