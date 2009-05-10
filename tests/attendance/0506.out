@@ -1,0 +1,19 @@
+count(*) = 9
+0
+Dist	Rounds	Div	TourneyName
+1	46	1	District 1 NDT Qualifier
+3	96	1	District III NDT
+4	18	1	District 4 Qualifier
+5	64	1	District 5 NDT Qualifier
+6	121	1	D6 NDT Qualifier and SEC/SE CEDA
+7	80	1	District VII-NDT Qualifying Tournament
+8	60	1	District 8 NDT qualifier
+9	20	1	District 9 NDT Qualifier
+1	54	2	District 1 NDT Qualifier
+6	21	2	D6 NDT Qualifier and SEC/SE CEDA
+1	61	3	District 1 NDT Qualifier
+6	27	3	D6 NDT Qualifier and SEC/SE CEDA
+District Teams
+131
+CEDA Teams
+180
