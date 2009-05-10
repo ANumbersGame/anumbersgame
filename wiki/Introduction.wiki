@@ -9,5 +9,6 @@ As of May 7, 2009, the novel measurements here are:
   * JudgeSideBias
   * TournamentCharts
   * HybridTeams
+  * [Attendance]
 
 Please feel free to recommend statistics you would like to see by using [http://code.google.com/p/anumbersgame/issues/list the issue tracker].
