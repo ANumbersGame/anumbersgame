@@ -4,7 +4,7 @@ The goal of this project is to produce some interesting statistics from aggregat
 
 Right now, the only raw data used is from DebateResultsDotCom.
 
-As of May 11, 2009, the novel data analyses here are:
+As of May 11, 2009, the data analyses available here are:
 
   * JudgeSideBias
   * [TournamentCharts Transitive preliminary win graphs for tournaments]
