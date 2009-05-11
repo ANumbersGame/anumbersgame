@@ -1,6 +1,6 @@
 #summary Possible bug in TRPC miscalculates NDT outround seeds
 
-Cumulative results sheets at the NDT sometimes misstate team points, possibly due to a bug in Tab Room on the PC (TRPC). This has created incorrect seeding in NDT elimination rounds at least thrice in the past five years.
+Cumulative results sheets at the NDT sometimes misstate team points, possibly due to a bug in [http://www3.baylor.edu/~Richard_Edwards/TRPC.html Tab Room on the PC (TRPC)]. This has created incorrect seeding in NDT elimination rounds at least thrice in the past five years.
 
 = How should NDT team points be calculated? =
 
