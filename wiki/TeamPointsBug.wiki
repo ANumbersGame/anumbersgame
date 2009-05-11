@@ -20,19 +20,21 @@ Note that the adjusted combined score includes 46 values, while the other two sc
 
 = How are NDT team points calculated? =
 
-For about half of the teams I checked, the team score listed on the results sheet is the combined adjusted score. For a few of the teams, the team score is the doubly-adjusted combined score. For no teams is the adjusted combined score listed, as this would be over 50 points higher due to its inclusion of two more values.
+For about half of the teams I checked, the team score listed on the results sheet is the combined adjusted score. For a few of the teams, the team score is the doubly-adjusted combined score. For no team is the adjusted combined score listed; this score would be over 50 points higher due to its inclusion of two more values.
 
 For some teams, the results sheet gives a team score that matches none of the possible team scores listed above. As an example, at the 2009 NDT, Towson JM had the following speaker points:
 
-|| Jackson adjusted speaker points || 618.0  ||
-|| Murray adjusted speaker points  || 622.0  ||
-|| Combined adjusted points        || 1240.0 ||
-|| Jackson total speaker points    || 674.0  ||
-|| Murray total speaker points     || 679.0  ||
-|| Combined total points           || 1353.0 ||
-|| Adjusted combined points        || 1297.0 ||
-|| Twice-adjusted combined points  || 1240.5 ||
-|| Cumulative sheet team points    || 1239.5 ||
+<table>
+<tr><td> Jackson adjusted speaker points </td><td align="right"> 618.0  </td></tr>
+<tr><td> Murray adjusted speaker points  </td><td align="right"> 622.0  </td></tr>
+<tr><td> Combined adjusted points        </td><td align="right"> 1240.0 </td></tr>
+<tr><td> Jackson total speaker points    </td><td align="right"> 674.0  </td></tr>
+<tr><td> Murray total speaker points     </td><td align="right"> 679.0  </td></tr>
+<tr><td> Combined total points           </td><td align="right"> 1353.0 </td></tr>
+<tr><td> Adjusted combined points        </td><td align="right"> 1297.0 </td></tr>
+<tr><td> Twice-adjusted combined points  </td><td align="right"> 1240.5 </td></tr>
+<tr><td> Cumulative sheet team points    </td><td align="right"> 1239.5 </td></tr>
+</table>
 
 <p>
 = Seeding errors =
