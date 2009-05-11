@@ -41,13 +41,18 @@ For some teams, the results sheet gives a team score that matches none of the po
 
 I have checked the four NDTs for which there are cumulative sheets on the NDT website (2005, 2007-09), and I have found three seeding errors induced by badly-calculated speaker points:
 
-|| Year || Seed || Team            || Sheet  || Combined Adjusted || Twice-Adjusted Combined || Total  || Adjusted Combined ||
-|| 2009 || 28   || Berkeley BG     || 1239.5 || 1239.0            || 1239.0                  || 1351.5 || 1295.0            ||
-|| 2009 || 29   || Towson JM       || 1239.5 || 1240.0            || 1240.5                  || 1353.0 || 1297.0            ||
-|| 2007 || 5    || Northwestern BW || 1244.5 || 1244.5            || 1244.0                  || 1357.0 || 1300.5            ||
-|| 2007 || 6    || Southern Cal IS || 1244.5 || 1245.0            || 1245.0                  || 1358.0 || 1301.5            ||
-|| 2005 || 23   || Emory CG        || 1242.5 || 1243.0            || 1243.0                  || 1355.5 || 1299.0            ||
-|| 2005 || 24   || Dartmouth BeM   || 1242.5 || 1243.5            || 1243.0                  || 1356.5 || 1300.0            ||
+<table border="1">
+<tr>
+<th> Year </th><th> Seed </th><th> Team </th><th> Sheet </th><th> Combined Adjusted </th><th> Twice-Adjusted Combined </th><th> Total </th><th> Adjusted Combined </th>
+</tr><tr>
+<td> 2009 </td><td align="center"> 28 </td><td align="center"> Berkeley BG </td><td align="center"> 1239.5 </td><td align="center"> 1239.0 </td><td align="center"> 1239.0 </td><td align="center"> 1351.5 </td><td align="center"> 1295.0 </td>
+</tr>
+<tr><td> 2009 </td><td align="center"> 29   </td><td align="center"> Towson JM       </td><td align="center"> 1239.5 </td><td align="center"> 1240.0            </td><td align="center"> 1240.5                  </td><td align="center"> 1353.0 </td><td align="center"> 1297.0            </td></tr>
+<tr><td> 2007 </td><td align="center"> 5    </td><td align="center"> Northwestern BW </td><td align="center"> 1244.5 </td><td align="center"> 1244.5            </td><td align="center"> 1244.0                  </td><td align="center"> 1357.0 </td><td align="center"> 1300.5            </td></tr>
+<tr><td> 2007 </td><td align="center"> 6    </td><td align="center"> Southern Cal IS </td><td align="center"> 1244.5 </td><td align="center"> 1245.0            </td><td align="center"> 1245.0                  </td><td align="center"> 1358.0 </td><td align="center"> 1301.5            </td></tr>
+<tr><td> 2005 </td><td align="center"> 23   </td><td align="center"> Emory CG        </td><td align="center"> 1242.5 </td><td align="center"> 1243.0            </td><td align="center"> 1243.0                  </td><td align="center"> 1355.5 </td><td align="center"> 1299.0            </td></tr>
+<tr><td> 2005 </td><td align="center"> 24   </td><td align="center"> Dartmouth BeM   </td><td align="center"> 1242.5 </td><td align="center"> 1243.5            </td><td align="center"> 1243.0                  </td><td align="center"> 1356.5 </td><td align="center"> 1300.0            </td></tr>
+</table>
 
 Each of these pairs should have reversed seeding. Many other teams had incorrectly calculated speaker point totals, but these did not affect seeding. I have not seen any errors of over one point, but each year several pairs of consecutive seeds are separated by an adjusted speaker point or less.
 
