@@ -24,16 +24,16 @@ For about half of the teams I checked, the team score listed on the results shee
 
 For some teams, the results sheet gives a team score that matches none of the possible team scores listed above. As an example, at the 2009 NDT, Towson JM had the following speaker points:
 
-<table>
+<table border="1">
 <tr><td> Jackson adjusted speaker points </td><td align="right"> 618.0  </td></tr>
 <tr><td> Murray adjusted speaker points  </td><td align="right"> 622.0  </td></tr>
-<tr><td> Combined adjusted points        </td><td align="right"> 1240.0 </td></tr>
+<tr><th> Combined adjusted points        </th><th align="right"> 1240.0 </th></tr>
 <tr><td> Jackson total speaker points    </td><td align="right"> 674.0  </td></tr>
 <tr><td> Murray total speaker points     </td><td align="right"> 679.0  </td></tr>
 <tr><td> Combined total points           </td><td align="right"> 1353.0 </td></tr>
 <tr><td> Adjusted combined points        </td><td align="right"> 1297.0 </td></tr>
-<tr><td> Twice-adjusted combined points  </td><td align="right"> 1240.5 </td></tr>
-<tr><td> Cumulative sheet team points    </td><td align="right"> 1239.5 </td></tr>
+<tr><th> Twice-adjusted combined points  </th><th align="right"> 1240.5 </th></tr>
+<tr><th> Cumulative sheet team points    </th><th align="right"> 1239.5 </th></tr>
 </table>
 
 <p>
