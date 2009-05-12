@@ -12,8 +12,8 @@ Note that there was a sharp drop off in CEDA attendance when it was in Pocatello
 
 The use of district qualifier participation to model the overall number of teams willing to participate in national varsity tournaments is not perfect. There are many teams that go to CEDA Nats without any hope of qualifying for the NDT, and there are many teams that qualify for the NDT that do not attend CEDA Nats.
 
-To judge the abilities of competitors attending CEDA Nats, we can check what divisions they debate in. For CEDA Nats from 2004 through 2008, we look at each debater who attended in that year, then see what divisions he or she has chosen to debate in at other tournaments that year. 57% debated mainly in open divisions. For the remaining 43%, we weigh each tournament equally, then produce an average of each debater's division:
+To judge the abilities of competitors attending CEDA Nats, we can check what divisions they debate in. For CEDA Nats from 2004 through 2008, we look at each debater who attended in that year, then see what divisions he or she has chosen to debate in at other tournaments that year. 57% debated mainly in open divisions. For the remaining 43%, we weigh each tournament equally, then produce an average of each debater's division. This is a histogram of debaters per year with the given divisional average:
 
 <p align="center">
-http://chart.apis.google.com/chart?cht=bvs&chs=400x300&chd=t:32,36,19,27,49,16,92,86,53,107,137,107&chds=0,160&chxt=x,y&chxr=1,0,160,40&chxl=0:|Novice|||Novice/JV|||JV|||JV/Open|||&dummy=img.png
+http://chart.apis.google.com/chart?cht=bvs&chs=400x300&chd=t:32,36,19,27,49,16,92,86,53,107,137,107&chds=0,150&chxt=x,y&chxr=1,0,30,10&chxl=0:|Novice|||Novice/JV|||JV|||JV/Open|||&dummy=img.png
 </p>
