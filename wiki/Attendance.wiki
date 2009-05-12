@@ -5,7 +5,7 @@ There has been some discussion on edebate about the effect of the location of CE
 I thought it might be interesting to compare past CEDA Nats attendance against past NDT district qualifying tournament attendance. Historical data on district qualifying tournament attendance is available for the years ending in 2004 through 2009, for all Districts except 2, 4, and 9. The comparison below is between the number of teams competing in those qualifiers and the number of teams at CEDA Nats.
 
 <p align="center">
-http://chart.apis.google.com/chart?cht=lc&chs=700x400&chd=t:174,180,180,176,183,146|95,109,131,111,110,112&chds=80,200,80,200&chm=o,,0,-1,5|o,,1,-1,5&chdl=CEDA|NDT%20Districts&chxt=x,x,x,y&chxr=0,2004,2009,1&chxl=3:||120|160|200|2:|NDT%20Location|DC|Spokane|Evanston|Dallas|Fullerton|Austin|1:|CEDA%20Location|Louisville|San%20Francisco|Dallas|Norman|Wichita|Pocatello&&chxp=1,-20,0,20,40,60,80,100|2,-20,0,20,40,60,80,100&chco=ff0000a0,0000ffa0&dummy=img.png
+http://chart.apis.google.com/chart?cht=lc&chs=700x400&chd=t:174,180,180,176,183,146|95,109,131,111,110,112&chds=50,200,50,200&chm=o,,0,-1,5|o,,1,-1,5&chdl=CEDA|NDT%20Districts&chxt=x,x,x,y&chxr=0,2004,2009,1&chxl=3:||75|100|125|150|175|200|2:|NDT%20Location|DC|Spokane|Evanston|Dallas|Fullerton|Austin|1:|CEDA%20Location|Louisville|San%20Francisco|Dallas|Norman|Wichita|Pocatello&&chxp=1,-20,0,20,40,60,80,100|2,-20,0,20,40,60,80,100&chco=ff0000a0,0000ffa0&chg=200,16.7&dummy=img.png
 </p>
 
 Note that there was a sharp drop off in CEDA attendance when it was in Pocatello. There was a similar increase for NDT district attendance when the NDT was in Evanston. [http://code.google.com/p/anumbersgame/source/browse/trunk/tests/attendance/ The actual attendance numbers are available in the source repository.]
