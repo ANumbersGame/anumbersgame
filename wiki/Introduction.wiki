@@ -7,7 +7,7 @@ Right now, the only raw data used is from DebateResultsDotCom.
 As of May 11, 2009, the data analyses available here are:
 
   * JudgeSideBias
-  * [TournamentCharts Transitive preliminary win graphs for tournaments]
+  * [TournamentCharts Transitive prelim rounds win graphs for tournaments]
   * HybridTeams
   * [Attendance CEDA vs. NDT applicants/attendees]
   * [http://anumbersgame.googlecode.com/svn/trunk/tests/first-round-team-type/README.txt Resolutional side bias of first round types by affirmative style]
