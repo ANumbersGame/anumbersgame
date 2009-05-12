@@ -10,7 +10,6 @@ As of May 11, 2009, the data analyses available here are:
   * [TournamentCharts Transitive preliminary win graphs for tournaments]
   * HybridTeams
   * [Attendance CEDA vs. NDT applicants/attendees]
-  * [TeamPointsBug A bug in TRPC that caused errors in NDT elim seeding]
   * [http://anumbersgame.googlecode.com/svn/trunk/tests/first-round-team-type/README.txt Resolutional side bias of first round types by affirmative style]
   * [http://anumbersgame.googlecode.com/svn/trunk/tests/4-year-ndt/README.txt How many freshpersons might consider skipping an NDT under the only-four-NDTs rule?]
 
