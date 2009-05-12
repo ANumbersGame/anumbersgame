@@ -4,10 +4,10 @@
 
 The explanation for the error was posted on [http://article.gmane.org/gmane.education.region.usa.edebate/9228 edebate] (mirrors: [http://www.ndtceda.com/pipermail/edebate/2009-May/078711.html [1]] [http://www.mail-archive.com/edebate@www.ndtceda.com/msg08910.html [2]]).
 
-<font color="gray">
+<font color="#CCCCCC">
 Cumulative results sheets at the NDT often misstate team points by a small amount, possibly due to a bug in [http://www3.baylor.edu/~Richard_Edwards/TRPC.html Tab Room on the PC (TRPC)]. This has created incorrect seeding in NDT elimination rounds at least thrice in the past five years.
 
-= How should NDT team points be calculated? =
+== How should NDT team points be calculated? ==
 
 The [http://groups.wfu.edu/NDT/Documents/ndtrules.html NDT standing rules] state:
 
@@ -23,7 +23,7 @@ To distinguish amongst these scores, I'll call them the *combined adjusted*, *ad
 
 Note that the adjusted combined score includes 46 values, while the other two scores include only 44.
 
-= How are NDT team points calculated? =
+== How are NDT team points calculated? ==
 
 For about half of the teams I checked, the team score listed on the results sheet is the combined adjusted score. For a few of the teams, the team score is the doubly-adjusted combined score. For no team is the adjusted combined score listed; this score would be over 50 points higher due to its inclusion of two more values.
 
@@ -42,7 +42,7 @@ For some teams, the results sheet gives a team score that matches none of the po
 </table>
 
 <p>
-= Seeding errors =
+== Seeding errors ==
 
 I have checked the four NDTs for which there are cumulative sheets on the NDT website (2005, 2007-09), and I have found three seeding errors induced by badly-calculated speaker points:
 
