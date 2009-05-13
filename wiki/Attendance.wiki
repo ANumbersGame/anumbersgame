@@ -17,3 +17,17 @@ To judge the abilities of competitors attending CEDA Nats, we can check what div
 <p align="center">
 http://chart.apis.google.com/chart?cht=bvs&chs=400x300&chd=t:32,36,19,27,49,16,92,86,53,107,137,107&chds=0,150&chxt=x,y&chxr=1,0,30,10&chxl=0:|Novice|||Novice/JV|||JV|||JV/Open|||&dummy=img.png
 </p>
+
+We might also ask which NDT teams attend CEDA Nats. The chart below uses the three years of NDT tournament results available on DebateResultsDotCom to calculate a 20-team running average of how often the team in each place at the NDT attends CEDA Nats. Place is calculated using [http://commweb.fullerton.edu/jbruschke/web/BruschkeExplanation.aspx Bruschke's method]:
+
+ Obviously, first and second place are determined by who won the final round, third and fourth are determined by ranking the semi-finalists by normal criteria (prelim wins first, then adjusted points, then total points), fifth through eighth by ranking the quarter-finalists, and so on, finally ranking all the teams that didn't clear.
+
+The method is modified to fit the [http://groups.wfu.edu/NDT/Documents/ndtrules.html NDT standing rules], section V.C.2:
+
+ The criteria for determining the seeding for elimination rounds shall be administered in the following order: (1) wins, (2) ballots, (3) adjusted combined speaker points (dropping high and low ballots), (4) continue dropping high and low ballots down to twelve remaining ballots, (5) flip of a coin.
+
+A little over half of NDT teams attend CEDA Nats, and there is only a _very_ slight inverse correlation between NDT place and CEDA Nats attendance.
+
+<p align="center">
+http://chart.apis.google.com/chart?cht=bvg&chbh=a&chm=D,,1,0,1&chbh=a&chs=400x300&chd=t1:2,3,1,1,1,1,1,1,2,3,2,1,1,2,3,2,3,3,2,2,0,1,1,0,2,1,3,2,2,3,2,1,3,2,2,3,1,2,0,2,0,1,3,2,1,0,2,2,3,1,2,2,1,2,1,3,2,1,1,0,2,0,1,2,3,2,2,1,1,2,1,2,2,2,0,2,1,2|-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,1.85,1.75,1.65,1.65,1.6,1.65,1.65,1.75,1.8,1.8,1.8,1.8,1.8,1.9,1.9,1.85,1.9,1.8,1.75,1.65,1.65,1.65,1.65,1.75,1.85,1.8,1.75,1.7,1.7,1.75,1.65,1.65,1.7,1.6,1.6,1.55,1.55,1.6,1.55,1.6,1.5,1.6,1.55,1.45,1.45,1.55,1.65,1.65,1.6,1.5,1.55,1.5,1.5,1.55,1.55,1.5,1.45,1.4,1.45,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0&chds=0,3,0,3&chxt=x,y&chxl=1:||25%|50%|75%|100%|0:|worst|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||best|&chco=FFFFAA&chma=0,30,0,0&dummy=img.png
+</p>
