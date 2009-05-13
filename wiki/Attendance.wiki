@@ -30,7 +30,7 @@ http://chart.apis.google.com/chart?cht=bvs&chs=400x300&chd=t:32,36,19,27,49,16,9
 
 = NDT preference =
 
-We might also ask which NDT teams attend CEDA Nats. The chart below uses the three years of NDT tournament results available on DebateResultsDotCom to calculate a 20-team running average of how often the team in each place at the NDT attends CEDA Nats. Place is calculated using [http://commweb.fullerton.edu/jbruschke/web/BruschkeExplanation.aspx Bruschke's method]:
+We might also ask which NDT teams skip CEDA Nats. The chart below uses the three years of NDT tournament results available on DebateResultsDotCom to calculate a 20-team running average of how often the team in each place at the NDT attends CEDA Nats. Place is calculated using [http://commweb.fullerton.edu/jbruschke/web/BruschkeExplanation.aspx Bruschke's method]:
 
  Obviously, first and second place are determined by who won the final round, third and fourth are determined by ranking the semi-finalists by normal criteria (prelim wins first, then adjusted points, then total points), fifth through eighth by ranking the quarter-finalists, and so on, finally ranking all the teams that didn't clear.
 
