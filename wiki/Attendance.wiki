@@ -30,7 +30,7 @@ http://chart.apis.google.com/chart?cht=bvs&chs=400x300&chd=t:32,36,19,27,49,16,9
 
 = NDT preference =
 
-We might also ask which NDT teams skip CEDA Nats. The chart below uses the three years of NDT tournament results available on DebateResultsDotCom to calculate a 20-team running average of how often the team in each place at the NDT attends CEDA Nats. Place is calculated using [http://commweb.fullerton.edu/jbruschke/web/BruschkeExplanation.aspx Bruschke's method]:
+We might also ask which NDT teams skip CEDA Nats. The chart below uses the three years of NDT tournament results available on DebateResultsDotCom (2006-08) to calculate a 20-team running average of how often the team in each place at the NDT attends CEDA Nats. Place is calculated using [http://commweb.fullerton.edu/jbruschke/web/BruschkeExplanation.aspx Bruschke's method]:
 
  Obviously, first and second place are determined by who won the final round, third and fourth are determined by ranking the semi-finalists by normal criteria (prelim wins first, then adjusted points, then total points), fifth through eighth by ranking the quarter-finalists, and so on, finally ranking all the teams that didn't clear.
 
@@ -43,3 +43,7 @@ A little over half of NDT teams attend CEDA Nats, and there is only a _very_ sli
 <p align="center">
 http://chart.apis.google.com/chart?cht=bvg&chbh=a&chm=D,,1,0,1&chbh=a&chs=400x300&chd=t1:2,3,1,1,1,1,1,1,2,3,2,1,1,2,3,2,3,3,2,2,0,1,1,0,2,1,3,2,2,3,2,1,3,2,2,3,1,2,0,2,0,1,3,2,1,0,2,2,3,1,2,2,1,2,1,3,2,1,1,0,2,0,1,2,3,2,2,1,1,2,1,2,2,2,0,2,1,2|-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,1.85,1.75,1.65,1.65,1.6,1.65,1.65,1.75,1.8,1.8,1.8,1.8,1.8,1.9,1.9,1.85,1.9,1.8,1.75,1.65,1.65,1.65,1.65,1.75,1.85,1.8,1.75,1.7,1.7,1.75,1.65,1.65,1.7,1.6,1.6,1.55,1.55,1.6,1.55,1.6,1.5,1.6,1.55,1.45,1.45,1.55,1.65,1.65,1.6,1.5,1.55,1.5,1.5,1.55,1.55,1.5,1.45,1.4,1.45,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0&chds=0,3,0,3&chxt=x,y&chxl=1:||25%|50%|75%|100%|0:|worst|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||best|&chco=FFFFAA&chma=0,30,0,0&chg=200,50.1,1,0&dummy=img.png
 </p>
+
+== Skipping CEDA to prep ==
+
+In early 2009, Darren Elliott [http://www.ndtceda.com/pipermail/edebate/2009-January/077253.html asked the candidates for CEDA 2nd VP about the attendance of NDT first round recipients at CEDA Nats]. (mirrors: [http://article.gmane.org/gmane.education.region.usa.edebate/7778 [1]],[http://www.mail-archive.com/edebate@www.ndtceda.com/msg07520.html [2]]). [http://www.ndtceda.com/pipermail/edebate/2009-January/077254.html Scott Elliott said that it was pretty obvious that NDT teams skipping CEDA did so because they were busy prepping for the NDT]. (mirrors: [http://article.gmane.org/gmane.education.region.usa.edebate/7779 [1]], [http://www.mail-archive.com/edebate@www.ndtceda.com/msg07521.html [2]]) The number of NDT teams attending CEDA Nats in 2006 (when the NDT preceded CEDA) was only 45, while in the two following years it was 39 and 44, respectively.
