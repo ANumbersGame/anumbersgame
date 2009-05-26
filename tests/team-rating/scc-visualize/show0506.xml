@@ -24,7 +24,7 @@
   </style>
   <script type="text/javascript">
     function load() {
-      var samples = "http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize/thumbs0506.rss";
+      var samples = "http://picasaweb.google.com/data/feed/base/user/anumbersgame.net/albumid/5340275776669864545?alt=rss&kind=photo&hl=en_US";
       var options = {
         displayTime: 4000,
         transistionTime: 300,
