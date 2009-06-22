@@ -1,3 +1,3 @@
 #!/bin/bash
 
-mysql < mktables.sql && ./seeding.sh | mysql
+mysql < mktables.sql && ./seeding.sh | mysql && ./divisions.sh | mysql

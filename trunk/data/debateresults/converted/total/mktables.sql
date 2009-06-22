@@ -1,12 +1,13 @@
 use DebateResultsAll;
 
-drop table 
-if exists
-tournament;
 
 drop table 
 if exists
 divisions;
+
+drop table 
+if exists
+tournament;
 
 drop table
 if exists
@@ -391,7 +392,9 @@ or partitions of a tournament that were listed as separate tournaments in the de
 
    roundRobin enum ('no','yes'),
 
-   hotelURL varchar(250)
+   hotelURL varchar(250),
+   
+   MPJdivisions enum ('open', 'open & JV', 'open, JV, & novice', 'open, JV, novice, & rookie')
    
 )
 type = InnoDB
@@ -447,7 +450,9 @@ if(RoundRobin is null, null,
 if(RoundRobin = '0', 'no',
 if(RoundRobin = '1', 'yes',''))) as roundRobin,
 
-null as hotelURL
+null as hotelURL,
+
+PrefsDiiv as MPJdivisions
 
 from DebateResults0304.MasterTournaments
 
@@ -506,7 +511,9 @@ if(RoundRobin is null, null,
 if(RoundRobin = '0', 'no',
 if(RoundRobin = '1', 'yes',''))) as roundRobin,
 
-null as hotelURL
+null as hotelURL,
+
+PrefsDiiv as MPJdivisions
 
 from DebateResults0405.MasterTournaments
 
@@ -565,7 +572,9 @@ if(RoundRobin is null, null,
 if(RoundRobin = '0', 'no',
 if(RoundRobin = '1', 'yes',''))) as roundRobin,
 
-HotelURL as hotelURL
+HotelURL as hotelURL,
+
+PrefsDiiv as MPJdivisions
 
 from DebateResults0506.MasterTournaments
 
@@ -624,7 +633,9 @@ if(RoundRobin is null, null,
 if(RoundRobin = '0', 'no',
 if(RoundRobin = '1', 'yes',''))) as roundRobin,
 
-HotelURL as hotelURL
+HotelURL as hotelURL,
+
+PrefsDiiv as MPJdivisions
 
 from DebateResults0607.MasterTournaments
 
@@ -683,7 +694,9 @@ if(RoundRobin is null, null,
 if(RoundRobin = '0', 'no',
 if(RoundRobin = '1', 'yes',''))) as roundRobin,
 
-HotelURL as hotelURL
+HotelURL as hotelURL,
+
+PrefsDiiv as MPJdivisions
 
 from DebateResults0708.MasterTournaments
 
@@ -740,7 +753,9 @@ if(RoundRobin is null, null,
 if(RoundRobin = '0', 'no',
 if(RoundRobin = '-1', 'yes',''))) as roundRobin,
 
-HotelURL as hotelURL
+HotelURL as hotelURL,
+
+PrefsDiv as MPJdivisions
 
 from DebateResults0809.MasterTournaments;
 
@@ -1196,23 +1211,4 @@ update ndtDistricts, tournaments
 set tournament = tournaments.aka
 where ndtDistricts.year = tournaments.year
 and instr(shortname,concat('D',district)) = 1;
-
-create table
-divisions
-(
-   year smallint unsigned not null
-   comment 'year ending the season in which the division was held',
-   id int not null
-   comment 'original debateresults.com primary key',
-   unique key (year,id),
-
-   tourn int not null
-   comment 'tournament holding the division',
-   foreign key (year,tourn)
-   references tournaments (year,id)
-
-)
-type = InnoDB
-/*charset = utf8*/
-;
 
