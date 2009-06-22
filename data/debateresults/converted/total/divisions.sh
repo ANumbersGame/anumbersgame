@@ -16,6 +16,9 @@ divisions
    references tournaments (year,id)
    on update cascade,
 */
+
+   name varchar(60),
+
    level enum ('open', 'JV', 'novice', 'rookie'),
 
    speakerRanks enum ('no', 'yes') not null,   
@@ -42,6 +45,7 @@ do
 select
 2004 as year,
 ID as tournament,
+null as name,
 NameD${DIV} as level,
 RRanksD${DIV} as speakerRanks,
 MaxPtsD${DIV} as maxPoints,
@@ -63,6 +67,7 @@ do
 select
 ${YEAR} as year,
 Tournament as tournament,
+DiivName as name,
 Lvl as level,
 RRanks as speakerRanks,
 MaxPts as maxPoints,
@@ -77,10 +82,11 @@ EOF
 done
 
 cat <<EOF
-/*
+
 select
 2009 as year,
 Tournament as tournament,
+DivName as name,
 Lvl as level,
 if(RRanks='0','no',
 if(RRanks='-1','yes','')) as speakerRanks,
@@ -91,14 +97,14 @@ DebateType as style,
 if(UsePrefs='0','no',
 if(UsePrefs='-1','yes','')) as MPJ
 from DebateResults0809.DebateDivisions
-*/
+
 /*
 union all
 */
-
+/*
 select 1,2,3,4,5,6,7,8,9
 from DebateResults0304.MasterTournaments
 where 1 = 0
-
+*/
 ;
 EOF
