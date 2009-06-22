@@ -303,8 +303,6 @@ call sameschool(2004,189,2006,913);
 call sameschool(2009,1393,2004,572);
 call sameschool(2005,287,2004,78);
 
-select 'about to tournaments';
-
 create table
 tournaments
 (
@@ -1009,59 +1007,6 @@ call sametournament(2007,43,2005,354);
 call sametournament(2008,228,2004,338);
 
 
-create table
-seedOrdering
-(
-
-   year smallint unsigned not null,
-   tournament int,
-   foreign key (year,tournament)
-   references tournaments (year,id),
-   
-   seed enum ('speaker','team') not null,
-   
-   precedence tinyint unsigned not null,
-
-   factor enum 
-   ('wins',
-   'ballots',
-   'points',
-   '1x adjusted points',
-   '2x adjusted points',
-   '3x adjusted points',
-   '4x adjusted points',
-   'judge variance',
-   'ranks',
-   'adjusted ranks',
-   'opponent wins',
-   'opponent points',
-   'random') not null
-
-)
-type = InnoDB
-/*charset = utf8*/
-;
-
-create table
-divisions
-(
-   year smallint unsigned not null
-   comment 'year ending the season in which the division was held',
-   id int not null
-   comment 'original debateresults.com primary key',
-   unique key (year,id),
-
-   tourn int not null
-   comment 'tournament holding the division',
-   foreign key (year,tourn)
-   references tournaments (year,id)
-
-)
-type = InnoDB
-/*charset = utf8*/
-;
-
-
 create table 
 cedaRegions
 (
@@ -1246,3 +1191,28 @@ insert into ndtDistricts
 set year = 2010,
 district = 3,
 description = 'Arkansas, Kansas, Missouri, Louisiana, Oklahoma, Texas, New Mexico';
+
+update ndtDistricts, tournaments
+set tournament = tournaments.aka
+where ndtDistricts.year = tournaments.year
+and instr(shortname,concat('D',district)) = 1;
+
+create table
+divisions
+(
+   year smallint unsigned not null
+   comment 'year ending the season in which the division was held',
+   id int not null
+   comment 'original debateresults.com primary key',
+   unique key (year,id),
+
+   tourn int not null
+   comment 'tournament holding the division',
+   foreign key (year,tourn)
+   references tournaments (year,id)
+
+)
+type = InnoDB
+/*charset = utf8*/
+;
+
