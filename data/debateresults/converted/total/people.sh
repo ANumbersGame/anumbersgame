@@ -78,7 +78,9 @@ select 1,2,3,4,5,6,7,8
 from DebateResults0304.MasterCompetitors
 where 1 = 0;
 
+/*
 select 'done inserting';
+*/
 /*
 drop procedure
 if exists
@@ -155,6 +157,21 @@ begin
 /*
       select count(*) as 'samelast to mod' from people, samelast where people.role = samelast.role       and people.id = samelast.id       and people.lastname = samelast.lastname and people.aka != samelast.minaka;
 */
+
+/*
+      select aka, people.year, people.id, firstname, people.lastname, people.role, many, count(*)
+      from people,
+      ( select id, lastname, role, many from
+        ( select id, role, lastname, count(distinct firstname) as many
+          from people
+          group by id, role, lastname) as must
+      where many > 1) as analias
+      where people.id = analias.id
+      and people.lastname = analias.lastname
+      and people.role = analias.role
+      group by people.id, people.lastname, people.role, firstname
+      order by people.id, people.role, people.lastname, people.firstname;
+*/
       update people, samelast
       set people.aka = samelast.minaka
       where people.role = samelast.role
@@ -164,9 +181,8 @@ begin
       set affected = affected + row_count();
 /*
       select affected as 'samelast';
-
-      select count(*) as 'samelast still' from people, samelast where people.role = samelast.role       and people.id = samelast.id       and people.lastname = samelast.lastname and people.aka != samelast.minaka;
 */
+
       drop temporary table
       if exists samefirst;
 
@@ -190,6 +206,7 @@ begin
 /*
       select affected as 'samefirst';
 */
+
       drop temporary table 
       if exists continuity;
 
@@ -210,6 +227,7 @@ begin
 /*
       select affected as 'continuity';
 */
+
    until affected = 0 end repeat;
 end|
 
@@ -290,4 +308,60 @@ aka, year, id, role, lastname, firstname
 */
 call sameperson(565,7440);
 call sameperson(30619,42577);
+
+delimiter |
+
+drop procedure
+if exists
+diffperson|
+
+create procedure 
+diffperson(fn varchar(24),
+	   ln varchar(40))
+begin
+   declare vaka int unsigned;
+
+   drop temporary table
+   if exists resets;
+
+   create temporary table resets
+   select * 
+   from people
+   where firstname = fn
+   and lastname = ln;
+
+   update resets
+   set aka = null;
+
+   delete from people
+   where firstname = fn
+   and lastname = ln;
+
+   insert into people
+   select * 
+   from resets
+   order by role, year, id
+   limit 1;
+
+   set vaka = last_insert_id();
+
+   insert into people
+   select * 
+   from resets
+   order by role, year, id
+   limit 18446744073709551615 offset 1;
+
+   update people
+   set aka = vaka
+   where firstname = fn
+   and lastname = ln;
+
+end|
+
+delimiter ;
+
+call diffperson('Kim','Lechtreck');
+call diffperson('Ryan','Kreck');
+call diffperson('Mike','UNI');
+
 EOF
