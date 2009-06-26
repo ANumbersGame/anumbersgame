@@ -3,6 +3,14 @@ use DebateResultsAll;
 
 drop table
 if exists
+ballots;
+
+drop table
+if exists
+rounds;
+
+drop table
+if exists
 people;
 
 drop table 
@@ -1024,7 +1032,7 @@ call sametournament(2006,52,2004,321);
 call sametournament(2005,445,2005,444);
 call sametournament(2007,43,2005,354);
 call sametournament(2008,228,2004,338);
-
+call sametournament(2008,211,2006,108);
 
 create table 
 cedaRegions

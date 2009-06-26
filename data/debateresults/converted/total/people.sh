@@ -4,6 +4,9 @@ cat <<EOF
 
 use DebateResultsAll;
 
+drop table
+if exists ballots;
+
 create table people
 (
    aka int unsigned not null auto_increment
