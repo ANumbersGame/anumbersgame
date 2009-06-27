@@ -46,10 +46,17 @@ rounds (
    references people (year,id,'competitor' as role)
 */
 
+
+
    aff2 int,
    neg1 int,
    neg2 int,
 
+
+   key (year,aff1),
+   key (year,aff2),
+   key (year,neg1),
+   key (year,neg2),
 
    affwin varchar(100), -- enum ('loss', 'win', 'bye', 'forfeit') not null,
    negwin varchar(100), -- enum ('loss', 'win', 'bye', 'forfeit', 'closed out') not null,
@@ -168,14 +175,14 @@ create table ballots
 
    judgeOrder tinyint unsigned not null,
 
-
    judge int,
-   decision int,
+   key (year,judge),
+   decision enum ('aff','neg','double win','double loss','aff walk','neg walk'),
 
-   aff1points int,
-   aff2points int,
-   neg1points int,
-   neg2points int,
+   aff1points decimal(6,3),
+   aff2points decimal(6,3),
+   neg1points decimal(6,3),
+   neg2points decimal(6,3),
 
    aff1rank int,
    aff2rank int,
@@ -265,7 +272,13 @@ from rounds,
 sum(d0) as s0, sum(d1) as s1, sum(d2) as s2, sum(d3) as s3, sum(d4) as s4, sum(d5) as s5, sum(d6) as s6 
 from 
 (select year, round, 
-decision = 0 as d0, decision = 1 as d1, decision = 2 as d2, decision = 3 as d3, decision = 4 as d4, decision = 5 as d5, decision = 6 as d6 
+decision = '' as d0, 
+decision = 'aff' as d1, 
+decision = 'neg' as d2, 
+decision = 'double win' as d3, 
+decision = 'double loss' as d4, 
+decision = 'aff walk' as d5, 
+decision = 'neg walk' as d6 
 from ballots) as must 
 group by year, round) 
 as have 
@@ -329,5 +342,8 @@ drop column affelims;
 
 alter table rounds
 drop column negelims;
+
+alter table ballots
+drop column judgeOrder;
 
 EOF
