@@ -15,7 +15,7 @@ These results were extracted from the college policy tournament data at DebateRe
 </td>
 </tr>
 <tr>
-<td align="center">[http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize/DebateResults0708/ Download individual 2007-08 charts.]</td>
+<td align="center">[http://picasaweb.google.com/anumbersgame.net/CollegeDebateTournamentCharts20072008 Browse 2007-08 charts.]</td>
 </tr>
 </table>
 
@@ -32,7 +32,7 @@ These results were extracted from the college policy tournament data at DebateRe
 </td>
 </tr>
 <tr>
-<td align="center">[http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize/DebateResults0607/ Download individual 2006-07 charts.]</td>
+<td align="center">[http://picasaweb.google.com/anumbersgame.net/CollegeDebateTournamentCharts20062007 Browse 2006-07 charts.]</td>
 </tr>
 </table>
 
@@ -49,7 +49,7 @@ These results were extracted from the college policy tournament data at DebateRe
 </td>
 </tr>
 <tr>
-<td align="center">[http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize/DebateResults0506/ Download individual 2005-06 charts.]</td>
+<td align="center">[http://picasaweb.google.com/anumbersgame.net/CollegeDebateTournamentCharts20052006 Browse 2005-06 charts.]</td>
 </tr>
 </table>
 
@@ -66,7 +66,7 @@ These results were extracted from the college policy tournament data at DebateRe
 </td>
 </tr>
 <tr>
-<td align="center">[http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize/DebateResults0405/ Download individual 2004-05 charts.]</td>
+<td align="center">[http://picasaweb.google.com/anumbersgame.net/CollegeDebateTournamentCharts20042005 Browse 2004-05 charts.]</td>
 </tr>
 </table>
 
@@ -83,6 +83,6 @@ These results were extracted from the college policy tournament data at DebateRe
 </td>
 </tr>
 <tr>
-<td align="center">[http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize/DebateResults0304/ Download individual 2003-04 charts.]</td>
+<td align="center">[http://picasaweb.google.com/anumbersgame.net/CollegeDebateTournamentCharts20032004 Browse 2003-04 charts.]</td>
 </tr>
 </table>
