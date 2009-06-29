@@ -12,9 +12,7 @@
 </tr>
 </table>
 
-These are charts of the win-loss network in all 2007-2008 tournaments from DebateResultsDotCom. [TournamentWinLossNetworkCharts Slideshows for earlier seasons are also available], and [http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize/ individual tournament network charts are available in the repository], as well as the Picasa links embedded in the above slideshow.
-
-If you want to download all the charts at once, as well as the code to generate them in [http://www.graphviz.org/doc/info/output.html many other formats], svn checkout the source repository and look in the [http://code.google.com/p/anumbersgame/source/browse/trunk/tests/team-rating/scc-visualize/ tests/team-rating/scc-visualize] directory.
+These are charts of the win-loss network in all 2007-2008 tournaments from DebateResultsDotCom. [TournamentWinLossNetworkCharts Slideshows for earlier seasons are also available], and [http://anumbersgame.googlecode.com/svn/trunk/tests/team-rating/scc-visualize/ individual tournament network charts are available in the repository], as well as the Picasa links embedded in the above slideshow. The repository also includes the code for generating the charts.
 
 = How to read the graphs =
 
