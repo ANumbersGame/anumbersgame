@@ -20,7 +20,7 @@ The use of district qualifier participation to model the overall number of teams
 
 = Division =
 
-To measure the strength of competitors attending CEDA Nats, we can check what divisions they debate in. For CEDA Nats from 2004 through 2008, we look at each debater who attended in that year, then see what divisions he or she has chosen to debate in at other tournaments that year. 57% debated mainly in open divisions. For the remaining 43%, we weigh each tournament equally, then produce an average of each debater's division. This is a histogram of CEDA Nats debaters per year with the given divisional average:
+To measure the strength of competitors attending CEDA Nats, we can check what divisions they debate in. For CEDA Nats from 2004 through 2008, we can look at each debater who attended in that year, then see what divisions he or she has chosen to debate in at other tournaments that year. 57% debated mainly in open divisions. For the remaining 43%, each tournament is weighted equally, then an average of each debater's division is produced. This is a histogram of CEDA Nats debaters per year with the given divisional average:
 
 <p align="center">
 http://chart.apis.google.com/chart?cht=bvs&chs=400x300&chd=t:32,36,19,27,49,16,92,86,53,107,137,107&chds=0,150&chxt=x,y&chxr=1,0,30,10&chxl=0:|Novice|||Novice/JV|||JV|||JV/Open|||&dummy=img.png
