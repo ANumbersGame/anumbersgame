@@ -8,21 +8,21 @@ The charts are not exactly accurately sized in relation to each other; this woul
 
 == Terminology ==
 
-On this page, a debater who has participated on a hybrid team is also called hybrid. Debaters who have _only_ participated on hybrid teams are called *ringers*, all other hybrid debaters are *drones*
+On this page, a debater who has participated on a hybrid team is also called hybrid. Debaters who have _only_ participated on hybrid teams are called *contractors*, all other hybrid debaters are *moonlighters*
 
 = Teams =
 
 || *<p align="center">All Teams:</p>* || <p align="center">*Hybrid teams:*</p> ||
-|| http://chart.apis.google.com/chart?cht=p&chd=t:2.70,64.65&chs=300x200&chl=Hybrid|&chco=FF0000,0000FFA0&dummy=img.png || http://chart.apis.google.com/chart?cht=p&chd=t:2.0,9.3,15.7&chs=250x100&chl=All+ringer|Mixed|All+drone&chco=FF0000A0&dummy=img.png ||
+|| http://chart.apis.google.com/chart?cht=p&chd=t:2.70,64.65&chs=300x200&chl=Hybrid|&chco=FF0000,0000FFA0&dummy=img.png || http://chart.apis.google.com/chart?cht=p&chd=t:2.0,9.3,15.7&chs=300x100&chl=All+contractor|Mixed|All+moonlighter&chco=FF0000A0&dummy=img.png ||
 
-Only 4% of teams are hybrid. Of those, 7.4% are made up of ringers, 58% are made up of drones, and the remainder of teams are mixed.
+Only 4% of teams are hybrid. Of those, 7.4% are made up of contractors, 58% are made up of moonlighters, and the remainder of teams are mixed.
 
 = Debaters =
 
 || *<p align="center">All debaters:</p>* || *<p align="center">Hybrid debaters:</p>* ||
-|| http://chart.apis.google.com/chart?cht=p&chd=t:4.78,72.99&chs=300x200&chl=Hybrid|&chco=FF0000,0000FFA0&dummy=img.png || http://chart.apis.google.com/chart?cht=p&chd=t:11.1,36.7&chs=300x100&chl=Ringers|Drones&chco=FF0000A0&dummy=img.png ||
+|| http://chart.apis.google.com/chart?cht=p&chd=t:4.78,72.99&chs=300x200&chl=Hybrid|&chco=FF0000,0000FFA0&dummy=img.png || http://chart.apis.google.com/chart?cht=p&chd=t:11.1,36.7&chs=300x100&chl=Contractors|Moonlighters&chco=FF0000A0&dummy=img.png ||
 
-6.1% of debaters are hybrids. 23% of these are ringers.
+6.1% of debaters are hybrids. 23% of these are contractors.
 
 = Tournaments and Ballots =
 
