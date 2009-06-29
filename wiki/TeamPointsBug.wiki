@@ -2,7 +2,7 @@
 
 = The following is an invalid bug report =
 
-The explanation for the error was posted on [http://article.gmane.org/gmane.education.region.usa.edebate/9228 edebate] (mirrors: [http://www.ndtceda.com/pipermail/edebate/2009-May/078711.html [1]] [http://www.mail-archive.com/edebate@www.ndtceda.com/msg08910.html [2]]).
+The explanation of my error was posted on [http://article.gmane.org/gmane.education.region.usa.edebate/9228 edebate] (mirrors: [http://www.ndtceda.com/pipermail/edebate/2009-May/078711.html [1]] [http://www.mail-archive.com/edebate@www.ndtceda.com/msg08910.html [2]]).
 
 <font color="#CCCCCC">
 Cumulative results sheets at the NDT often misstate team points by a small amount, possibly due to a bug in [http://www3.baylor.edu/~Richard_Edwards/TRPC.html Tab Room on the PC (TRPC)]. This has created incorrect seeding in NDT elimination rounds at least thrice in the past five years.
