@@ -1,0 +1,7 @@
+<?php
+
+$dbviewhost = '';
+$dbviewuser = '';
+$dbviewpass = '';
+
+?>
