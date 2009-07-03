@@ -131,7 +131,9 @@ seedOrdering
    'random') not null
 
 )
+/*
 type = InnoDB
+*/
 /*charset = utf8*/
 EOF
 

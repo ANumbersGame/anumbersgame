@@ -81,8 +81,10 @@ done
 
 cat <<EOF
 
-) type = InnoDB
-
+) 
+/*
+type = InnoDB
+*/
 EOF
 
 for YEAR in $(seq 2004 1 2009)
@@ -189,8 +191,10 @@ create table ballots
    neg1rank int,
    neg2rank int
 
-) type = InnoDB
-
+) 
+/*
+type = InnoDB
+*/
 EOF
 
 for YEAR in $(seq 2004 1 2009)

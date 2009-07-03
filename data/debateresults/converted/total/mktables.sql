@@ -19,7 +19,7 @@ divisions;
 
 drop table 
 if exists
-tournament;
+tournaments;
 
 drop table
 if exists
@@ -73,7 +73,9 @@ schools
    comment 'hopefully a key into cedaRegions'   
    
 )
+/*
 type = InnoDB
+*/
 /*charset = utf8*/
 select 
 null as aka, 
@@ -409,7 +411,9 @@ or partitions of a tournament that were listed as separate tournaments in the de
    MPJdivisions enum ('open', 'open & JV', 'open, JV, & novice', 'open, JV, novice, & rookie')
    
 )
+/*
 type = InnoDB
+*/
 /*charset = utf8*/
 select
 null as aka,
@@ -1033,6 +1037,12 @@ call sametournament(2005,445,2005,444);
 call sametournament(2007,43,2005,354);
 call sametournament(2008,228,2004,338);
 call sametournament(2008,211,2006,108);
+call sametournament(2004,357,2007,98);
+call sametournament(2006,71,2007,79);
+call sametournament(2005,404,2004,363);
+call sametournament(2005,450,2005,448);
+call sametournament(2005,421,2006,38);
+/* call sametournament(2008,141,2009,5); */
 
 create table 
 cedaRegions
@@ -1047,7 +1057,9 @@ cedaRegions
    description varchar (200) not null
    comment 'Which cities, states, and/or zip codes are included in this region'
 )
+/*
 type = InnoDB
+*/
 /*charset = utf8*/
 comment = 'http://commweb.fullerton.edu/jbruschke/web/ManageAccount.aspx'
 ;
@@ -1152,7 +1164,9 @@ ndtDistricts
    references tournaments (aka)
    on update cascade
 )
+/*
 type = InnoDB
+*/
 /*charset = utf8*/
 comment = 'http://www.whitman.edu/rhetoric/ndt/ndt-districts.htm'
 ;
