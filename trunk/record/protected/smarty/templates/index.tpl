@@ -3,6 +3,7 @@
 <title>A Numbers Game</title>
 </head>
 <body>
-Hello, {$name}!
+<a href="tournaments">tournaments</a>
+{include file='track.tpl'}
 </body>
 </html>
