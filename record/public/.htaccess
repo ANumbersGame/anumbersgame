@@ -1,4 +1,4 @@
-php_flag display_errors Off
-php_flag log_errors On
+php_flag display_errors 0
+php_flag log_errors 1
 
-php_value error_reporting 32767
+php_value error_reporting 30719
