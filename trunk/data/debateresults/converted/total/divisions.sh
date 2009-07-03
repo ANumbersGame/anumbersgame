@@ -34,7 +34,9 @@ divisions
    MPJ enum ('no','yes') not null
 
 )
+/*
 type = InnoDB
+*/
 /*charset = utf8*/
 EOF
 

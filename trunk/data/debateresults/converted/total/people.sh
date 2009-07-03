@@ -40,7 +40,9 @@ create table people
    philosophy text
 
 )
+/*
 type = InnoDB
+*/
 EOF
 
 for YEAR in $(seq 2004 1 2009)
@@ -311,6 +313,8 @@ aka, year, id, role, lastname, firstname
 */
 call sameperson(565,7440);
 call sameperson(30619,42577);
+call sameperson(28041,18440);
+
 
 delimiter |
 
