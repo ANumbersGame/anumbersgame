@@ -1,0 +1,1 @@
+<link rel="icon" type="image/vnd.microsoft.icon" href="{$webroot}/favicon.ico" />
