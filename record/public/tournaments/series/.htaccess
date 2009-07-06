@@ -1,0 +1,8 @@
+RewriteEngine On
+
+# If the file or directory exists, redirect to itself, then stop ([L])
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule .+ - [L]
+# Otherwise, find the series, but stop after one redir
+RewriteRule ([0-9]+)/([0-9]+)/([0-9]+)/? index.php?aka=$1&year=$2&id=$3 [L]

@@ -1,16 +1,19 @@
 <html>
 <head>
 <title>Tournaments - A Numbers Game</title>
+{include file='icon.tpl'}
 </head>
 <body>
 <table border="1">
-{foreach from=$tournaments|smarty:nodefaults item=tourn}
+{foreach from=$tournaments item=tourn}
 <tr>
-<td>All</td>
-{foreach from=$tourn.list|smarty:nodefaults item=ones}
 <td>
-{foreach from=$ones|smarty:nodefaults item=single}
-{$single.name}
+<a href="series/{$tourn.aka|escape:'urlpathinfo'}/{$tourn.year|escape:'urlpathinfo'}/{$tourn.id|escape:'urlpathinfo'}">All</a>
+</td>
+{foreach from=$tourn.list item=ones}
+<td>
+{foreach from=$ones item=single}
+{$single.name|escape:'htmlall':'UTF-8'|nl2br}
 <br>
 {/foreach}
 </td>
