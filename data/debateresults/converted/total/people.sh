@@ -7,14 +7,17 @@ use DebateResultsAll;
 drop table
 if exists ballots;
 
+drop table
+if exists people;
+
 create table people
 (
    aka int unsigned not null auto_increment
-   comment 'People with the same aka represent the same person',
+   comment 'Records in this table with the same aka represent the same person',
    key (aka),
 
    year smallint unsigned not null
-   comment 'year in which this entry appears in the database',
+   comment 'year in which this entry appears in the debateresults.com database',
 
    id int not null
    comment 'original debateresults.com primary key',
@@ -78,58 +81,9 @@ done
 
 cat <<EOF
 
-
 select 1,2,3,4,5,6,7,8
 from DebateResults0304.MasterCompetitors
 where 1 = 0;
-
-/*
-select 'done inserting';
-*/
-/*
-drop procedure
-if exists
-sameperson_byname|
-
-create procedure 
-sameperson_byname()
-begin
-
-
-   declare vfirstname varchar(50);
-   declare vlastname varchar(16);
-   declare vminaka int unsigned;
-
-   declare done int default 0;
-
-   declare name cursor for 
-   select min(aka), firstname, lastname
-   from people
-   group by firstname, lastname;
-
-   declare continue handler for not found set done = 1;
-
-   open name;
-
-   repeat
-      fetch name into vminaka, vfirstname, vlastname;
-      if not done then
-
-	 update people
-	 set aka = vminaka
-	 where (firstname = vfirstname
-	 or firstname is null
-	 or vfirstname is null)
-	 and lastname = vlastname;
-
-      end if;
-   until done end repeat;
-end|
-
-delimiter ;
-
-call sameperson_byname()
-*/
 
 delimiter |
 
@@ -159,24 +113,7 @@ begin
       group by id,
       role,
       lastname;
-/*
-      select count(*) as 'samelast to mod' from people, samelast where people.role = samelast.role       and people.id = samelast.id       and people.lastname = samelast.lastname and people.aka != samelast.minaka;
-*/
 
-/*
-      select aka, people.year, people.id, firstname, people.lastname, people.role, many, count(*)
-      from people,
-      ( select id, lastname, role, many from
-        ( select id, role, lastname, count(distinct firstname) as many
-          from people
-          group by id, role, lastname) as must
-      where many > 1) as analias
-      where people.id = analias.id
-      and people.lastname = analias.lastname
-      and people.role = analias.role
-      group by people.id, people.lastname, people.role, firstname
-      order by people.id, people.role, people.lastname, people.firstname;
-*/
       update people, samelast
       set people.aka = samelast.minaka
       where people.role = samelast.role
@@ -184,9 +121,6 @@ begin
       and people.lastname = samelast.lastname;
 
       set affected = affected + row_count();
-/*
-      select affected as 'samelast';
-*/
 
       drop temporary table
       if exists samefirst;
@@ -208,9 +142,6 @@ begin
       and people.firstname = samefirst.firstname;
 
       set affected = affected + row_count();
-/*
-      select affected as 'samefirst';
-*/
 
       drop temporary table 
       if exists continuity;
@@ -229,9 +160,6 @@ begin
       and people.lastname = continuity.lastname;
 
       set affected = affected + row_count();
-/*
-      select affected as 'continuity';
-*/
 
    until affected = 0 end repeat;
 end|
@@ -240,35 +168,6 @@ delimiter ;
 
 call loopname();
 
-/*
-update people as a, 
-(select aka, 
-firstname,
-lastname,
-role,
-id
-from people
-group by firstname,
-lastname,
-role,
-id
-) as b
-set a.aka = b.aka
-where a.firstname = b.firstname
-and a.lastname = b.lastname
-and a.role = b.role
-and a.id = b.id
-;
-*/
-
-/*
-select aka, year, people.id, people.role, lastname, firstname from people, (select role, id from (select *, count(*) as many from (select id, role from people group by aka) as must group by role, id) as must where many > 1) as have where people.id = have.id and people.role = have.role;
-
-select aka, year, people.id, people.role, lastname, firstname from people, (select role, id from (select *, count(*) as many from (select id, role from people group by aka) as must group by role, id) as must where many > 1) as have where people.id = have.id and people.role = have.role order by role, id;
-
- select aka, year, people.id, people.role, lastname, firstname from people, (select role, id from (select *, count(*) as many from (select id, role from people group by aka) as must group by role, id) as must where many > 1) as have where people.id = have.id and people.role = have.role group by lastname, firstname, id, role order by role, id, year;
-
-*/
 
 delimiter |
 
@@ -277,11 +176,31 @@ if exists
 sameperson|
 
 create procedure 
-sameperson(aka1 int unsigned, 
-	   aka2 int unsigned)
+sameperson(yr1 smallint unsigned, 
+	   id1 int,
+	   role1 varchar (20),
+	   yr2 smallint unsigned, 
+	   id2 int,
+	   role2 varchar (20))
 begin
+   declare aka1 int unsigned;
+   declare aka2 int unsigned;
    declare minaka int unsigned;
    
+   select aka
+   into aka1
+   from people
+   where year = yr1
+   and id = id1
+   and role = role1;
+
+   select aka
+   into aka2
+   from people
+   where year = yr2
+   and id = id2
+   and role = role2;
+
    set minaka = if(aka1 < aka2, aka1, aka2);
 
    update people
@@ -294,27 +213,16 @@ end|
 delimiter ;
 
 
-call sameperson(38448,28369);
-call sameperson(27736,37818);
-call sameperson(17477,35539);
-/*
-9676,15477
-*/
-call sameperson(9353,5613);
-/*
-1766,4572
-*/
-call sameperson(1233,4174);
-/*
-TODO:
-aka, year, id, role, lastname, firstname
-|  3651 | 2007 |  655 | competitor | Lechtreck          | Kim        | 
-|  3651 | 2005 |  655 | competitor | Lechtreck          | Kirstin    | 
-*/
-call sameperson(565,7440);
-call sameperson(30619,42577);
-call sameperson(28041,18440);
-
+call sameperson(2008,24495,'competitor',2009,24495,'competitor');
+call sameperson(2009,23857,'competitor',2008,23857,'competitor');
+call sameperson(2008,16962,'competitor',2009,16962,'competitor');
+call sameperson(2005,7790,'competitor',2006,7790,'competitor');
+call sameperson(2004,1270,'competitor',2005,1270,'competitor');
+call sameperson(2005,579,'competitor',2006,579,'competitor');
+call sameperson(2008,7538,'judge',2009,7538,'judge');
+call sameperson(2008,22390,'competitor',2008,24163,'competitor');
+call sameperson(2006,3697,'judge',2006,433,'competitor');
+call sameperson(2008,7739,'judge',2007,7301,'judge');
 
 delimiter |
 
