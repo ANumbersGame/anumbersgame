@@ -2,11 +2,11 @@
 
 =This page is just a draft=
 
-Which judges give high points? "Whichever judges have given high average speaker points" is a simplistic answer to this simply-stated question. A better question might be "Which judges give higher points than the judging pool overall to the same quality speeches?"
+Which judges give high points? "Whichever judges have given high average speaker points" is a simplistic answer to this simply-stated question. A better question might be "Which judges give higher points than the judging pool overall does to the same quality speeches?"
 
 =This page is just a draft=
 
-To answer this, we could compare the points that a judge gives to a certain debater to the points that debater earned over the course of the year. However, this doesn't account for debaters who change divisions or who improve from September to March. It also doesn't account for tournaments where the speaker point average was higher or lower.
+Two or more judges don't give points to the same speeches except at the NDT and a few NDT district qualifying tournaments, so measuring this value directly is difficult. We could compare the points that a judge gives to a certain debater to the points that that debater earned over the course of the year. However, this doesn't account for debaters who change divisions or who improve from September to March. It also doesn't account for tournaments where the point average was higher or lower.
 
 =This page is just a draft=
 
@@ -14,13 +14,15 @@ To see whether a judge (Alice) gives higher points than her colleagues, let's co
 
 =This page is just a draft=
 
-We'll compare these sets with the Mann-Whitney U test, adjusted for ties, then rank judges by the deviation of this statistic from the expected value.
+We'll compare these two groups with the Mann-Whitney U test, adjusted for ties, then rank judges by the deviation of this value from the expected distribution of U.
 
 =This page is just a draft=
 
-Here are some point distributions for particular judges in particular divisions for the 2008-2009 season. The population distribution is gray, while the judge distribution is red or green. A red distribution is a judge who gives low points; a green distribution is a judge who gives high points. The _y_-axis represents the percentage of times a point value appears in a particular distribution. For the charts, point values are rounded to the half-point. For both the charts and the calculation of the U value, speaker points over 30 are ignored; For 2008-2009, this is just Wake Forest's tournament and one or two data errors in the DebateResultsDotCom database.
+Below are some point distributions for particular judges in particular divisions for the 2008-2009 season. The population distribution is gray, while the judge distribution is red or green. A red distribution is a judge who gives low points; a green distribution is a judge who gives high points. The _y_-axis represents the percentage of times a point value appears in a particular distribution. For the charts, point values are rounded to the half-point, and any points less than 24 are rounded up to 24. For both the charts and the calculation of the U value, speaker points over 30 are ignored; for 2008-2009, this is just Wake Forest's tournament and one or two data errors in the DebateResultsDotCom database.
 
 =This page is just a draft=
+
+==Bellwethers==
 
 JV Reed's point distribution is very similar to the rest of the pool; his U score is very close to the expected value. The same is true of Kris Willis.
 
@@ -30,6 +32,8 @@ JV Reed's point distribution is very similar to the rest of the pool; his U scor
 
 =This page is just a draft=
 
+==Doppelgängers==
+
 Not every low-deviation distribution, however, looks similar to the pool's distribution. The U score is roughly a measure of how likely it is that a score given by Alice (in this case, by Conor Cleary or by Brady Fletcher, respectively) is greater than a score given by the pool. This likelihood may be near 50% even if the distributions look quite different.
 
 =This page is just a draft=
@@ -38,6 +42,8 @@ Not every low-deviation distribution, however, looks similar to the pool's distr
 
 =This page is just a draft=
 
+==Independents==
+
 High-deviation distributions also may look wildly different that the pool. John Nagy gives many more 27s than the pool, and Wynn Wilcox gives many more 29s.
 
 =This page is just a draft=
@@ -45,6 +51,8 @@ High-deviation distributions also may look wildly different that the pool. John 
 || http://chart.apis.google.com/chart?cht=lxy&chs=420x270&chd=t:26.0000,26.0000,26.5000,26.5000,27.0000,27.0000,27.5000,27.5000,28.0000,28.0000,28.5000,28.5000,29.0000,29.0000|4.1667,4.1667,12.5000,12.5000,50.0000,50.0000,25.0000,25.0000,2.7778,2.7778,4.1667,4.1667,1.3889,1.3889|26.0000,26.0000,26.5000,26.5000,27.0000,27.0000,27.5000,27.5000,28.0000,28.0000,28.5000,28.5000,29.0000,29.0000,29.5000,29.5000,30.0000,30.0000|2.7473,2.7473,4.0293,4.0293,14.1026,14.1026,23.2601,23.2601,29.8535,29.8535,16.8498,16.8498,7.8755,7.8755,0.7326,0.7326,0.5495,0.5495&chds=24,30.0,0,51,24,30.0,0,51&chco=ff0000,555555,ff0000,705000&chma=10,10,10,10&chtt=John%20Nagy|2009:%2018%20open%20debates|deviation:%20-7.87&chxt=y,x&chxr=0,0,51|1,24,30,1&chg=16.666666666667,0,3,3&chm=o,000000,0,-1,3|o,000000,1,-1,3&dum.png || http://chart.apis.google.com/chart?cht=lxy&chs=420x270&chd=t:26.0000,26.0000,26.5000,26.5000,27.0000,27.0000,27.5000,27.5000,28.0000,28.0000,28.5000,28.5000,29.0000,29.0000,29.5000,29.5000|2.6316,2.6316,2.6316,2.6316,14.4737,14.4737,11.8421,11.8421,25.0000,25.0000,11.8421,11.8421,28.9474,28.9474,2.6316,2.6316|24.5000,24.5000,25.0000,25.0000,26.0000,26.0000,26.5000,26.5000,27.0000,27.0000,27.5000,27.5000,28.0000,28.0000,28.5000,28.5000,29.0000,29.0000,30.0000,30.0000|0.2674,0.2674,1.3369,1.3369,4.2781,4.2781,6.4171,6.4171,25.9358,25.9358,27.8075,27.8075,20.3209,20.3209,9.6257,9.6257,3.4759,3.4759,0.5348,0.5348&chds=24,30.0,0,30,24,30.0,0,30&chco=00bb00,555555,ff0000,705000&chma=10,10,10,10&chtt=Wynn%20Wilcox|2009:%2019%20JV%20debates|deviation:%205.83&chxt=y,x&chxr=0,0,30|1,24,30,1&chg=16.666666666667,0,3,3&chm=o,000000,0,-1,3|o,000000,1,-1,3&dum.png ||
 
 =This page is just a draft=
+
+==Poseurs==
 
 Other high-deviation distributions looks like the pool, but shifted up or down a half-point. The open division debates judged during the 2008-2009 season by Jason Russell and Jonathan Paul are good examples of this shift.
 
