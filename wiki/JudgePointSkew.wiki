@@ -18,7 +18,7 @@ We'll compare these sets with the Mann-Whitney U test, adjusted for ties, then r
 
 =This page is just a draft=
 
-Here are some point distributions for particular years, divisions, and judges. The population distribution is gray, while the judge distribution is red or green. A red distribution is a judge who gives low points; a green distribution is a judge who gives high points.
+Here are some point distributions for particular judges in particular divisions for the 2008-2009 season. The population distribution is gray, while the judge distribution is red or green. A red distribution is a judge who gives low points; a green distribution is a judge who gives high points. The _y_-axis represents the percentage of times a point value appears in a particular distribution. For the charts, point values are rounded to the half-point. For both the charts and the calculation of the U value, speaker points over 30 are ignored; For 2008-2009, this is just Wake Forest's tournament and one or two data errors in the DebateResultsDotCom database.
 
 =This page is just a draft=
 
