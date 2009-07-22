@@ -82,14 +82,8 @@ In addition to the half-point values, the '08-'09 USC invite specifically mentio
 
 There is minor but clearly visible clustering around ".3" and ".8" values, even though the text of the invite said all tenths values would be accepted.
 
-More than a quarter of all open rounds were judged by someone who didn't stray from the example scale given in the invite:
+A substantial number of open rounds were judged by someone who didn't stray from the example scale given in the invite:
 
 <p align="center">
-http://chart.apis.google.com/chart?cht=p&chd=t:83,239&chds=0,322&chs=233x233&chco=ff0000&chtt=USC%20%2708-%2709|rounds%20judged%20by%20those%20who|followed%20the%20example%20scale&chdl=83|239&dum.png
-</p>
-
-USC '08-'09 judges who use the new scale show a slight increase in how often they assign off-peak points as the tournament progresses:
-
-<p align="center">
-http://chart.apis.google.com/chart?cht=lxy&chs=400x300&chd=t:1,2,3,4,5,6,7|0.5549,0.5398,0.6105,0.5682,0.6316,0.6538,0.6063&chds=1,7,0.3,0.8,1,7,0.3,0.8,1,7,0.3,0.8&chco=ff0000,00cc00,aa44ff&chtt=USC%20%27Alan%20Nichols%27%20Debate%20Tournament|percentage%20of%20off-peak%20points%20per%20round|judges%20who%20use%20the%20new%20scale&chdl=%2707-%2708&chxt=x,y&chxr=0,1,7,1|1,30,80&chm=o,000000,0,-1,5|o,000000,1,-1,5|o,000000,2,-1,5&chg=0,20,3,2&dum.png
+http://chart.apis.google.com/chart?cht=p&chd=t:33,50,239&chds=0,322&chma=50,20,20,20&chs=400x300&chco=ff0000&chtt=USC%20%2708-%2709|rounds%20judged%20by%20those%20who%20followed%20the%20.%20.%20.&chdl=half-point%20scale|example%20scale&dum.png
 </p>
