@@ -4,7 +4,9 @@ Below are some charts showing the difference these changes have made. The data i
 
 = Overview =
 
-Increasing the range or granularity of the speaker point scale increased the differentiation between different debaters in the same round and between different rounds for each debater. On the other hand, judges did not use the full range of points, especially when the new scale maintained the traditional 30-point maximum. Keeping the same point range while increasing the granularity allowed many judges to either ignore or forget that any change was made at all. 
+Increasing the range or granularity of the speaker point scale increased the differentiation between different debaters in the same round and between different rounds for each debater.
+
+On the other hand, judges did not use the full range of points, especially when the new scale maintained the traditional 30-point maximum. Keeping the same point range while increasing the granularity allowed many judges to either ignore or forget that any change was made at all. Giving particular examples from the allowable range inspired some judges to stick to those examples.
 
 = Distinction Between Performances =
 
