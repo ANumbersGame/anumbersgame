@@ -80,9 +80,7 @@ In addition to the half-point values, the '08-'09 USC invite specifically mentio
 </table>
 </blockquote>
 
-There is minor but clearly visible clustering around ".3" and ".8" values, even though the text of the invite said all tenths values would be accepted.
-
-A substantial number of open rounds were judged by someone who never strayed from the example scale given in the invite:
+There is clearly visible clustering around ".3" and ".8" values, even though the text of the invite said all tenths values would be accepted. A substantial number of open rounds were judged by someone who never strayed from the example scale given in the invite:
 
 <p align="center">
 http://chart.apis.google.com/chart?cht=p&chd=t:33,50,239&chds=0,322&chma=50,20,20,20&chs=400x300&chtt=USC%20%2708-%2709|rounds%20judged%20by%20those%20who%20followed%20the%20.%20.%20.&chdl=half-point%20scale|example%20scale&dum.png
