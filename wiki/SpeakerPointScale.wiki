@@ -29,6 +29,10 @@ Filtering out from the USC pool the judges who only assign points at local peaks
 
 http://chart.apis.google.com/chart?cht=lxy&chs=400x250&chd=t:24.500,25.000,25.500,25.750,26.000,26.250,26.500,26.750,27.000,27.250,27.500,27.750,28.000,28.250,28.500,28.750,29.000,29.250,29.500|0.0011,0.0011,0.0011,0.0011,0.0022,0.0022,0.0100,0.0133,0.0556,0.0644,0.1189,0.1200,0.1789,0.1544,0.1322,0.0656,0.0511,0.0200,0.0067|26.000,26.300,26.500,26.600,26.700,26.800,26.900,27.000,27.100,27.200,27.300,27.400,27.500,27.600,27.700,27.800,27.900,28.000,28.100,28.200,28.300,28.400,28.500,28.600,28.700,28.800,28.900,29.000,29.100,29.200,29.300,29.400,29.500,29.800|0.0043,0.0026,0.0078,0.0009,0.0017,0.0069,0.0035,0.0476,0.0147,0.0294,0.0389,0.0199,0.0804,0.0199,0.0320,0.0692,0.0337,0.1341,0.0303,0.0441,0.0830,0.0320,0.0891,0.0285,0.0303,0.0294,0.0104,0.0372,0.0061,0.0069,0.0156,0.0026,0.0061,0.0009&chds=24.5,30,0,0.20,24.5,30,0,0.20,24.5,30,0,0.2,24.5,30,0,0.2&chco=ff0000,00cc00,aa44ff,ff7700&chtt=USC%20%27Alan%20Nichols%27%20Debate%20Tournament|points%20from%20judges%20who%20assign%20non-peak%20values&chdl=%2707-%2708|%2708-%2709&chxt=x,y&chxr=0,24.5,30|1,0,20&chg=9.09,0,3,2,9.09&chm=o,000000,0,-1,5&dum.png
 
+USC '08-'09 judges who occasionally use the new scale show a very slight increase in how often they assign off-peak points as the tournament progresses:
+
+http://chart.apis.google.com/chart?cht=lxy&chs=400x250&chd=t:1,2,3,4,5,6,7|0.5549,0.5398,0.6105,0.5682,0.6316,0.6538,0.6063&chds=1,7,0.3,0.8,1,7,0.3,0.8,1,7,0.3,0.8&chco=ff0000,00cc00,aa44ff&chtt=USC%20%27Alan%20Nichols%27%20Debate%20Tournament|percentage%20of%20off-peak%20points%20per%20round&chdl=%2707-%2708&chxt=x,y&chxr=0,1,7,1|1,30,80&chm=o,000000,0,-1,5|o,000000,1,-1,5|o,000000,2,-1,5&dum.png
+
 = Distinction between performances =
 
 Increasing the granularity of the speaker point scale increased both the number of distinct speaker points assigned per round and the number of distinct speaker points assigned to each debater over the course of the tournament.
