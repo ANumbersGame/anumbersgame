@@ -12,7 +12,7 @@ In the '06-'07 season, both tournaments used the 30-point scale with half-point 
 
 Increasing the range or granularity of the speaker point scale increased the number of distinct speaker points assigned per round, directly addressing the reason for the USC's change, to [http://www.usctrojandebate.com/college_tournaments.html "help differentiate the quality of individual speakers"].
 
-The charts below display the percent of rounds with the given number of distinct speaker points.
+The charts below display the percentage of rounds with the given number of distinct speaker points.
 
 || http://chart.apis.google.com/chart?cht=lxy&chs=400x250&chd=t:1,2,3,4|12.5683,46.6302,35.5191,5.2823|1,2,3,4|2.6119,11.1940,31.7164,54.4776|1,2,3,4|1.7370,14.3921,36.9727,46.8983&chds=1,4,0,60,1,4,0,60,1,4,0,60&chco=ff0000,00cc00,aa44ff&chtt=Shirley%20Classic|distinct%20points%20per%20round&chdl=%2706-%2707|%2707-%2708|%2708-%2709&chxt=x,y&chxr=0,1,4,1|1,0,60&chm=o,000000,0,-1,5|o,000000,1,-1,5|o,000000,2,-1,5&img.png || http://chart.apis.google.com/chart?cht=lxy&chs=400x250&chd=t:1,2,3,4|12.0000,46.4000,35.6000,6.0000|1,2,3,4|3.2143,22.8571,41.7857,32.1429|1,2,3,4|1.8634,11.8012,27.3292,59.0062&chds=1,4,0,60,1,4,0,60,1,4,0,60&chco=ff0000,00cc00,aa44ff&chtt=USC%20%27Alan%20Nichols%27%20Debate%20Tournament|distinct%20points%20per%20round&chdl=%2706-%2707|%2707-%2708|%2708-%2709&chxt=x,y&chxr=0,1,4,1|1,0,60&chm=o,000000,0,-1,5|o,000000,1,-1,5|o,000000,2,-1,5&dum.png ||
 
