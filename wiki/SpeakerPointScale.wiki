@@ -1,5 +1,3 @@
-#summary The effect of changing the the speaker point scale
-
 In recent years, two large tournaments have changed from the usual speaker point scale  of (roughly) 24 to (exactly) 30 by half-point increments: Wake Forest has moved to a 100-point scale, with increments of 1, and USC has moved to a quarter-point, then to a tenth-point increment while preserving the 30-point maximum. The Georgia State tournament in the 2009-2010 season [http://www.gsudebate.org/events_at_gsu/gsu_national_college_debate.html will be using a 100 point scale].
 
 Below are some charts showing the difference these changes have made. The data is drawn from the open division rounds available in the DebateResultsDotCom database.
