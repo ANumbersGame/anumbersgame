@@ -2,7 +2,7 @@
 
 In recent years, two large tournaments have changed from the usual speaker point scale  of (roughly) 24 to (exactly) 30 by half-point increments: Wake Forest has moved to a 100-point scale, with increments of 1, and USC has moved to a quarter-point, then to a tenth-point increment while preserving the 30-point maximum. The Georgia State tournament in the 2009-2010 season [http://www.gsudebate.org/events_at_gsu/gsu_national_college_debate.html will be using a 100 point scale].
 
-= Point distribution =
+= Point Distribution =
 
 In the '06-'07 season, both tournaments used the 30-point scale with half-point increments. In '07-'08, Wake moved to a 100-point scale and USC moved to quarter-point increments. For '08-'09, USC had moved from it's quarter-point system to an even finer-grained tenth-point system.
 
@@ -10,30 +10,40 @@ In the '06-'07 season, both tournaments used the 30-point scale with half-point 
 
 The new Wake scale seems to have expanded the lower range of the point distribution, while the width and peak of the point distribution under the new USC scales seem to have remained roughly the same.
 
-= Local peaks =
+= Local Peaks =
 
 The speaker points assigned under these new systems did not follow the familiar bell-shaped distribution. At Wake Forest, points clustered around multiples of five; at USC the peaks were around the values available on the old half-point scale. These distribution patterns repeated themselves at both tournaments in the '08-'09 season. 
 
-The charts below display how many rounds at each tournament were judged by judges who did not assign in any round any point values other than those at the local peaks in the point distributions displayed above. For Wake Forest in '07-'08 and '08-'09, these are the peaks at 5-point increments. For USC in '07-'08 and '08-'09, these are the peaks at 1/2-point increments. For comparison, the '06-'07 season is included, treating the integer point values as local peaks, though the charts above show that they are actually not peaks.
+== Adjustment Period ==
+
+One possible explanation for these peaks is that judges show increasing comfort assigning off-peak speaker points as the tournament goes on. The charts below show the percentage of off-peak points assigned during each round. For comparison, the '06-'07 season is included, treating the integer point values as local peaks, though the charts above show that they are actually not peaks.
+
+|| http://chart.apis.google.com/chart?cht=lxy&chs=400x250&chd=t:1,2,3,4,5,6,7,8|0.5075,0.4855,0.4710,0.4710,0.4565,0.5109,0.4891,0.4632|1,2,3,4,5,6,7,8|0.6642,0.6903,0.7052,0.7201,0.6940,0.7015,0.6754,0.6828|1,2,3,4,5,6|0.6974,0.7143,0.7052,0.6791,0.7127,0.7052&chds=1,8,0.3,0.8,1,8,0.3,0.8,1,8,0.3,0.8&chco=ff0000,00cc00,aa44ff&chtt=Shirley%20Classic|percentage%20of%20off-peak%20points%20per%20round&chdl=%2706-%2707|%2707-%2708|%2708-%2709&chxt=x,y&chxr=0,1,8,1|1,30,80&chm=o,000000,0,-1,5|o,000000,1,-1,5|o,000000,2,-1,5&dum.png || http://chart.apis.google.com/chart?cht=lxy&chs=400x250&chd=t:1,2,3,4,5,6,7|0.4236,0.4167,0.4514,0.4583,0.4786,0.5429,0.3611|1,2,3,4,5,6,7|0.3688,0.3625,0.3938,0.3188,0.3938,0.3125,0.3313|1,2,3,4,5,6,7|0.4946,0.5163,0.5707,0.5435,0.5217,0.5543,0.5272&chds=1,7,0.3,0.8,1,7,0.3,0.8,1,7,0.3,0.8&chco=ff0000,00cc00,aa44ff&chtt=USC%20%27Alan%20Nichols%27%20Debate%20Tournament|percentage%20of%20off-peak%20points%20per%20round&chdl=%2706-%2707|%2707-%2708|%2708-%2709&chxt=x,y&chxr=0,1,7,1|1,30,80&chm=o,000000,0,-1,5|o,000000,1,-1,5|o,000000,2,-1,5&dum.png ||
+
+Neither USC nor Wake Forest show any trend away from the local peaks as the tournament progressed
+
+== Uncooperative Judges ==
+
+Another possible explanation of the local peaks is that some set of judges simply do not assign off-peak points. The charts below display how many rounds at each tournament were judged by judges who did not assign in any round any point values other than those at the local peaks in the point distributions displayed above. Again, '05-'06 is included for comparison.
 
 || *<p align="center">Shirley Classic</p>* || *<p align="center">USC 'Alan Nichols' Debate Tournament</p>* ||
 || http://chart.apis.google.com/chart?cht=p&chd=t:3,546&chds=0,549&chs=133x133&chco=ff0000&chtt=%2706-%2707&dum.png http://chart.apis.google.com/chart?cht=p&chd=t:4,532&chds=0,536&chs=133x133&chco=00cc00&chtt=%2707-%2708&dum.png http://chart.apis.google.com/chart?cht=p&chd=t:4,399&chds=0,403&chs=133x133&chco=aa44ff&chtt=%2708-%2709&dum.png || http://chart.apis.google.com/chart?cht=p&chd=t:5,245&chds=0,250&chs=133x133&chco=ff0000&chtt=%2706-%2707&dum.png http://chart.apis.google.com/chart?cht=p&chd=t:55,225&chds=0,280&chs=133x133&chco=00cc00&chtt=%2707-%2708&dum.png http://chart.apis.google.com/chart?cht=p&chd=t:33,289&chds=0,322&chs=133x133&chco=aa44ff&chtt=%2708-%2709&dum.png || 
 
-At USC, a significant percentage of judges either do not know about the new system or decline to use it. In contrast, the local peaks in the Wake Forest point distribution are not coming from some population of judges that simply do not assign speaker points that aren't multiples of 5.
+At USC, a significant percentage of judges either do not know about the new system or decline to use it. In contrast, the local peaks in the Wake Forest point distribution are not coming from some isolated population of judges only assign on-peak points.
 
-The Wake Forest local peaks also do not come from increasing comfort of the judge population as a whole assigning off-peak speaker points as the tournament goes on:
+Filtering out from the USC pool the judges who only assign points at local peaks, it becomes clear that almost all the local clustering in the '07-'08 tournament is due only to judges who stick to the old scale. In contrast, at '08-'09 USC tournament, even judges who occasionally use the new scale tend to cluster around the old scale.
 
-|| http://chart.apis.google.com/chart?cht=lxy&chs=400x250&chd=t:1,2,3,4,5,6,7,8|0.5075,0.4855,0.4710,0.4710,0.4565,0.5109,0.4891,0.4632|1,2,3,4,5,6,7,8|0.6642,0.6903,0.7052,0.7201,0.6940,0.7015,0.6754,0.6828|1,2,3,4,5,6|0.6974,0.7143,0.7052,0.6791,0.7127,0.7052&chds=1,8,0.3,0.8,1,8,0.3,0.8,1,8,0.3,0.8&chco=ff0000,00cc00,aa44ff&chtt=Shirley%20Classic|percentage%20of%20off-peak%20points%20per%20round&chdl=%2706-%2707|%2707-%2708|%2708-%2709&chxt=x,y&chxr=0,1,8,1|1,30,80&chm=o,000000,0,-1,5|o,000000,1,-1,5|o,000000,2,-1,5&dum.png || http://chart.apis.google.com/chart?cht=lxy&chs=400x250&chd=t:1,2,3,4,5,6,7|0.4236,0.4167,0.4514,0.4583,0.4786,0.5429,0.3611|1,2,3,4,5,6,7|0.3688,0.3625,0.3938,0.3188,0.3938,0.3125,0.3313|1,2,3,4,5,6,7|0.4946,0.5163,0.5707,0.5435,0.5217,0.5543,0.5272&chds=1,7,0.3,0.8,1,7,0.3,0.8,1,7,0.3,0.8&chco=ff0000,00cc00,aa44ff&chtt=USC%20%27Alan%20Nichols%27%20Debate%20Tournament|percentage%20of%20off-peak%20points%20per%20round&chdl=%2706-%2707|%2707-%2708|%2708-%2709&chxt=x,y&chxr=0,1,7,1|1,30,80&chm=o,000000,0,-1,5|o,000000,1,-1,5|o,000000,2,-1,5&dum.png ||
+<p align="center">
+http://chart.apis.google.com/chart?cht=lxy&chs=500x300&chd=t:24.500,25.000,25.500,25.750,26.000,26.250,26.500,26.750,27.000,27.250,27.500,27.750,28.000,28.250,28.500,28.750,29.000,29.250,29.500|0.0011,0.0011,0.0011,0.0011,0.0022,0.0022,0.0100,0.0133,0.0556,0.0644,0.1189,0.1200,0.1789,0.1544,0.1322,0.0656,0.0511,0.0200,0.0067|26.000,26.300,26.500,26.600,26.700,26.800,26.900,27.000,27.100,27.200,27.300,27.400,27.500,27.600,27.700,27.800,27.900,28.000,28.100,28.200,28.300,28.400,28.500,28.600,28.700,28.800,28.900,29.000,29.100,29.200,29.300,29.400,29.500,29.800|0.0043,0.0026,0.0078,0.0009,0.0017,0.0069,0.0035,0.0476,0.0147,0.0294,0.0389,0.0199,0.0804,0.0199,0.0320,0.0692,0.0337,0.1341,0.0303,0.0441,0.0830,0.0320,0.0891,0.0285,0.0303,0.0294,0.0104,0.0372,0.0061,0.0069,0.0156,0.0026,0.0061,0.0009&chds=24.5,30,0,0.20,24.5,30,0,0.20,24.5,30,0,0.2,24.5,30,0,0.2&chco=ff0000,00cc00,aa44ff,ff7700&chtt=USC%20%27Alan%20Nichols%27%20Debate%20Tournament|points%20from%20judges%20who%20assign%20non-peak%20values&chdl=%2707-%2708|%2708-%2709&chxt=x,y&chxr=0,24.5,30|1,0,20&chg=9.09,0,3,2,9.09&chm=o,000000,0,-1,5&dum.png
+</p>
 
-Filtering out from the USC pool the judges who only assign points at local peaks, it becomes clear that the local clustering in the '07-'08 tournament is due only to judges who stick to the old scale. In contrast, at '08-'09 USC tournament, even judges who occasionally use the new scale tend to cluster around the old scale.
+USC '08-'09 judges who occasionally use the new scale show only a very slight increase in how often they assign off-peak points as the tournament progresses:
 
-http://chart.apis.google.com/chart?cht=lxy&chs=400x250&chd=t:24.500,25.000,25.500,25.750,26.000,26.250,26.500,26.750,27.000,27.250,27.500,27.750,28.000,28.250,28.500,28.750,29.000,29.250,29.500|0.0011,0.0011,0.0011,0.0011,0.0022,0.0022,0.0100,0.0133,0.0556,0.0644,0.1189,0.1200,0.1789,0.1544,0.1322,0.0656,0.0511,0.0200,0.0067|26.000,26.300,26.500,26.600,26.700,26.800,26.900,27.000,27.100,27.200,27.300,27.400,27.500,27.600,27.700,27.800,27.900,28.000,28.100,28.200,28.300,28.400,28.500,28.600,28.700,28.800,28.900,29.000,29.100,29.200,29.300,29.400,29.500,29.800|0.0043,0.0026,0.0078,0.0009,0.0017,0.0069,0.0035,0.0476,0.0147,0.0294,0.0389,0.0199,0.0804,0.0199,0.0320,0.0692,0.0337,0.1341,0.0303,0.0441,0.0830,0.0320,0.0891,0.0285,0.0303,0.0294,0.0104,0.0372,0.0061,0.0069,0.0156,0.0026,0.0061,0.0009&chds=24.5,30,0,0.20,24.5,30,0,0.20,24.5,30,0,0.2,24.5,30,0,0.2&chco=ff0000,00cc00,aa44ff,ff7700&chtt=USC%20%27Alan%20Nichols%27%20Debate%20Tournament|points%20from%20judges%20who%20assign%20non-peak%20values&chdl=%2707-%2708|%2708-%2709&chxt=x,y&chxr=0,24.5,30|1,0,20&chg=9.09,0,3,2,9.09&chm=o,000000,0,-1,5&dum.png
+<p align="center">
+http://chart.apis.google.com/chart?cht=lxy&chs=400x300&chd=t:1,2,3,4,5,6,7|0.5549,0.5398,0.6105,0.5682,0.6316,0.6538,0.6063&chds=1,7,0.3,0.8,1,7,0.3,0.8,1,7,0.3,0.8&chco=ff0000,00cc00,aa44ff&chtt=USC%20%27Alan%20Nichols%27%20Debate%20Tournament|percentage%20of%20off-peak%20points%20per%20round|judges%20who%20use%20the%20new%20scale&chdl=%2707-%2708&chxt=x,y&chxr=0,1,7,1|1,30,80&chm=o,000000,0,-1,5|o,000000,1,-1,5|o,000000,2,-1,5&dum.png
+</p>
 
-USC '08-'09 judges who occasionally use the new scale show a very slight increase in how often they assign off-peak points as the tournament progresses:
-
-http://chart.apis.google.com/chart?cht=lxy&chs=400x250&chd=t:1,2,3,4,5,6,7|0.5549,0.5398,0.6105,0.5682,0.6316,0.6538,0.6063&chds=1,7,0.3,0.8,1,7,0.3,0.8,1,7,0.3,0.8&chco=ff0000,00cc00,aa44ff&chtt=USC%20%27Alan%20Nichols%27%20Debate%20Tournament|percentage%20of%20off-peak%20points%20per%20round&chdl=%2707-%2708&chxt=x,y&chxr=0,1,7,1|1,30,80&chm=o,000000,0,-1,5|o,000000,1,-1,5|o,000000,2,-1,5&dum.png
-
-= Distinction between performances =
+= Distinction Between Performances =
 
 Increasing the granularity of the speaker point scale increased both the number of distinct speaker points assigned per round and the number of distinct speaker points assigned to each debater over the course of the tournament.
 
