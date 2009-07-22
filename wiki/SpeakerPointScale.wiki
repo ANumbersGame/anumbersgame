@@ -6,7 +6,7 @@ Below are some charts showing the difference these changes have made. The data i
 
 = Overview =
 
-Increasing the granularity of the speaker point scale increases the differentiation between different debaters in the same round and between different rounds for each debater. On the other hand, getting judges to use the full range of points is a challenge, especially when using the traditional 30-point maximum.
+Increasing the granularity of the speaker point scale has increased the differentiation between different debaters in the same round and between different rounds for each debater. On the other hand, judges did not use the full range of points, especially when the new scale maintained the traditional 30-point maximum. Keeping the same point range while increasing the granularity allowed many judges to either ignore or forget that any change was made at all.
 
 = Distinction Between Performances =
 
@@ -48,7 +48,7 @@ Another possible explanation of the local peaks is that some set of judges simpl
 || *<p align="center">Shirley Classic</p>* || *<p align="center">USC 'Alan Nichols' Debate Tournament</p>* ||
 || http://chart.apis.google.com/chart?cht=p&chd=t:3,546&chds=0,549&chs=133x133&chco=ff0000&chtt=%2706-%2707&dum.png http://chart.apis.google.com/chart?cht=p&chd=t:4,532&chds=0,536&chs=133x133&chco=00cc00&chtt=%2707-%2708&dum.png http://chart.apis.google.com/chart?cht=p&chd=t:4,399&chds=0,403&chs=133x133&chco=aa44ff&chtt=%2708-%2709&dum.png || http://chart.apis.google.com/chart?cht=p&chd=t:5,245&chds=0,250&chs=133x133&chco=ff0000&chtt=%2706-%2707&dum.png http://chart.apis.google.com/chart?cht=p&chd=t:55,225&chds=0,280&chs=133x133&chco=00cc00&chtt=%2707-%2708&dum.png http://chart.apis.google.com/chart?cht=p&chd=t:33,289&chds=0,322&chs=133x133&chco=aa44ff&chtt=%2708-%2709&dum.png || 
 
-At USC, a significant percentage of judges either do not know about the new system or decline to use it. In contrast, the local peaks in the Wake Forest point distribution are not coming from some isolated population of judges only assign on-peak points.
+At USC, a significant percentage of judges either do not know about the new system or decline to use it. In contrast, the local peaks in the Wake Forest point distribution are not coming from some isolated population of judges that only assign on-peak points.
 
 Filtering out from the USC pool the judges who only assign points at local peaks, it becomes clear that almost all the local clustering in the '07-'08 tournament is due to judges who stick to the old half-point scale. In contrast, at '08-'09 USC tournament, even judges who occasionally use the new tenth-point scale tend to cluster around the old half-point scale.
 
