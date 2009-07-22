@@ -4,8 +4,9 @@ The goal of this project is to produce some interesting statistics from aggregat
 
 Right now, the only raw data used is from DebateResultsDotCom.
 
-As of May 11, 2009, the data analyses available here are:
+As of July 21, 2009, the data analyses available here are:
 
+  * [SpeakerPointScale The effects of changing speaker point range and granularity]
   * [TournamentCharts Transitive prelim rounds win graphs for tournaments]
   * HybridTeams
   * [Attendance CEDA vs. NDT applicants/attendees]
