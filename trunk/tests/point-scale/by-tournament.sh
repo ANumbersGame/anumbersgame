@@ -8,10 +8,10 @@ drop
 temporary table
 if exists
 points;
-/*
+
 create temporary table points
 
-*/
+
 /*
 EOF
 
@@ -19,7 +19,7 @@ for POS in aff1 aff2 neg1 neg2
 do
     cat <<EOF
 */
-/*
+
 select tournaments.aka,
 tournaments.name,
 rounds.tournament,
@@ -39,19 +39,19 @@ and rounds.tournament = tournaments.id
 and ballots.${POS}points > 0
 
 union all
-*/
+
 /*
 EOF
 done
 
 cat <<EOF
 */
-/*
+
 select 1,2,3,4,5,6,7,8,9,10,11
 from ballots
 where 1 = 0;
-*/
-/*
+
+
 select 
 avg(round(points*1) != points*1) as whole,
 avg(round(points*2) != points*2) as half,
@@ -61,10 +61,10 @@ avg(points) as avp,
 count(*) as many,
 year, tournament, aka, name
 from points
-where aka in (27,50,26,19,22,27,11,64,3,66)
+where aka in (27,50,26,19,22,27,64,3,66)
 group by year, tournament
 order by aka, year, quarter, half, whole, avp;
-*/
+
 
 /*
 2007,3
@@ -327,6 +327,11 @@ cat <<EOF
   group by judge, roundNum) as must
   group by roundNum) as have;
 
+  select concat(group_concat(roundNum),'|',group_concat(avan)) as '' from (
+  select roundNum, 1-avg(round(points/coarse) = points/coarse) as avan
+  from mypoints
+  group by roundNum) as must;
+
   select 'coarsening by judge' as '';
 
   select many, avg(follow) from (
@@ -346,6 +351,168 @@ cat <<EOF
   group by judge 
   order by follow) as have
   group by follow with rollup;
+
+  select 'separate out non-compliant judges' as '';
+
+  drop temporary table
+  if exists
+  cooper;
+
+  create temporary table
+  cooper
+  select judge from 
+  (select judge, avg(round(points/coarse) = points/coarse) as oldscale
+  from mypoints
+  group by judge) as must
+  where oldscale != 1;
+
+  drop temporary table
+  if exists
+  uncooper;
+
+  create temporary table
+  uncooper
+  select judge from 
+  (select judge, avg(round(points/coarse) = points/coarse) as oldscale
+  from mypoints
+  group by judge) as must
+  where oldscale = 1;
+
+  select 'Cooper point distribution' as '';  
+
+  select count(*) 
+  from mypoints, cooper
+  where mypoints.judge = cooper.judge
+  into @ptot;
+
+  select concat(group_concat(points),'|',group_concat(nn/@ptot)) as '' from (
+  select points, count(*) as nn
+  from mypoints, cooper
+  where mypoints.judge = cooper.judge
+  group by points
+  order by points) as must;
+
+  select 'Uncooper point distribution' as '';  
+
+  select count(*) 
+  from mypoints, uncooper
+  where mypoints.judge = uncooper.judge
+  into @ptot;
+
+  select concat(group_concat(points),'|',group_concat(nn/@ptot)) as '' from (
+  select points, count(*) as nn
+  from mypoints, uncooper
+  where mypoints.judge = uncooper.judge
+  group by points
+  order by points) as must;
+
+  select 'Cooper coarsening by round' as '';
+
+  select concat(group_concat(roundNum),'|',group_concat(avan)) as '' from (
+  select roundNum, 1-avg(round(points/coarse) = points/coarse) as avan
+  from mypoints, cooper
+  where mypoints.judge = cooper.judge
+  group by roundNum) as must;
+
+  select '3,5,8' as '';
+
+  select follow, oldfol, sum(many) from (
+  select judge, avg(allnot) = 1 as follow, avg(oldnot) = 1 as oldfol, count(*) as many from (
+  select judge, avg(10*(points - floor(points)) in (0,3,5,8)) = 1 as allnot,
+  avg(10*(points - floor(points)) in (0,5)) = 1 as oldnot
+  from mypoints
+  group by judge, roundNum) as must
+  group by judge 
+  order by follow) as have
+  group by follow, oldfol with rollup;
+
+  select 'separate out example scale judges' as '';
+
+  drop temporary table
+  if exists
+  cooper;
+
+  create temporary table
+  cooper
+  select judge from 
+  (select judge, avg(10*(points - floor(points)) in (0,3,5,8)) as oldscale
+  from mypoints
+  group by judge) as must
+  where oldscale != 1;
+
+  drop temporary table
+  if exists
+  uncooper;
+
+  create temporary table
+  uncooper
+  select judge from 
+  (select judge, avg(10*(points - floor(points)) in (0,3,5,8)) as example,
+  avg(10*(points - floor(points)) in (0,5)) as oldscale
+  from mypoints
+  group by judge) as must
+  where example = 1
+  and oldscale != 1;
+
+  select 'Cooper point distribution' as '';  
+
+  select count(*) 
+  from mypoints, cooper
+  where mypoints.judge = cooper.judge
+  into @ptot;
+
+  select concat(group_concat(points),'|',group_concat(nn/@ptot)) as '' from (
+  select points, count(*) as nn
+  from mypoints, cooper
+  where mypoints.judge = cooper.judge
+  group by points
+  order by points) as must;
+
+  select 'Uncooper point distribution' as '';  
+
+  select count(*) 
+  from mypoints, uncooper
+  where mypoints.judge = uncooper.judge
+  into @ptot;
+
+  select concat(group_concat(points),'|',group_concat(nn/@ptot)) as '' from (
+  select points, count(*) as nn
+  from mypoints, uncooper
+  where mypoints.judge = uncooper.judge
+  group by points
+  order by points) as must;
+
+  select 'Cooper coarsening by round' as '';
+
+  select concat(group_concat(roundNum),'|',group_concat(avan)) as '' from (
+  select roundNum, 1-avg(round(points/coarse) = points/coarse) as avan
+  from mypoints, cooper
+  where mypoints.judge = cooper.judge
+  group by roundNum) as must;
+
+  select 'Cooper exampling by round' as '';
+
+  select concat(group_concat(roundNum),'|',group_concat(avan)) as '' from (
+  select roundNum, 1-avg(10*(points - floor(points)) in (0,3,5,8)) as avan
+  from mypoints, cooper
+  where mypoints.judge = cooper.judge
+  group by roundNum) as must;
+
+  select 'Uncooper coarsening by round' as '';
+
+  select concat(group_concat(roundNum),'|',group_concat(avan)) as '' from (
+  select roundNum, 1-avg(round(points/coarse) = points/coarse) as avan
+  from mypoints, uncooper
+  where mypoints.judge = uncooper.judge
+  group by roundNum) as must;
+
+  select 'Uncooper exampling by round' as '';
+
+  select concat(group_concat(roundNum),'|',group_concat(avan)) as '' from (
+  select roundNum, 1-avg(10*(points - floor(points)) in (0,3,5,8)) as avan
+  from mypoints, uncooper
+  where mypoints.judge = uncooper.judge
+  group by roundNum) as must;
 
 /*
   select roundNum, avg(many) from (
@@ -377,6 +544,13 @@ call range_incr(2009,3,25,0.1,30,0.5);
 call range_incr(2007,50,25,0.5,30,1);
 call range_incr(2008,50,70,1,100,5);
 call range_incr(2009,50,70,1,100,5);
+call range_incr(2004,19,25,0.5,30,1);
+call range_incr(2007,19,25,0.5,30,1);
+call range_incr(2005,27,25,0.5,30,1);
+call range_incr(2006,27,25,0.5,30,1);
+call range_incr(2008,66,25,0.5,30,1);
+call range_incr(2009,66,25,0.1,30,0.5);
+
 
 /*call range_incr(2008,66,24,0.5,30);*/
 
