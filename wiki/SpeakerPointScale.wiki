@@ -4,7 +4,7 @@ Below are some charts showing the difference these changes have made. The data i
 
 = Overview =
 
-Increasing the range or granularity of the speaker point scale increased the differentiation between different debaters in the same round and between different rounds for each debater. On the other hand, judges did not use the full range of points, especially when the new scale maintained the traditional 30-point maximum. Keeping the same point range while increasing the granularity allowed many judges to either ignore or forget that any change was made at all.
+Increasing the range or granularity of the speaker point scale increased the differentiation between different debaters in the same round and between different rounds for each debater. On the other hand, judges did not use the full range of points, especially when the new scale maintained the traditional 30-point maximum. Keeping the same point range while increasing the granularity allowed many judges to either ignore or forget that any change was made at all. 
 
 = Distinction Between Performances =
 
@@ -57,6 +57,7 @@ http://chart.apis.google.com/chart?cht=lxy&chs=500x300&chd=t:24.500,25.000,25.50
 In addition to the half-point values, the '08-'09 USC invite specifically mentioned speaker point values ending in ".3" and ".8":
 
 <blockquote>
+<table>
 || 26 || Needs improvement ||
 || 26.3 || ||
 || 26.5 || ||
@@ -74,6 +75,7 @@ In addition to the half-point values, the '08-'09 USC invite specifically mentio
 || 29.5 || ||
 || 29.8 || ||
 || 30 || Perfect ||
+</table>
 </blockquote>
 
 There is minor but clearly visible clustering around ".3" and ".8" values, even though the text of the invite said all tenths values would be accepted.
