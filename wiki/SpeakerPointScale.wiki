@@ -45,7 +45,7 @@ Neither USC nor Wake Forest show any trend away from the local peaks as the tour
 
 Another possible explanation of the local peaks is that some set of judges simply do not assign off-peak points. The charts below display how many rounds at each tournament were judged by judges who did not assign in any round any point values other than those at the local peaks in the point distributions displayed above. Again, '06-'07 is included for comparison.
 
-|| *<p align="center">Shirley Classic</p>* || *<p align="center">USC 'Alan Nichols' Debate Tournament</p>* ||
+|| *<p align="center">Shirley Classic<br>rounds judged by judges who only assign on-peak points* || *<p align="center">USC 'Alan Nichols' Debate Tournament<br>rounds judged by judges who only assign on-peak points* ||
 || http://chart.apis.google.com/chart?cht=p&chd=t:3,546&chds=0,549&chs=133x133&chco=ff0000&chtt=%2706-%2707&dum.png http://chart.apis.google.com/chart?cht=p&chd=t:4,532&chds=0,536&chs=133x133&chco=00cc00&chtt=%2707-%2708&dum.png http://chart.apis.google.com/chart?cht=p&chd=t:4,399&chds=0,403&chs=133x133&chco=aa44ff&chtt=%2708-%2709&dum.png || http://chart.apis.google.com/chart?cht=p&chd=t:5,245&chds=0,250&chs=133x133&chco=ff0000&chtt=%2706-%2707&dum.png http://chart.apis.google.com/chart?cht=p&chd=t:55,225&chds=0,280&chs=133x133&chco=00cc00&chtt=%2707-%2708&dum.png http://chart.apis.google.com/chart?cht=p&chd=t:33,289&chds=0,322&chs=133x133&chco=aa44ff&chtt=%2708-%2709&dum.png || 
 
 At USC, a significant percentage of judges either forgot about the new system or declined to use it. In contrast, the local peaks in the Wake Forest point distribution are not coming from some isolated population of judges that only assign on-peak points.
