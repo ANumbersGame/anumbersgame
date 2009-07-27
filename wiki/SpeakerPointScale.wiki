@@ -101,7 +101,7 @@ Of the four times non-traditional points were used, two show a difference betwee
 
 The vast majority of rounds have at least one team that might break, since it takes many rounds to end up down enough that a team is definitely not breaking. For instance, at USC in '08-'09, only 23 of 322 preliminary open rounds were between two teams who would definitely not break. Since some 4-3 teams made the cut, a team had to have 4 losses to know they wouldn't break. If a difference shows up, then, it is because of more point clustering in a small group of less-consequential rounds rather than less point clustering in a small group of more-consequential rounds. There is not some cadre of highly-preferred judges who judge most of the may-break rounds.
 
-At USC '08-'09, 60% of points no-break rounds ended in .0 or .5. Only 46% of points in may-break rounds ended in .0 or .5. This seems like a big difference, but the number one would expect by chance alone would be about 20%, so 46% brings the numbers closer to a normal distribution without actually bringing them close.
+At USC '08-'09, 60% of points in no-break rounds ended in .0 or .5. Only 46% of points in may-break rounds ended in .0 or .5. This seems like a big difference, but the number one would expect by chance alone would be about 20%, so 46% brings the numbers closer to a normal distribution without actually bringing them close.
 
 A chart of the actual points assigned at USC '08-'09 in may-break rounds shows that there is still clustering around half-point values:
 
@@ -115,7 +115,7 @@ At Wake '07-'08, 68 of 536 rounds were between two teams that had already been p
 <p align="center">
 http://chart.apis.google.com/chart?cht=lxy&chs=400x300&chd=t:70.000,71.000,72.000,73.000,74.000,75.000,76.000,77.000,78.000,79.000,80.000,81.000,82.000,83.000,84.000,85.000,86.000,87.000,88.000,89.000,90.000,91.000,92.000,93.000,94.000,95.000,96.000,97.000,98.000|10,4,12,11,13,64,27,27,33,34,85,34,79,105,111,138,90,104,109,102,206,94,123,99,69,57,20,5,7&chds=70,100,0,281&chtt=Wake%20%2707-%2708|rounds%20in%20which%20one%20team%20has%20a%20chance%20of%20breaking|speaker%20points%20by%20percentage&chxt=x,y&chxr=0,70,100|1,0,15&chg=16.667,0,3,2&chm=o,000000,0,-1,5&img.png
 
-At Wake the following year, there was no real difference between the percentage of on-peak points assigned in no-break rounds and the percentage of on-peak points assigned in break rounds. (31% vs. 30%)
+At Wake the following year, there was no real difference between the percentage of on-peak points assigned in no-break rounds and the percentage of on-peak points assigned in may-break rounds. (31% vs. 30%)
 
 Speaker point distributions for teams who end up with a winning prelim record do look marginally smoother, but only when they have a narrower range:
 
