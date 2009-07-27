@@ -92,7 +92,7 @@ http://chart.apis.google.com/chart?cht=p&chd=t:33,50,239&chds=0,322&chma=50,20,2
 In [http://www.cross-x.com/vb/showthread.php?p=1740435#post1740435 a discussion of this on cross-x.com], "Organization XIII" asked:
 
 <blockquote>
-What about the winners bracket? [. . .] I say winners bracket theoretically those are the better teams debating with the more preferred better judging.  I don't think anyone really cares if the 0-5 bracket really has a constant 5 point interval system.
+What about the winners bracket? `[ . . . ]` I say winners bracket theoretically those are the better teams debating with the more preferred better judging.  I don't think anyone really cares if the 0-5 bracket really has a constant 5 point interval system.
 </blockquote>
 
 The short answer is that whatever difference there may be, it is not enough to make rounds where points may affect seeding at or above the break follow a normal distribution.
