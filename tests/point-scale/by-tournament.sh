@@ -8,9 +8,9 @@ drop
 temporary table
 if exists
 points;
-
+/*
 create temporary table points
-
+*/
 
 /*
 EOF
@@ -19,7 +19,7 @@ for POS in aff1 aff2 neg1 neg2
 do
     cat <<EOF
 */
-
+/*
 select tournaments.aka,
 tournaments.name,
 rounds.tournament,
@@ -39,7 +39,7 @@ and rounds.tournament = tournaments.id
 and ballots.${POS}points > 0
 
 union all
-
+*/
 /*
 EOF
 done
@@ -51,7 +51,7 @@ select 1,2,3,4,5,6,7,8,9,10,11
 from ballots
 where 1 = 0;
 
-
+/*
 select 
 avg(round(points*1) != points*1) as whole,
 avg(round(points*2) != points*2) as half,
@@ -64,14 +64,371 @@ from points
 where aka in (27,50,26,19,22,27,64,3,66)
 group by year, tournament
 order by aka, year, quarter, half, whole, avp;
+*/
 
+drop procedure
+if exists by_break;
+
+delimiter |
+
+create procedure
+by_break(yr smallint unsigned, 
+	 ak int unsigned)
+begin
+
+select max(roundNum)
+into @mrn
+from rounds, tournaments
+where rounds.tournament = tournaments.id
+and rounds.year = tournaments.year
+and tournaments.year = yr
+and tournaments.aka = ak
+and rounds.level = 'open';
+
+drop temporary table if exists stayed_in;
+
+create temporary table stayed_in
+select team, round_count from
+(select team, sum(round_count) as round_count
+from
+(select affteam as team, count(*) as round_count
+from rounds, tournaments
+where roundNum > 0
+and rounds.result = 'ballots'
+and rounds.tournament = tournaments.id
+and rounds.year = tournaments.year
+and tournaments.year = yr
+and tournaments.aka = ak
+and rounds.level = 'open'
+group by affteam
+
+union all
+
+select negteam, count(*)
+from rounds, tournaments
+where roundNum > 0
+and rounds.tournament = tournaments.id
+and rounds.year = tournaments.year
+and tournaments.year = yr
+and tournaments.aka = ak
+and rounds.level = 'open'
+group by negteam) as must
+group by team) 
+as have
+where round_count = @mrn;
+/*
+select * from stayed_in;
+*/
+drop temporary table if exists num_losses;
+
+create temporary table num_losses
+select must.team, have.roundNum, sum(losses) as losses from 
+stayed_in, (
+
+select affteam as team, roundNum, decision = 'neg' as losses
+from tournaments, rounds, ballots
+where ballots.year = rounds.year
+and ballots.round = rounds.id
+and rounds.tournament = tournaments.id
+and rounds.year = tournaments.year
+and roundNum > 0
+and result = 'ballots'
+and rounds.level = 'open'
+and tournaments.year = yr
+and tournaments.aka = ak
+
+union all
+
+select negteam as team, roundNum, decision = 'aff' as losses
+from tournaments, rounds, ballots
+where ballots.year = rounds.year
+and ballots.round = rounds.id
+and rounds.tournament = tournaments.id
+and rounds.year = tournaments.year
+and roundNum > 0
+and result = 'ballots'
+and rounds.level = 'open'
+and tournaments.year = yr
+and tournaments.aka = ak
+) as must
+right join
+(select 0 as roundNum
+union all
+select distinct roundNum
+from rounds, tournaments
+where roundNum > 0
+and rounds.tournament = tournaments.id
+and rounds.year = tournaments.year
+and tournaments.year = yr
+and tournaments.aka = ak
+and rounds.level = 'open') as have
+on must.roundNum <= have.roundNum
+where stayed_in.team = must.team
+group by must.team, have.roundNum
+order by must.team, have.roundNum;
+/*
+select * from num_losses;
+*/
+drop temporary table
+if exists broke;
+
+create temporary table broke
+
+select distinct must.team
+from (
+select affteam as team
+from rounds, tournaments
+where roundNum < 0
+and rounds.tournament = tournaments.id
+and rounds.year = tournaments.year
+and tournaments.year = yr
+and tournaments.aka = ak
+and rounds.level = 'open'
+
+union
+
+select negteam
+from rounds, tournaments
+where roundNum < 0
+and rounds.tournament = tournaments.id
+and rounds.year = tournaments.year
+and tournaments.year = yr
+and tournaments.aka = ak
+and rounds.level = 'open'
+) as must, num_losses
+where num_losses.team = must.team;
+
+drop temporary table
+if exists missed;
+
+create temporary table missed
+select distinct num_losses.team
+from num_losses
+left join broke
+on num_losses.team = broke.team
+where broke.team is null;
+/*
+select count(*) from missed;
+select count(*) from broke;
+select count(distinct team) from num_losses;
+
+select * 
+from missed, broke
+where missed.team = broke.team;
+*/
+select max(losses) 
+into @maxl2b
+from broke, num_losses
+where broke.team = num_losses.team
+and num_losses.roundNum = @mrn;
+
+select min(losses) 
+into @minl2m
+from missed, num_losses
+where missed.team = num_losses.team
+and num_losses.roundNum = @mrn;
+
+select @maxl2b, @minl2m;
+
+select rounds.roundNum, rounds.affTeam, rounds.negTeam, rounds.result, ballots.decision
+from num_losses, tournaments, missed, rounds
+left join ballots
+on ballots.year = rounds.year
+and ballots.round = rounds.id
+where rounds.tournament = tournaments.id
+and rounds.year = tournaments.year
+and tournaments.year = yr
+and tournaments.aka = ak
+and num_losses.roundNum = @mrn
+and num_losses.losses = @minl2m
+and (num_losses.team = affteam
+or num_losses.team = negteam)
+and missed.team = num_losses.team
+and @maxl2b > @minl2m
+order by num_losses.team, roundNum;
 
 /*
-2007,3
-2008,3
-2007,50
-2008,66
+select rounds.roundNum, rounds.affTeam, rounds.negTeam, rounds.result, ballots.decision
+from num_losses, tournaments, broke, rounds
+left join ballots
+on ballots.year = rounds.year
+and ballots.round = rounds.id
+where rounds.tournament = tournaments.id
+and rounds.year = tournaments.year
+and tournaments.year = yr
+and tournaments.aka = ak
+and num_losses.roundNum = @mrn
+and num_losses.losses = @maxl2b
+and (num_losses.team = affteam
+or num_losses.team = negteam)
+and broke.team = num_losses.team
+order by num_losses.team, roundNum;
 */
+
+
+drop 
+temporary table
+if exists
+mypoints;
+
+create temporary table mypoints
+/*
+EOF
+
+for POS in aff1 aff2 neg1 neg2
+do
+    cat <<EOF
+*/
+
+select tournaments.aka,
+tournaments.name,
+tournaments.shortname,
+rounds.tournament,
+rounds.level,
+rounds.year,
+rounds.roundNum,
+round,
+affteam,
+negteam,
+judge,
+'${POS}' as position,
+rounds.${POS} as spkr,
+ballots.${POS}points as points
+from ballots, rounds, tournaments
+where ballots.year = rounds.year
+and ballots.round = rounds.id
+and rounds.year = tournaments.year
+and rounds.tournament = tournaments.id
+and ballots.${POS}points > 0
+and tournaments.aka = ak
+and tournaments.year = yr
+and rounds.level = 'open'
+
+union all
+
+/*
+EOF
+done
+
+cat <<EOF
+*/
+
+select 1,2,3,4,5,6,7,8,9,10,11,12,13,14
+from ballots
+where 1 = 0;
+/*
+select * from mypoints
+limit 10;
+*/
+drop table if exists num_losses_p1;
+create table num_losses_p1 select * from num_losses;
+alter table num_losses_p1
+add key (team, roundNum);
+
+select 'start';
+
+select avg(status),
+avg(p5), avg(p1), avg(p2), avg(pin),
+round(count(*)/4)
+from
+(select mypoints.roundNum, 
+if(aff.losses > @maxl2b, 0,
+if((@mrn - mypoints.roundNum) + 1 /* max additional losses */
++ aff.losses /* losses so far */ < @minl2m,3,1)) +
+if(neg.losses > @maxl2b, 0,
+if((@mrn - mypoints.roundNum) + 1 /* max additional losses */
++ neg.losses /* losses so far */ < @minl2m,3,1)) as status,
+points,
+round(points/5) = points/5 as p5,
+round(points) = points as p1,
+round(points*2) = points*2 as p2,
+points - floor(points) in (0,.3,.5,.8) as pin
+from mypoints
+left join
+num_losses_p1 as aff
+on mypoints.affteam = aff.team
+and mypoints.roundNum - 1 = aff.roundNum
+left join
+num_losses_p1 as neg
+on mypoints.negteam = neg.team
+and mypoints.roundNum - 1 = neg.roundNum
+) as must
+group by status > 0;
+
+select roundNum, sum(breaker*many)/sum(many) as broker, 
+sum(p5*many)/sum(many), sum(p1*many)/sum(many),
+sum(p2*many)/sum(many), sum(pin*many)/sum(many),
+round(sum(many)/4),
+concat(group_concat(points order by points),'|',group_concat(many order by points)),
+sum(many), max(many), max(many)/sum(many), 0.25*sum(many), 0.15*sum(many)
+from
+(select *, avg(status) as breaker, count(*) as many
+from
+(select mypoints.roundNum, 
+if(aff.losses > @maxl2b, 0,
+if((@mrn - mypoints.roundNum) + 1 /* max additional losses */
++ aff.losses /* losses so far */ < @minl2m,3,1)) +
+if(neg.losses > @maxl2b, 0,
+if((@mrn - mypoints.roundNum) + 1 /* max additional losses */
++ neg.losses /* losses so far */ < @minl2m,3,1)) as status,
+points,
+round(points/5) = points/5 as p5,
+round(points) = points as p1,
+round(points*2) = points*2 as p2,
+points - floor(points) in (0,.3,.5,.8) as pin
+from mypoints
+left join
+num_losses_p1 as aff
+on mypoints.affteam = aff.team
+and mypoints.roundNum - 1 = aff.roundNum
+left join
+num_losses_p1 as neg
+on mypoints.negteam = neg.team
+and mypoints.roundNum - 1 = neg.roundNum
+) as must
+group by status > 0, points
+) as have
+group by breaker > 0;
+
+select winner,
+sum(p5*many)/sum(many), sum(p1*many)/sum(many),
+sum(p2*many)/sum(many), sum(pin*many)/sum(many),
+round(sum(many)/4),
+concat(group_concat(points order by points),'|',group_concat(many order by points)),
+sum(many), max(many), max(many)/sum(many), 0.25*sum(many), 0.2*sum(many), 0.15*sum(many)
+from
+(
+select *, count(*) as many from 
+(select losses * 2 < @mrn as winner,
+points,
+round(points/5) = points/5 as p5,
+round(points) = points as p1,
+round(points*2) = points*2 as p2,
+points - floor(points) in (0,.3,.5,.8) as pin
+from mypoints, num_losses_p1
+where num_losses_p1.roundNum = @mrn
+and ((team = affteam && (position in ('aff1','aff2'))) 
+or (team = negteam && (position in ('neg1','neg2')))) 
+) as must
+group by winner, points) as have
+group by winner;
+
+drop table if exists num_losses_p1;
+
+
+end |
+
+delimiter ;
+
+call by_break(2007,3);
+call by_break(2008,3);
+call by_break(2009,3);
+call by_break(2007,50);
+call by_break(2008,50);
+call by_break(2009,50);
+
+
+
 
 drop procedure
 if exists range_incr;
