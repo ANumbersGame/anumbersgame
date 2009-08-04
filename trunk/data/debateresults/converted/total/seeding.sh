@@ -100,6 +100,8 @@ insert into mapseed
 set oldname = 'Random',
 newname = 'random';
 
+drop table if exists seedOrdering;
+
 create table
 seedOrdering
 (

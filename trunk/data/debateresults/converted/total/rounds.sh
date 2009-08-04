@@ -169,6 +169,8 @@ if exists ballots;
 
 create table ballots
 (
+   aka int unsigned not null auto_increment,
+   unique key (aka),
    year smallint unsigned not null
    comment 'year ending the season in which the ballot was signed',
    round int not null,
@@ -190,6 +192,13 @@ create table ballots
    aff2rank int,
    neg1rank int,
    neg2rank int
+/*
+
+  "unknown judge" 880 prevents unique key
+  ,
+
+   unique key (year,round,judge)
+*/
 
 ) 
 /*

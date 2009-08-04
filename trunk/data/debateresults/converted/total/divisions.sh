@@ -4,6 +4,8 @@ cat <<EOF
 
 use DebateResultsAll;
 
+drop table if exists divisions;
+
 create table
 divisions
 (
@@ -16,6 +18,8 @@ divisions
    references tournaments (year,id)
    on update cascade,
 */
+
+   id int unsigned,
 
    name varchar(60),
 
@@ -47,6 +51,7 @@ do
 select
 2004 as year,
 ID as tournament,
+null as id,
 null as name,
 NameD${DIV} as level,
 RRanksD${DIV} as speakerRanks,
@@ -70,6 +75,7 @@ select
 ${YEAR} as year,
 Tournament as tournament,
 DiivName as name,
+DiivisionID as id,
 Lvl as level,
 RRanks as speakerRanks,
 MaxPts as maxPoints,
@@ -89,6 +95,7 @@ select
 2009 as year,
 Tournament as tournament,
 DivName as name,
+DivisionID as id,
 Lvl as level,
 if(RRanks='0','no',
 if(RRanks='-1','yes','')) as speakerRanks,
