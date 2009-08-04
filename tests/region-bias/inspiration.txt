@@ -1,0 +1,42 @@
+> This is controversial, but have you ever considered parsing a wide data set
+> for regional bias?
+
+Do you mean to see if judges are more likely to vote for teams from
+their own region?
+
+I had not thought of that. I did some preliminary analysis based on
+your suggestion.
+
+I looked at the 4651 paneled rounds in the debateresults.com database
+in which the opponents shared neither a CEDA region nor an NDT
+district. For rounds like this, I called a judge possibly biased if he
+or she shared more districts or regions with one team than with the
+other.
+
+Of these 4651 paneled rounds between teams not sharing any leagues, in
+1279 rounds the unbiased judges split evenly. In these, 1547 ballots
+from possibly biased judges went to the team they could be biased
+toward. 1506 ballots from possibly biased judges went to the team they
+could be biased against. That's 50.7% of ballots going towards the
+team that the judge shared some leagues with. If we only consider a
+judge biased if he or she shares both a CEDA region and an NDT
+district with one of the teams, the percentage goes up to 51.9%.
+
+I am uncomfortable ascribing any significance to these numbers,
+though, because there are some confounding factors. For instance, if
+region A has larger teams with larger budgets, they might get more
+practice (and better HS recruits) than region B. At national
+tournaments, region B teams are both (1) more likely to lose and (2)
+less likely to see a familiar judge. (1) could be based on skill
+alone.
+
+That confounding factor is why I tested panel rounds rather than just
+all rounds between teams from different regions, in which I suspect
+the "larger regions get more practice" factor would be even greater.
+
+Some other confounding factors could result from teams traveling from
+outside the region to mostly regional tournaments. Those teams may be
+more tired, or feel they have more to prove, or may be of higher
+average ability (since the coach bothered to fly them).
+
+Anyway, is this what you mean by "regional bias"?
