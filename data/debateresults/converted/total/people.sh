@@ -223,6 +223,7 @@ call sameperson(2008,7538,'judge',2009,7538,'judge');
 call sameperson(2008,22390,'competitor',2008,24163,'competitor');
 call sameperson(2006,3697,'judge',2006,433,'competitor');
 call sameperson(2008,7739,'judge',2007,7301,'judge');
+call sameperson(2006,1006,'judge',2009,5130,'judge');
 
 delimiter |
 
