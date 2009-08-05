@@ -60,5 +60,6 @@ from rounds, tournaments
 where tournaments.year = rounds.year 
 and tournaments.id = rounds.tournament 
 and rounds.year = 2009 
+and roundNum > 0
 group by tournament, rounds.level 
 order by rounds.level,count(distinct affteam) desc;
