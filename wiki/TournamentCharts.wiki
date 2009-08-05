@@ -22,7 +22,7 @@ To be more specific, each node represents a *league*: a group of teams connected
 
 In the charts above, leagues with only one member are labeled with the team name and their number of wins. Larger leagues get proportionally larger nodes, which are labeled with the least and most wins by any member of that league.
 
-Nodes are colored by their average win percentage: maroon is 0%, forest green is 100%.
+Nodes are colored by their win percentage: maroon is 0%, forest green is 100%.
 
 For nodes representing leagues P and Q, there is an arrow from a P to Q when a member of P debated and beat a member of Q. Consistent with the definition of league, there is no cycle of arrows between a set of nodes.
 
