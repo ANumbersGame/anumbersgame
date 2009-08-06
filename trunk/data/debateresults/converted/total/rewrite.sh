@@ -1,9 +1,5 @@
 #!/bin/bash
 
-#./rounds.sh | mysql
-
-#./teams.sh | mysql && ./rounds.sh | mysql
-
 ./schools.sh     | mysql -u admin && echo "schools done" &&
 ./tournaments.sh | mysql -u admin && echo "tournaments done" &&
 ./leagues.sh     | mysql -u admin && echo "leagues done" &&
