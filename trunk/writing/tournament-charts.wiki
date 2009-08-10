@@ -1,0 +1,67 @@
+*russellhanes said:*
+
+Thank you for your work. This is fascinating. You motivated me to post some work ([http://art-of-logic.blogspot.com/2009/08/network-graph-theory-and-debate.html]) I'd knocked around two or three years ago; we basically come to the same conclusion: some sort of dominance or graph theory-derived ranking is likely not useful for a single debate tournament, but a fascinating visualization nonetheless.
+
+*response:*
+
+"Fascinating" might be a little strong, but thank you. :-)
+
+*russellhanes said:*
+
+I did have a few questions, however. First, it reads like your definition of league is any group of teams for which an application of the transitive property yields contradictions, i.e., the direct wins create inconsistent indirect wins. Slutzki and Volij say two players are in the same league if "i → j and j → i"(and I'm reading in here that indirect wins count, too); thus, there is an equivalence relation . If so, then it sounds like a league is a simple cyclic or more complex cyclic portion of the network graph.
+
+*response:*
+
+I don't know what the question is here. Is the question, "Is your definition the same as Slutzki Volij's?" Yes, it is.
+
+*russellhanes said:*
+
+Second, have you set up your program to use the FBB to rank within the leagues? Showing the community these diagrams as is is helpful, if for no other reason that to get tournament directors thinking about connections between tournament procedure and the fairness of rankings. But if would be sweet to use FBB as a method to break some ties, especially when it comes to year-end decisions like who gets a first-round NDT pick. I posted a really simple way to do so for ties in round robins, but the FBB sounds like it meets a lot of desirable Condorcet-like qualities. My quick reading of Slutzki and Volij is that doing FBB requires setting up eigenvectors for large matrices. It's been years since I took linear algebra, but I seem to recall this is a difficult problem, no?
+
+*response:*
+
+I did run FBB on the leagues within tournaments, but I didn't bother to publish the results, since preserving dominance doesn't seem like a good way of inferring who is strong after only a few rounds.
+
+I try not to advocate any changes to the way the debate community does things. I think it's easy to get excited about an idea and say that everyone should use my numerical technique to run their tournament or assign speaker points or give out first round bids. Using numerical methods to determine pole position tends to make people very angry, as demonstrated by the RPI and the computer component to BCS ranking.
+
+For computing the eigenvectors, I used an [http://www.ocaml.info/home/ocaml_sources.html#lacaml OCaml binding] to [http://www.netlib.org/lapack/ LAPACK].
+
+Your blog is on my feedreader, so I saw your recent post on this. I've been considering it for a while before responding -- I want to make sure I understand exactly what you're proposing before commenting on it.
+
+==========================================================================
+
+Leagues are not required to be [http://en.wikipedia.org/wiki/Cycle_graph simply cycles], nor do they contain incomparable teams. For an example of a league that is not a cycle, look at the the example round robin in your post: A, B, C, D, and E form a league.
+
+You asked how FBB compares to your method of ranking by wins, then minimizing the number of upsets as a tiebreaker. FBB ranks the teams as follows:
+
+|| *ratio*     || *bounty*      || *team name* ||
+||1.727273    ||0.762444      ||A           ||
+||1.222222    ||0.441415      ||C           ||
+||1.285714    ||0.361158      ||D           ||
+||2.333333    ||0.280900      ||B           ||
+||            ||0.120386      ||E           ||
+
+Here, "ratio" is how much better a team is than the team ranked just below it. FBB ratings are scale-invariant, so the ratios between the bounties are all that matters. Within leagues, FBB provides _ratings_, but between leagues, FBB can only give a _ranking_. Since F lost to all the other teams, it is in its own league, ranked below A through E.
+
+The factor you propose for a tiebreaker is sometimes called "minimum upsets" or "minimum violations". Its use as a ranking criterion was criticized by [http://scholar.google.com/scholar?cluster=14973173273664555476 Stob], who showed a round robin where the two minimum-violation ranking were *B*,A,C,D,E,F,G and A,C,D,E,F,G,*B*. [http://scholar.google.com/scholar?cluster=11403185761360103066 Park] suggested averaging over all minimum-violation rankings, which would make this ranking A,C,D,*B*,E,F,G, presumably satisfying Stob.
+
+Stob also criticizes an example close to the one you give. Translated to your example, Stob says it does not make sense to treat C's victory over A as less important than B's victory over C when ranking B and C. Since it is agreed that A is better than B, shouldn't C's win count more? He does not address the complementary question: if C should be ranked between A and B, isn't C's loss to B just as bad as C's win over A was good? 
+
+Like Stob, FBB treats good wins as more important than bad losses. The S&V paper discusses a method dual to FBB that treats bad losses as more important than good wins. The intuition is that instead of each team promising to pay any team that beats them a set prize (the bounty), each team requires every team they beat to pay a set fee. They call it "dual fair-bets". Since there are so many different fair-bets methods (see [http://scholar.google.com/scholar?cluster=16045416843463295682 Moon and Pullman, "On Generalized Tournament Matrices"]), calling this "dual fair-bets" is a bit vague. I'll call this FairBets Fee, or FBF.
+
+FBF ranks the teams from your tournament:
+
+|| *ratio*     || *fee*         || *team name* ||
+||2.333333    ||0.120386      ||A           ||
+||1.285714    ||0.280900      ||B           ||
+||1.222222    ||0.361158      ||C           ||
+||1.727273    ||0.441415      ||D           ||
+||            ||0.762444      ||E           ||
+
+The final of Stob's criticisms of ranking by minimum violations that I will mention is that the method does not account for the magnitude of the upsets. Surely a ranking with four minor upsets is more accurate than one with three major upsets.
+
+If you want to investigate FairBets or the example of Stob, you can take a look at [http://code.google.com/p/anumbersgame/source/browse/trunk/tests/fair-bets/ the code I used to generate these examples].
+
+You note that you "wouldn't advocate that any tournament should" use minimum violations as a first tiebreaker. I read your post's "My suggestion is that round robins can use an idea from graph theory as the first tiebreaker, before resorting to speaker points" as advocacy.
+
+I agree with you that transparency of ranking systems is a virtue in itself. There are some interesting examples of public explanation of debate team rankings at RatingSystems.
