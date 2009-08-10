@@ -170,24 +170,8 @@ let assocList_to_arr a =
     List.iter f a;
     ans
 
-let fairBets s =
-  let noma = [|"A";"B";"C";"D";"E";"F"|] in
-    (* An example from Russell Hanes *)
-  let mat = 
-    [|[|0;1;0;1;1;1|]; 
-      [|0;0;1;0;1;1|]; 
-      [|1;0;0;0;1;1|]; 
-      [|0;1;1;0;0;1|];
-      [|0;0;0;1;0;1|];
-      [|0;0;0;0;0;0|]|] in
-(*
-  let mat = 
-    [|[|0;1;1;1;1;0|]; 
-      [|0;0;1;1;1;1|]; 
-      [|0;0;0;1;1;1|]; 
-      [|0;0;0;0;1;1|];
-      [|0;0;0;0;0;1|];
-      [|1;0;0;0;0;0|]|] in *)
+let fairBets ?(inverse=false)  noma mat' =
+  let mat = if inverse then transpose mat' else mat' in
   let g = G.create () in
     let n = Array.length mat in
       for i = 0 to n-1 do
@@ -201,35 +185,93 @@ let fairBets s =
 	noma,g,ranks
 
 
-let printBets : (float * int * string) array array -> unit = fun a ->
+let printBets : ?inverse:bool -> (float * int * string) array array -> unit = 
+fun ?(inverse=false) a ->
   let n = Array.length a in
     for i = 0 to n-1 do
-      print_endline "ratio   \tbounty/fee\tteam number\tteam name";
+      print_endline "||*ratio*   \t||*bounty/fee*\t||*team number*\t||*team name*\t||";
       let m = Array.length a.(i) in
 	for j = 0 to m-1 do
 	  let (v,ii,n) = a.(i).(j) in
 	    if j <> m-1
 	    then begin
 	      let (v',_,_) = a.(i).(j+1) in
-		printf "%f\t" (v /. v')
+		printf "||%f\t||" (if inverse then (v'/.v) else (v /. v'))
 	    end
-	    else begin printf "        \t" end;
-	    printf "%f\t" v;
-	    printf "%i          \t" ii;
-	    printf "%s\n" n
+	    else begin printf "||        \t||" end;
+	    printf "%f\t||" v;
+	    printf "%i          \t||" ii;
+	    printf "%s        \t||\n" n
 	done;
 	print_newline ()
     done
 
-let sortBets : string array -> (int list * float array) array -> (float * int * string) array array = 
-fun noma ranks ->
+let sortBets : ?inverse:bool -> string array -> (int list * float array) array -> (float * int * string) array array = 
+fun ?(inverse=false) noma ranks ->
   let name l i v = v,List.nth l i,noma.(List.nth l i) in
   let each (n,m) = Array.mapi (name n) m in
   let unso = Array.map each ranks in
-  let comp i j = -((P.compare i j)) in
+  let comp i j =  (if inverse then 1 else -1) * (P.compare i j) in
     Array.iter (Array.sort comp) unso;
     unso
 
-let () =
-  let n,_,r = fairBets "DebateResults0809" in
-    printBets (sortBets n r)
+let doBets ?(inverse=false) noma mat' =
+  let n,_,r = fairBets ~inverse:inverse noma mat' in
+    printBets ~inverse:inverse (sortBets ~inverse:inverse n r)
+
+let () = 
+  let noma = [|"A";"B";"C";"D";"E";"F"|] in
+    (* An example from Russell Hanes *)
+  let mat' = 
+    [|[|0;1;0;1;1;1|]; 
+      [|0;0;1;0;1;1|]; 
+      [|1;0;0;0;1;1|]; 
+      [|0;1;1;0;0;1|];
+      [|0;0;0;1;0;1|];
+      [|0;0;0;0;0;0|]|] in
+    (*In order but for one big surprise *)
+  let noma8 = [|"A";"B";"C";"D";"E";"F";"G";"H"|] in
+  let oneBigUpset = 
+    [|[|0;1;1;1;1;1;1;0|]; 
+      [|0;0;1;1;1;1;1;1;|]; 
+      [|0;0;0;1;1;1;1;1|]; 
+      [|0;0;0;0;1;1;1;1|];
+      [|0;0;0;0;0;1;1;1|];
+      [|0;0;0;0;0;0;1;1|];
+      [|0;0;0;0;0;0;0;1|];
+      [|1;0;0;0;0;0;0;0|]|] in
+    (* Same as oneBigUpset, but smaller tournament *)
+  let noma5 = [|"A";"B";"C";"D";"E"|] in
+  let oneLittleUpset = 
+    [|[|0;1;1;1;0|]; 
+      [|0;0;1;1;1|]; 
+      [|0;0;0;1;1|]; 
+      [|0;0;0;0;1|];
+      [|1;0;0;0;0|]|] in
+    (* Example from Michael Stob's "Rankings from round-robin tournaments" *)
+  let noma7 = [|"A";"B";"C";"D";"E";"F";"G"|] in
+  let stob = 
+    [|[| 0; 0; 1; 1; 1; 1; 1|];   
+      [| 1; 0; 1; 1; 0; 0; 0|];   
+      [| 0; 0; 0; 1; 1; 1; 0|];   
+      [| 0; 0; 0; 0; 1; 1; 1|];   
+      [| 0; 1; 0; 0; 0; 1; 1|];   
+      [| 0; 1; 0; 0; 0; 0; 1|];   
+      [| 0; 1; 1; 0; 0; 0; 0|]|] in
+    print_endline "FBB Hanes's example:";
+    doBets noma mat';
+    print_endline "FBF Hanes's example:";
+    doBets ~inverse:true noma mat';
+    print_endline "FBB 8 teams, last-place team beats first-place team:";
+    doBets noma8 oneBigUpset;
+    print_endline "FBF 8 teams, last-place team beats first-place team:";
+    doBets ~inverse:true noma8 oneBigUpset;
+    print_endline "FBB 5 teams, last-place team beats first-place team:";
+    doBets noma5 oneLittleUpset;
+    print_endline "FBF 5 teams, last-place team beats first-place team:";
+    doBets ~inverse:true noma5 oneLittleUpset;
+    print_endline "FBB Stob's example of a bad tournament for MVR:";
+    doBets noma7 stob;
+    print_endline "FBF Stob's example of a bad tournament for MVR:";
+    doBets ~inverse:true noma7 stob
+    
