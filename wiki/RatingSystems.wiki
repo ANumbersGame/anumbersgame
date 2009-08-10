@@ -1,11 +1,21 @@
-#summary Discussion of ratings systems
-
-In addition to ranking teams by hand, there are numerous ways to rate teams numerically. 
-
 =Debate Specific=
 
+==Numeric==
+
+  * [http://commweb.fullerton.edu/jbruschke/web/BruschkeResults.aspx Most recent ratings by Jon Bruschke's and Jim Hanson's methods], and [http://commweb.fullerton.edu/jbruschke/web/BruschkeExplanation.aspx the inner workings of those ratings algorithms], provided by DebateResultsDotCom
   * Many posts at [http://art-of-logic.blogspot.com/ The Art of Logic] discuss the ranking of teams by opponent wins, rather than by speaker points, in order to pair tournaments fairly.
-  * [http://commweb.fullerton.edu/jbruschke/web/BruschkeExplanation.aspx Jon Bruschke's and Jim Hanson's team ratings algorithms] explained on DebateResultsDotCom
+
+==Partially Numeric==
+
+  * [http://www.ndtceda.com/pipermail/edebate/attachments/20090129/5312929c/attachment.doc Will Repko's hypothetical (he was not a voter that year) 2007-2008 NDT first round ranking]
+  * [http://www.ndtceda.com/pipermail/edebate/2009-May/078850.html Repko's '08-'09 NDT first round ranking] ([http://article.gmane.org/gmane.education.region.usa.edebate/9367 mirror]), and [http://www.ndtceda.com/pipermail/edebate/2009-May/078857.html follow-up] ([http://article.gmane.org/gmane.education.region.usa.edebate/9374 mirror], [http://www.mail-archive.com/edebate@www.ndtceda.com/msg09054.html mirror mirror])
+  * [http://www.ndtceda.com/pipermail/edebate/2009-May/078852.html Eric Morris's first and second round ranking, '08-'09], ([http://article.gmane.org/gmane.education.region.usa.edebate/9369 mirror])
+
+==Experts' Polls==
+
+  * [http://commweb.fullerton.edu/jbruschke/NDT/NDTDocs/FirstRds08-09.xls 2008-2009 NDT first round bid balloting]
+  * [http://commweb.fullerton.edu/jbruschke/NDT/NDTDocs/NDT%202nd%20rounds%20again.xls 2008-2009 NDT second round bid balloting]
+  * [http://www.ndtceda.com/pipermail/edebate/2009-July/079237.html Seth Gannon will be running a coaches' poll a few times during the '09-10 season] ([http://article.gmane.org/gmane.education.region.usa.edebate/9754 mirror]) ([http://www.mail-archive.com/edebate@www.ndtceda.com/msg09423.html mirror mirror])
 
 =Generic=
 
