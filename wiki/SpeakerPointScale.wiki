@@ -96,7 +96,7 @@ The practical consideration is less critical but is still substantial. The use o
 decimals significantly increases ballot entry time. Both [http://www.dannycantrell.net/sta/ STA-XL] and [http://www3.baylor.edu/~Richard_Edwards/TRPC.html TRPC] are designed to minimize keystrokes by assuming .5 increments. Other increments can be entered but require more keystrokes.
 </blockquote>
 
-I disagree with this. If 27 means "a number drawn from the uniform probability distribution (26.5,27.5)", then the expected value of the sum is actually 81.72. This is why, I think, high school chemistry students [http://www.google.com/search?hl=en&q="in+a+series+of+calculations+carry+the+extra+digits" are often told to round only after doing all the arithmetic].
+I disagree with this. If "27" means "a number drawn from the uniform probability distribution on (26.5,27.5)", then the expected value of the sum is actually 81.72. This is why, I think, high school chemistry students [http://www.google.com/search?hl=en&q="in+a+series+of+calculations+carry+the+extra+digits" are often told to round only after doing all the arithmetic].
 
 == Point Clustering For Winning Teams ==
 
