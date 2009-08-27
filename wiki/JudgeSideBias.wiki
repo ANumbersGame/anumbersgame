@@ -10,6 +10,8 @@ Since there are so many judges, the presence of a few judges with skewed ballot 
 
 As always, these accuracy of these statistical results is reduced by any inaccuracies in the raw data.
 
+<wiki:toc/>
+
 <br/>
 = 2007-2008 =
 ----
@@ -251,7 +253,7 @@ Resolved: The United States federal government should enact one or more of the f
 </tr>
 </table>
 ----
-= Response to Russell Hanes's analysis =
+= Update: Response to Russell Hanes's analysis =
 
 This section is a response to a post at [http://art-of-logic.blogspot.com/2009/08/judge-side-bias-whole-field.html Russell Hanes's blog]. I'm putting it here because it's nice to have comments under version control.
 
