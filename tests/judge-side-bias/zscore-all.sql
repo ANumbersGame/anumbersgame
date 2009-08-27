@@ -46,7 +46,7 @@ group by year;
 
 create temporary table distrib
 select summaries.year, round(round(5*zscore)/5+0,1) as loc, count(*) as many, 
-round(0.2 * zcount * exp(-(pow(round(5*zscore)/5,2))/2)/sqrt(2*pi())) as pdf
+0.2 * zcount * exp(-(pow(round(5*zscore)/5,2))/2)/sqrt(2*pi()) as pdf
 from zscores, summaries
 where summaries.year = zscores.year
 group by round(5*zscore)+0, summaries.year;
@@ -59,7 +59,7 @@ group_concat(many order by loc),
 '|',
 group_concat(loc order by loc),
 '|',
-group_concat(pdf order by loc)
+group_concat(round(pdf,1)+0 order by loc)
 ,'&chds=',
 min(loc),',',max(loc),',',
 0,',',round(1.1*max(if(pdf>many,pdf,many))),',',
