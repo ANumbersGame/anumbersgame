@@ -257,7 +257,7 @@ This section is a response to a post at [http://art-of-logic.blogspot.com/2009/0
 
 Russell, I enjoyed reading your post. Will you post the code to show how you generated the graph and the numbers?
 
-[http://code.google.com/p/anumbersgame/source/browse/trunk/tests/judge-side-bias/hanes.sql I tried to duplicate your results], but the numbers I got were very different from yours:
+[http://code.google.com/p/anumbersgame/source/browse/trunk/tests/judge-side-bias/hanes.sql I tried to duplicate your results], but the numbers I got were very different from yours. For the '04-'05 season, you found only 21% of the judges with 6 or more prelims were located outside of the green zone, though you expected 32%. I found 35% of those judges outside of the green zone.
 
 || *season* || *outside the green line* || *on the green line* ||
 || '03-'04  || 33.84% || 0.00% ||
@@ -273,7 +273,9 @@ Charts for each year are reproduced below, using only judges with 12 or more rou
 
 Another way to more accurately discover any deviations from the expected distribution without depending on how close the binomial distribution is to the normal distribution would be to calculate the binomial distribution for each judge's n, then sum these distributions. This would give a better approximation of the expected total distribution. One could include even judges with small numbers of rounds. You could then compare the actual aff-win-percentage-per-judge distribution against the ideal one using a non-parametric test like like the [http://en.wikipedia.org/wiki/Kolmogorov-Smirnov_test Kolmogorov-Smirnov test].
 
-In any case, the judges listed above don't deviate from the judge side bias we would expect to find at the tails of judge side bias distributions, given how many judges and how many rounds there are every year.
+In any case, the judges listed above don't deviate from the judge side bias we would expect to find at the tails of judge side bias distributions, given how many judges and how many rounds there are every year. The charts above are identifying the tails, rather than pointing out outliers.
+
+[http://code.google.com/p/anumbersgame/source/browse/trunk/tests/judge-side-bias/zscore-all.sql The code for generating the following charts is available in the subversion repository].
 
 <p align="center"><img src="http://chart.apis.google.com/chart?cht=lxy&chs=500x350&chd=t:-3.2,-3.0,-2.8,-2.6,-2.4,-2.2,-2.0,-1.8,-1.6,-1.4,-1.2,-1.0,-0.8,-0.6,-0.4,-0.2,0.0,0.2,0.4,0.6,0.8,1.0,1.2,1.4,1.6,1.8,2.0,2.2,2.6,3.2,3.4,3.6|1,2,1,2,1,1,3,8,9,16,17,19,18,25,15,28,27,27,26,26,24,22,16,6,9,8,4,3,1,1,1,1|-3.2,-3.0,-2.8,-2.6,-2.4,-2.2,-2.0,-1.8,-1.6,-1.4,-1.2,-1.0,-0.8,-0.6,-0.4,-0.2,0.0,0.2,0.4,0.6,0.8,1.0,1.2,1.4,1.6,1.8,2.0,2.2,2.6,3.2,3.4,3.6|0,0,1,1,2,3,4,6,8,11,14,18,21,25,27,29,29,29,27,25,21,18,14,11,8,6,4,3,1,0,0,0&chds=-3.2,3.6,0,32,-3.2,3.6,0,32&chco=ff4444,777777&chtt=2003-2004 judge side bias distribution|368 judges with 12 or more rounds&chdl=actual: μ=-0.01, σ=1.07|expected: μ=0.00, σ=1.00&chxt=x,y,x&chxr=0,-3.2,3.61|1,0,32,5&chxl=2:||z-score|&img=dum.png">
 <p align="center"><img src="http://chart.apis.google.com/chart?cht=lxy&chs=500x350&chd=t:-3.2,-2.8,-2.6,-2.4,-2.2,-2.0,-1.8,-1.6,-1.4,-1.2,-1.0,-0.8,-0.6,-0.4,-0.2,0.0,0.2,0.4,0.6,0.8,1.0,1.2,1.4,1.6,1.8,2.0,2.2,2.4,2.8,3.0,3.2|1,2,1,1,2,7,6,8,16,12,18,28,31,29,27,22,30,21,29,15,14,18,16,8,10,4,3,2,2,1,1|-3.2,-2.8,-2.6,-2.4,-2.2,-2.0,-1.8,-1.6,-1.4,-1.2,-1.0,-0.8,-0.6,-0.4,-0.2,0.0,0.2,0.4,0.6,0.8,1.0,1.2,1.4,1.6,1.8,2.0,2.2,2.4,2.8,3.0,3.2|0,1,1,2,3,4,6,9,12,15,19,22,26,28,30,31,30,28,26,22,19,15,12,9,6,4,3,2,1,0,0&chds=-3.2,3.2,0,34,-3.2,3.2,0,34&chco=ff4444,777777&chtt=2004-2005 judge side bias distribution|385 judges with 12 or more rounds&chdl=actual: μ=-0.02, σ=1.07|expected: μ=0.00, σ=1.00&chxt=x,y,x&chxr=0,-3.2,3.21|1,0,34,5&chxl=2:||z-score|&img=dum.png">
