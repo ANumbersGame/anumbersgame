@@ -3,7 +3,8 @@
 ==Numeric==
 
   * [http://commweb.fullerton.edu/jbruschke/web/BruschkeResults.aspx Most recent ratings by Jon Bruschke's and Jim Hanson's methods], and [http://commweb.fullerton.edu/jbruschke/web/BruschkeExplanation.aspx the inner workings of those ratings algorithms], provided by DebateResultsDotCom
-  * Many posts at [http://art-of-logic.blogspot.com/ The Art of Logic] discuss the ranking of teams by opponent wins, rather than by speaker points, in order to pair tournaments fairly.
+  * Many posts at [http://art-of-logic.blogspot.com/ The Art of Logic] discuss the ranking of teams in a tournament by a combination of opponent wins and speaker points, rather than by points alone, in order to pair tournaments fairly.
+  * [http://www.unlv.edu/orgs/debate UNLV] [http://www.ndtceda.com/pipermail/edebate/2009-August/079416.html released] ([http://article.gmane.org/gmane.education.region.usa.edebate/9933 mirror]) their rankings of teams applying for their round robin tournament.
 
 ==Partially Numeric==
 
