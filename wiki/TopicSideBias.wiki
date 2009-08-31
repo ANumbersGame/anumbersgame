@@ -10,7 +10,7 @@ After calculating the parameter t, one can decide whether there is a side bias b
 
 The chart below shows t's distance from 1, in percent, or (1/t)'s distance from 1 when t < 1. The latter is more often the case; t more often shows a negative topic bias than an affirmative one. The energy, China, and security guarantee topics show highly statistically significant negative topic bias. The other three topics show no statistically significant bias either way.
 
-http://chart.apis.google.com/chart?cht=lc&chs=700x400&chd=t:-0.01,-12.37,-7.96,1.86,-10.26,-3.37|-0.00,-6.17,-3.05,0.35,-4.67,-0.85&chds=-14,2,-7,1&chm=o,,0,-1,5|o,,1,-1,5&chdl=bias|probability&chxt=x,x,y,y,r,r&chxr=0,2004,2009,1&chxl=2:||12%25%20neg||8%25%20neg||4%25%20neg||even|2%25%20aff|1:|topic|Europe|energy|China|courts|security%20guarantee|agriculture|4:||99.9999%25%20neg||99.99%25%20neg||99%25%20neg||0%25|90%25%20aff|3:||bias||5:|||probability||&chxp=1,-20,0,20,40,60,80,100&chco=ff0000,0000aa&chtt=Topic+side+bias&chg=0,25,4,3,0,12.5&chdlp=t&dummy=img.png
+http://chart.apis.google.com/chart?cht=lc&chs=700x400&chd=t:-0.01,-12.37,-7.96,1.86,-10.26,-3.37|-0.00,-6.17,-3.05,0.35,-4.67,-0.85&chds=-14,2,-7,1&chm=o,,0,-1,5|o,,1,-1,5&chdl=bias|probability&chxt=x,x,y,y,r,r&chxr=0,2004,2009,1&chxl=2:||12%25%20neg||8%25%20neg||4%25%20neg||even|2%25%20aff|1:|Europe|energy|China|courts|security%20guarantee|agriculture|4:||99.9999%25%20neg||99.99%25%20neg||99%25%20neg||0%25|90%25%20aff|3:||bias||5:|||probability||&chco=ff0000,0000aa&chtt=Topic+side+bias&chg=0,25,4,3,0,12.5&chdlp=t&dummy=img.png
 
 =Comparison to NDT first-round at-large bids=
 
