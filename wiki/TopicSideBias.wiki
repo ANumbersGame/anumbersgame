@@ -1,3 +1,12 @@
+One way to measure if a topic was biased towards the aff or the neg is to simply check the number of ballots that went aff. There is a confounding variable of team ability, though, since power matching at tournaments is a very rough way to match teams of equal ability. The large number of rounds between teams of very unequal ability may swamp any topic bias visibility.
+
+If we measure and account for team quality, we can predict more accurately topic side bias. This had been done before with home-field advantage and presentation order using the Bradley-Terry model of paired comparisons.
+
+In the basic Bradley-Terry model, it is assumed that teams i and j have intrinsic abilities pi and pj. The total ability in a debate between the two is pi+pj, and the probability that i wins is equal to i's total share of the ability displayed: pi/(pi+pj). This model is a [http://scholar.google.com/scholar?q=%22bradley-terry%22 very popular] way of measuring preferences in scientific experiments. It has been invented at least four times: originally by Zermelo in 1929, by Bradley and Terry in 1952, by Ford in 1957 and by Jech in 1983.
+
+In the model of Bradley-Terry that accounts for side bias, there is assumed to be a parameter t such that the probability of i beating j is (t * pi)/(t*pi + pj) when i is aff. After calculating the parameter t, one can decide whether there is a side bias based on t's distance to 1 and by how much more accurate the model is when accounting for side bias. For more details, see [http://scholar.google.com/scholar?cluster=6050716066748286974 Davidson and Beaver's "On extending the Bradley-Terry model to incorporate within-pair order effects"] and [http://scholar.google.com/scholar?cluster=1036704245272414243 Hunter's "MM algorithms for generalized Bradley-Terry models"] as well as the 
+
+
 http://chart.apis.google.com/chart?cht=lc&chs=700x400&chd=t:-0.01,-12.37,-7.96,1.86,-10.26,-3.37|-0.00,-6.17,-3.05,0.35,-4.67,-0.85&chds=-14,3,-7,1&chm=o,,0,-1,5|o,,1,-1,5&chdl=bias|probability&chxt=x,x,y,y,r,r&chxr=0,2004,2009,1&chxl=2:||12%25%20neg||8%25%20neg||4%25%20neg||even|2%25%20aff|1:|topic|Europe|energy|China|courts|security%20guarantee|agriculture|4:||99.9999%25%20neg||99.99%25%20neg||99%25%20neg||0%25|90%25%20aff|3:||bias||5:|||probability||&chxp=1,-20,0,20,40,60,80,100&chco=ff0000,0000aa&chtt=Topic+side+bias&chg=0,25,4,3,0,12.5&chdlp=t&dummy=img.png
 
 =Comparison to NDT first-round at-large bids=
