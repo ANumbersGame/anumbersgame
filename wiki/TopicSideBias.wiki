@@ -1,5 +1,7 @@
 One way to measure if a topic was biased towards the aff or the neg is to simply check the number of ballots that went aff. There is a confounding variable of team ability, though, since power matching at tournaments is a very rough way to match teams of equal ability. The large number of rounds between teams of very unequal ability may swamp any topic bias visibility.
 
+=Methodology=
+
 If we account for team quality, we can more accurately measure topic side bias. This has been done before with home-field advantage and presentation order using the *Bradley-Terry* model for paired comparisons.
 
 In the basic Bradley-Terry model, it is assumed that teams {{{i}}} and {{{j}}} have intrinsic abilities {{{pi}}} and {{{pj}}}. The total ability in a debate between the two is {{{pi+pj}}}, and the probability that {{{i}}} wins is equal to {{{i}}}'s total share of the ability displayed: {{{pi/(pi+pj)}}}. This model is a [http://scholar.google.com/scholar?q=%22bradley-terry%22 very popular] way of measuring preferences in scientific experiments. It has been reinvented at least three times since the original invention in 1929 by Zermelo: Bradley and Terry in 1952, Ford in 1957, and Jech in 1983. It is sometimes called the Bradley-Terry-Luce Model, the Zermelo model, or maximum likelihood (which is actually a way of estimating the parameters of the model, rather than the model itself).
@@ -8,9 +10,13 @@ In the model of Bradley-Terry that accounts for side bias, there is assumed to b
 
 After calculating the parameter {{{t}}}, one can decide whether there is a side bias based on {{{t}}}'s distance from 1 and by how much more accurate the model is when accounting for side bias. For more details, see [http://scholar.google.com/scholar?cluster=6050716066748286974 Davidson and Beaver's "On extending the Bradley-Terry model to incorporate within-pair order effects"] and [http://scholar.google.com/scholar?cluster=1036704245272414243 Hunter's "MM algorithms for generalized Bradley-Terry models"] as well as the [http://code.google.com/p/anumbersgame/source/browse/trunk/tests/fair-bets code used to generate the data below].
 
+=Results=
+
 The chart below shows {{{t}}}'s distance from 1, in percent, or {{{(1/t)}}}'s distance from 1 when {{{t < 1}}}. The latter is more often the case; {{{t}}} more often shows a negative topic bias than an affirmative one. The significance values displayed are based on how much more likely the observed result is when assuming a side-biased model than when assuming a side-neutral model.
 
 The energy, China, and security guarantee topics show highly statistically significant negative topic bias. The other three topics show no statistically significant bias either way.
+
+None of this data analysis would be possible without the excellent work done by Jon Bruschke at DebateResultsDotCom.
 
 http://chart.apis.google.com/chart?cht=bvg&chbh=a&chs=700x400&chd=t:-0.01,-12.37,-7.96,1.86,-10.26,-3.37|-0.00,-6.17,-3.05,0.35,-4.67,-0.85&chds=-14,2,-7,1&chm=t(near,999999,0,0,15|tzero),999999,1,0,15&chdl=bias|probability&chxt=x,x,y,y,r,r&chxl=2:||12%25%20neg||8%25%20neg||4%25%20neg||even|2%25%20aff|0:|03-04|04-05|05-06|06-07|07-08|08-09|1:|Europe|energy|China|courts|security%20guarantee|agriculture|4:||99.9999%25%20neg||99.99%25%20neg||99%25%20neg||0%25|90%25%20aff|3:||bias||5:|||probability||&chco=ff0000,0000aa&chtt=Topic+side+bias&chg=0,25,4,3,0,12.4&chdlp=t&dummy=img.png
 
@@ -24,6 +30,24 @@ As an example, if the neg bias amplifier is 10%:
 || 50 || 50 || 50% || 52.38% ||
 
 *The largest bias in the past six years was the 12.37% neg bias on the energy topic. With this neg bias, in an otherwise evenly matched round, the neg has only a 52.91% chance of winning.*
+
+=Prior work=
+
+  * http://www.wiforensics.com/2006/12/are-debate-topics-fair-a-statistical-analysis/
+  * http://www.ndtceda.com/pipermail/edebate/2007-March/070404.html
+  * http://www.ndtceda.com/pipermail/edebate/2007-March/070410.html
+  * http://www.ndtceda.com/pipermail/edebate/2000-September/025837.html
+  * http://www.ndtceda.com/pipermail/edebate/2001-October/035749.html
+  * http://www.ndtceda.com/pipermail/edebate/2001-October/035737.html
+  * http://www.cross-x.com/vb/showthread.php?p=1485132
+  * http://www.ndtceda.com/pipermail/edebate/1997-October/000956.html
+  * http://www.ndtceda.com/pipermail/edebate/2001-September/034970.html
+  * http://www.ndtceda.com/pipermail/edebate/2003-June/049822.html
+  * http://www.ndtceda.com/pipermail/edebate/2003-June/049812.html
+  * http://www.ndtceda.com/pipermail/edebate/2003-June/049838.html
+  * http://www.ndtceda.com/pipermail/edebate/2006-May/067145.html
+  * http://www.cross-x.com/vb/showthread.php?p=1451260
+  * http://www.cs.jhu.edu/~jonathan/debate/ceda-l/archive/CEDA-L-Oct-1996/msg00528.html
 
 =Comparison to NDT first-round at-large bids=
 
