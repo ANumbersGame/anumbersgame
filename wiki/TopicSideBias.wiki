@@ -18,28 +18,26 @@ http://chart.apis.google.com/chart?cht=bvg&chbh=a&chs=700x400&chd=t:-0.01,-12.37
 
 As a sanity check, we can compare the Bradley-Terry ratings (with and without side bias correction) to the [http://groups.wfu.edu/NDT/HistoricalLists/copeland.html top five first-round teams]. The first-rounds were ranked in mid-February, while the Bradley-Terry ratings are based on the entire season.
 
-up__table_query_refresh_interval="300" up_disableHtml="0"
-
 ==2008-2009==
 
-<wiki:gadget url="http://www.google.com/ig/modules/simple-table.xml" height="260" width="800" border="0" up__table_query_url="http://spreadsheets.google.com/tq?key=0Ar__ITZ_kU5fdHl5MlFZcFpSN0Z4bGp6SlNjTFpCUFE&range=A1:F7&gid=5&headers=-1" up__table_query_refresh_interval="300" up_disableHtml="0"/> 
+<wiki:gadget url="http://www.google.com/ig/modules/simple-table.xml" height="290" width="850" border="0" up__table_query_url="http://spreadsheets.google.com/tq?key=0Ar__ITZ_kU5fdHl5MlFZcFpSN0Z4bGp6SlNjTFpCUFE&range=A1:F7&gid=5&headers=-1" up__table_query_refresh_interval="300" up_disableHtml="0"/> 
 
 ==2007-2008==
 
-<wiki:gadget url="http://www.google.com/ig/modules/simple-table.xml" height="280" width="800" border="0" up__table_query_url="http://spreadsheets.google.com/tq?range=A1:F7&headers=-1&key=0Ar__ITZ_kU5fdHl5MlFZcFpSN0Z4bGp6SlNjTFpCUFE&gid=4" up__table_query_refresh_interval="300" up_disableHtml="0"/> 
+<wiki:gadget url="http://www.google.com/ig/modules/simple-table.xml" height="340" width="800" border="0" up__table_query_url="http://spreadsheets.google.com/tq?range=A1:F7&headers=-1&key=0Ar__ITZ_kU5fdHl5MlFZcFpSN0Z4bGp6SlNjTFpCUFE&gid=4" up__table_query_refresh_interval="300" up_disableHtml="0"/> 
 
 ==2006-2007==
 
-<wiki:gadget url="http://www.google.com/ig/modules/simple-table.xml" height="210" width="800" border="0" up__table_query_url="http://spreadsheets.google.com/tq?key=0Ar__ITZ_kU5fdHl5MlFZcFpSN0Z4bGp6SlNjTFpCUFE&range=A1:F6&gid=3&headers=-1" up__table_query_refresh_interval="300" up_disableHtml="0"/> 
+<wiki:gadget url="http://www.google.com/ig/modules/simple-table.xml" height="270" width="800" border="0" up__table_query_url="http://spreadsheets.google.com/tq?key=0Ar__ITZ_kU5fdHl5MlFZcFpSN0Z4bGp6SlNjTFpCUFE&range=A1:F6&gid=3&headers=-1" up__table_query_refresh_interval="300" up_disableHtml="0"/> 
 
 ==2005-2006==
 
-<wiki:gadget url="http://www.google.com/ig/modules/simple-table.xml" height="300" width="800" border="0" up__table_query_url="http://spreadsheets.google.com/tq?key=0Ar__ITZ_kU5fdHl5MlFZcFpSN0Z4bGp6SlNjTFpCUFE&range=A1:F8&gid=2&headers=-1" up__table_query_refresh_interval="300" up_disableHtml="0"/> 
+<wiki:gadget url="http://www.google.com/ig/modules/simple-table.xml" height="290" width="800" border="0" up__table_query_url="http://spreadsheets.google.com/tq?key=0Ar__ITZ_kU5fdHl5MlFZcFpSN0Z4bGp6SlNjTFpCUFE&range=A1:F8&gid=2&headers=-1" up__table_query_refresh_interval="300" up_disableHtml="0"/> 
 
 ==2004-2005==
 
-<wiki:gadget url="http://www.google.com/ig/modules/simple-table.xml" height="300" width="800" border="0" up__table_query_url="http://spreadsheets.google.com/tq?range=A1:F9&headers=1&key=0Ar__ITZ_kU5fdHl5MlFZcFpSN0Z4bGp6SlNjTFpCUFE&gid=0" up__table_query_refresh_interval="300" up_disableHtml="0"/> 
+<wiki:gadget url="http://www.google.com/ig/modules/simple-table.xml" height="360" width="800" border="0" up__table_query_url="http://spreadsheets.google.com/tq?range=A1:F9&headers=1&key=0Ar__ITZ_kU5fdHl5MlFZcFpSN0Z4bGp6SlNjTFpCUFE&gid=0" up__table_query_refresh_interval="300" up_disableHtml="0"/> 
 
 ==2003-2004==
 
-<wiki:gadget url="http://www.google.com/ig/modules/simple-table.xml" height="230" width="800" border="0" up__table_query_url="http://spreadsheets.google.com/tq?key=0Ar__ITZ_kU5fdHl5MlFZcFpSN0Z4bGp6SlNjTFpCUFE&range=A1:F6&gid=1&headers=-1" up__table_query_refresh_interval="300" up_disableHtml="0"/> 
+<wiki:gadget url="http://www.google.com/ig/modules/simple-table.xml" height="290" width="800" border="0" up__table_query_url="http://spreadsheets.google.com/tq?key=0Ar__ITZ_kU5fdHl5MlFZcFpSN0Z4bGp6SlNjTFpCUFE&range=A1:F6&gid=1&headers=-1" up__table_query_refresh_interval="300" up_disableHtml="0"/> 
