@@ -16,9 +16,9 @@ http://chart.apis.google.com/chart?cht=bvg&chbh=a&chs=700x400&chd=t:-0.01,-12.37
 
 =Comparison to NDT first-round at-large bids=
 
-As a sanity check that the Bradley-Terry ratings correspond with conventional wisdom on team strength, we can compare the BT ratings (with and without side bias correction) to the [http://groups.wfu.edu/NDT/HistoricalLists/copeland.html top five first-round teams]. 
+As a sanity check that the Bradley-Terry ratings correspond with conventional wisdom on team strength, we can compare the BT ratings (with and without side bias correction) to the [http://groups.wfu.edu/NDT/HistoricalLists/copeland.html top five first-round teams]. (N.B.: The first-rounds were ranked in mid-February, while the Bradley-Terry ratings are based on the entire season.)
 
-(N.B.: The first-rounds were ranked in mid-February, while the Bradley-Terry ratings are based on the entire season.)
+You can click on a column header to re-order the teams based on the data in that column.
 
 ==2008-2009, agriculture: no statistically significant topic bias==
 
