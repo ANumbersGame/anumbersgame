@@ -35,9 +35,9 @@ As an example, if the neg bias amplifier is 10%:
 
 =Prior work=
 
-  * [http://www.wiforensics.com/2006/12/are-debate-topics-fair-a-statistical-analysis/ Nick Bubb analyzed the 2006 Wisconsin state high school debate tournament, finding no statistical evidence for side bias in 60 rounds of LD and 60 rounds of policy]
-  * [http://www.ndtceda.com/pipermail/edebate/2007-March/070404.html Will Repko worried that if the neg bias he saw in the late elims of the CEDA national tournament on the '06-'07 courts topic were not abated by changes in judging standards or the adoption of side equalization, "we may soon see a day where all the octas (and beyond) go neg."]
-  * http://www.ndtceda.com/pipermail/edebate/2007-March/070410.html
+  * [http://www.wiforensics.com/2006/12/are-debate-topics-fair-a-statistical-analysis/ Nick Bubb analyzed] the 2006 Wisconsin state high school debate tournament, finding no statistical evidence for side bias in 60 rounds of LD and 60 rounds of policy
+  * [http://www.ndtceda.com/pipermail/edebate/2007-March/070404.html Will Repko warned] that if the neg bias he saw in the late elims of the CEDA national tournament on the '06-'07 courts topic were not abated by changes in judging standards or the adoption of side equalization, "we may soon see a day where all the octas (and beyond) go neg."
+  * [http://www.ndtceda.com/pipermail/edebate/2007-March/070410.html In response to Will Repko, Gary Larson crunched] the numbers on CEDA nationals side bias, finding little evidence of negative side bias, adding that "While there is an undeniable temptation to write topics so that no side bias appears to occur in the last seven rounds of a tournament, the topic must also effectively serve the 100's of teams that will be debating it during the year."
   * http://www.ndtceda.com/pipermail/edebate/2000-September/025837.html
   * http://www.ndtceda.com/pipermail/edebate/2001-October/035749.html
   * http://www.ndtceda.com/pipermail/edebate/2001-October/035737.html
