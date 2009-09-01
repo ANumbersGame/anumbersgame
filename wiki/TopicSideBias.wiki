@@ -33,7 +33,7 @@ As an example, if the neg bias amplifier is 10%:
 
 =Prior work=
 
-  * http://www.wiforensics.com/2006/12/are-debate-topics-fair-a-statistical-analysis/
+  * [http://www.wiforensics.com/2006/12/are-debate-topics-fair-a-statistical-analysis/ Nick Bubb analyzed one year of the Wisconsin State high school debate tournament, finding no statistical evidence for side bias in 60 rounds of LD and 60 rounds of policy]
   * http://www.ndtceda.com/pipermail/edebate/2007-March/070404.html
   * http://www.ndtceda.com/pipermail/edebate/2007-March/070410.html
   * http://www.ndtceda.com/pipermail/edebate/2000-September/025837.html
