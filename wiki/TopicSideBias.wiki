@@ -24,8 +24,9 @@ http://chart.apis.google.com/chart?cht=bvg&chbh=a&chs=700x400&chd=t:-0.01,-12.37
 
 Restricting the data to certain debates:
 
-http://chart.apis.google.com/chart?cht=bvg&chbh=a&chs=450x300&chd=t:-29.09,20.26,10.65,6.83|-2.30,1.40,0.61,0.37&chds=-35,35,-3.5,3.5&chdl=bias|probability&chxt=x,x,y,y,r,r,x&chxl=2:||30%25%20neg||20%25%20neg||10%25%20neg||even||10%25%20aff||20%25%20aff||30%25%20aff||0:|05-06|06-07|07-08|08-09|1:|China|courts|security|agriculture|4:||99.9%25||99%25||9%25||0%25||90%25||99%25||99.9%25||3:||bias||5:|||probability|||6:|||guarantee|&chco=6666ff,222222&chtt=Topic+side+bias|at+the+NDT&chg=0,14.28,4,3,0,7.14&chdlp=t&dummy=img.png
+http://chart.apis.google.com/chart?cht=bvg&chbh=a&chs=500x300&chd=t:-29.09,20.26,10.65,6.83|-2.30,1.40,0.61,0.37&chds=-35,35,-3.5,3.5&chdl=bias|probability&chxt=x,x,y,y,r,r,x&chxl=2:||30%25%20neg||20%25%20neg||10%25%20neg||even||10%25%20aff||20%25%20aff||30%25%20aff||0:|05-06|06-07|07-08|08-09|1:|China|courts|security|agriculture|4:||99.9%25||99%25||9%25||0%25||90%25||99%25||99.9%25||3:||bias||5:|||probability|||6:|||guarantee|&chco=6666ff,222222&chtt=Topic+side+bias|at+the+NDT&chg=0,14.28,4,3,0,7.14&chdlp=t&dummy=img.png
 
+http://chart.apis.google.com/chart?cht=bvg&chbh=a&chs=500x300&chd=t:-13.14,-26.25,-13.83,-4.16,0.64,2.18|-0.71,-1.92,-1.01,-0.21,0.03,0.10&chds=-28,4,-7,1&chdl=bias|probability&chxt=x,x,y,y,r,r,x&chxl=2:||24%25%20neg||16%25%20neg||8%25%20neg||even|4%25%20aff|0:|03-04|04-05|05-06|06-07|07-08|08-09|1:|Europe|energy|China|courts|security|agriculture|6:|||||guarantee||4:||99.9999%25||99.99%25||99%25||0%25|90%25|3:||bias||5:|||probability||&chco=6666ff,222222&chtt=Topic+side+bias|between+first+round+applicants&chg=0,25,4,3,0,12.4&chdlp=t&dummy=img.png
 
 =Discussion=
 
