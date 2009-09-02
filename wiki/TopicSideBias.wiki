@@ -14,7 +14,7 @@ The basic idea is to compare how much better the model fits the data after addin
 
 =Results=
 
-The chart below shows {{{t}}}'s distance from 1, in percent, or {{{(1/t)}}}'s distance from 1 when {{{t < 1}}}. The latter is more often the case; {{{t}}} more often shows a negative topic bias than an affirmative one. The significance values displayed on a logarithmic scale and are based on a chi-square likelihood ratio test.
+The chart below shows {{{t}}}'s distance from 1, in percent, or {{{(1/t)}}}'s distance from 1 when {{{t < 1}}}. The latter is more often the case; {{{t}}} more often shows a negative topic bias than an affirmative one. The significance values are displayed on a logarithmic scale and are based on a chi-square likelihood ratio test.
 
 The energy, China, and security guarantee topics show highly statistically significant negative topic bias. The other three topics show no statistically significant bias either way.
 
