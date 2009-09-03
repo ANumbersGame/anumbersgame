@@ -22,6 +22,7 @@ end
 module G = Imperative.Digraph.Concrete (Vertex)
 
 module C = Components.Make(G)
+module I = Oper.I(G)
 
 (* 
 
@@ -104,29 +105,44 @@ This is the non-cyclic version of the algorithm, to ensure no strange interactio
 
 *)
 
+let prod x = Array.fold_left (fun y z -> y *. z) 1.0 x
+
+let rec normalize x = 
+  let s = prod x in
+    if s = 0.0
+    then
+      normalize (Array.map (fun v -> 2.0 *. v) x)
+    else begin
+      let n = Array.length x in
+      let v = s ** (1.0 /. (float n)) in
+	Array.iteri (fun i y -> x.(i) <- y /. v) x;
+	x
+    end
+
+let sum x = Array.fold_left (fun y z -> y +. z) 0.0 x
+
+let norm1 x = 
+  let s = sum x in
+    Array.iteri (fun i y -> x.(i) <- y /. s) x
+
 let maxLikely a eps =
-  let sum x = Array.fold_left (fun y z -> y +. z) 0.0 x in
-  let prod x = Array.fold_left (fun y z -> y *. z) 1.0 x in
   let magnitude x = Array.fold_left (fun y z -> max y z) 0.0 (Array.map abs_float x) in
   let wins = Array.map sum a in
   let n = Array.length a in
   let gamma = ref (Array.make n 1.0) in
   let newgamma = Array.make n 1.0 in
-  let normalize x = 
-    let s = (prod x) ** (1.0 /. (float n)) in
-      Array.iteri (fun i y -> x.(i) <- y /. s) x in
   let lastChange = ref (1.0 /. (float n)) in
     while !lastChange > eps do
       for i = 0 to n-1 do
 	let nn = sum (Array.mapi (fun j gj -> (a.(i).(j) +. a.(j).(i))/.(!gamma.(i) +. gj)) !gamma) in
 	  newgamma.(i) <- wins.(i) /. nn;
       done;
-      normalize newgamma;
+      norm1 newgamma;
       let diffs = Array.mapi (fun i v -> log v -. log !gamma.(i)) newgamma in
 	lastChange := magnitude diffs;
 	gamma := Array.copy newgamma
     done;
-     !lastChange, !gamma
+    !lastChange, normalize !gamma
 
 (*
 The natural log of the likelihood of tournament results m under a particular ratings vector r. The higher this number, the better the ratings are.
@@ -151,6 +167,9 @@ http://scholar.google.com/scholar?cluster=11643095567770383519
 http://scholar.google.com/scholar?cluster=7657741521898077715
 
 It returns a pair of the likelihood the the model is a perfect fit and the likelihood that it is imperfect.
+
+This goodness of fit statistic is only valid when each pair of teams debates a large number of times.
+
 *)
 let appropriateness m r =
   let n = Array.length m in
@@ -165,6 +184,25 @@ let appropriateness m r =
     let d = float n in
     let dof = d*.(d-.1.0)/.2.0 -. d +. 1.0 in
       chisq_P ~x:(2.0 *. !ans) ~nu:dof, chisq_Q ~x:(2.0 *. !ans) ~nu:dof
+
+(*
+
+To test if there is any side bias, we can use the home-field advantage/presentation order bias tests, as described in "On extending the Bradley-Terry model to incorporate within-pair order effects"
+
+http://scholar.google.com/scholar?cluster=6050716066748286974
+
+or the MM paper mentioned above ("MM algorithms for generalized Bradley-Terry models").
+
+*)
+
+(*
+
+MLE with side bias required two graphs as input. Both graphs give every team a node. One graph has an edge from i to j labelled m iff i beat j m times when i was aff. The other graph has an edge from i to j labelled m iff i lost to j m times when i was aff. MLE with side bias is only guaranteed to converge if both graphs are strongly connected.
+
+subHome2 finds the components that are strongly connected by finding a fixed point of a function that find the SCCs in the second graph of the SCCs of the first graph, then switching the order of the graphs.
+
+
+*)
 
 let rec subHome2help ?(final=true) hwin hlos =
   let gw = mkGraph hwin in
@@ -186,8 +224,12 @@ let rec subHome2help ?(final=true) hwin hlos =
 	      let lj = List.nth alist j in
 		for k = 0 to m-1 do 
 		  let lk = List.nth alist k in
-		    matw.(j).(k) <- hwin.(lj).(lk);
-		    matl.(j).(k) <- hlos.(lj).(lk)
+		  let winsize = Array.length hwin in
+		  let lossize = Array.length hlos in
+		    if lj < winsize && lk < winsize
+		    then matw.(j).(k) <- hwin.(lj).(lk);
+		    if lj < lossize && lk < lossize
+		    then matl.(j).(k) <- hlos.(lj).(lk)
 		done
             done;
 	    let interf (iss, ll, ww) =
@@ -199,53 +241,84 @@ let rec subHome2help ?(final=true) hwin hlos =
 	done;
 	!ans
 
+(*
+In the first iteration, the second graph has not yet even been inspected.
+*)
+
 let subHome2 w l = subHome2help ~final:false w l
 
-let transpose a =
-  let n = Array.length a in
-  let ans = Array.make_matrix n n 0.0 in
+(*
+subHome3 does the same thing, but is very slow.
+*)
+
+(*
+let subHome3 hwin hlos =
+  let gw = mkGraph hwin in
+  let gl = mkGraph hlos in
+  let gw2 = I.transitive_closure gw in
+  let gl2 = I.transitive_closure gl in
+  let glw = I.intersect gw gl2 in
+  let h = C.scc_array glw in
+  let n = Array.length h in
+  let ans = Array.make n ([], Array.make_matrix 0 0 0.0, Array.make_matrix 0 0 0.0) in
     for i = 0 to n-1 do
-      for j = 0 to n-1 do
-	ans.(i).(j) <- a.(j).(i) 
-      done
+      let alist = h.(i) in
+      let m = List.length alist in
+      let wmat = Array.make_matrix m m 0.0 in
+      let lmat = Array.make_matrix m m 0.0 in
+        for j = 0 to m-1 do
+          for k = 0 to m-1 do
+	    let lof x = List.nth alist x in
+	      wmat.(j).(k) <- hwin.(lof j).(lof k);
+	      lmat.(j).(k) <- hlos.(lof j).(lof k)
+          done
+        done;
+        ans.(i) <- (alist, wmat, lmat)
     done;
     ans
+*)
+
+(*
+
+Calculated the MLE with side bias using the MM algorithm mentioned above.
+
+*)
 
 let maxHome a b eps =
-  let sum x = Array.fold_left (fun y z -> y +. z) 0.0 x in
-  let prod x = Array.fold_left (fun y z -> y *. z) 1.0 x in
   let magnitude z x =  max z (Array.fold_left (fun p q -> max p q) 0.0 (Array.map abs_float x)) in
-  let winsA = Array.map (fun x -> sum x) a in
-  let winsB = Array.map (fun x -> sum x) (transpose b) in
-  let h = sum (Array.map sum a) in
+  let winsA = Array.map sum a in
   let n = Array.length a in
-  let omega = ref 1.0 in
-  let newmega = ref 1.0 in
-  let gamma = ref (Array.make n 1.0) in
-  let newgamma = Array.make n 1.0 in
-  let normalize x = 
-    let s = (prod x) ** (1.0 /. (float n)) in
-      Array.iteri (fun i y -> x.(i) <- y /. s) x in
-  let lastChange = ref (1.0 /. (float n)) in
-    while !lastChange > eps do
-      let mm = ref 0.0 in
-	for i = 0 to n-1 do
-	  let nn = ref 0.0 in
-	    for j = 0 to n-1 do
-	      nn := !nn +. (a.(i).(j) +. b.(i).(j)) *. !omega     /. (!omega *. !gamma.(i) +. !gamma.(j));
-	      nn := !nn +. (a.(j).(i) +. b.(j).(i))               /. (!omega *. !gamma.(j) +. !gamma.(i));
-	      mm := !mm +. (a.(i).(j) +. b.(i).(j)) *. !gamma.(i) /. (!omega *. !gamma.(i) +. !gamma.(j))
-	    done;
-	    newgamma.(i) <- (winsA.(i) +. winsB.(i)) /. !nn
-	done;
-	newmega := h /. !mm;
-	normalize newgamma;
-	let diffs = Array.mapi (fun i v -> log v -. log !gamma.(i)) newgamma in
-	  lastChange := magnitude (log !newmega -. log !omega) diffs;
-	  gamma := Array.copy newgamma;
-	  omega := !newmega
+  let winsB = Array.make n 0.0 in
+    for i = 0 to n-1 do
+      for j = 0 to n-1 do
+	winsB.(j) <- winsB.(j) +. b.(i).(j)
+      done 
     done;
-    !lastChange, !omega, !gamma
+    let h = sum winsA in
+    let omega = ref 1.0 in
+    let newmega = ref 1.0 in
+    let gamma = ref (Array.make n 1.0) in
+    let newgamma = Array.make n 1.0 in
+    let lastChange = ref 1.0 in
+      while !lastChange > eps do
+	let mm = ref 0.0 in
+	  for i = 0 to n-1 do
+	    let nn = ref 0.0 in
+	      for j = 0 to n-1 do
+		nn := !nn +. (a.(i).(j) +. b.(i).(j)) *. !omega     /. (!omega *. !gamma.(i) +. !gamma.(j));
+		nn := !nn +. (a.(j).(i) +. b.(j).(i))               /. (!omega *. !gamma.(j) +. !gamma.(i));
+		mm := !mm +. (a.(i).(j) +. b.(i).(j)) *. !gamma.(i) /. (!omega *. !gamma.(i) +. !gamma.(j))
+	      done;
+	      newgamma.(i) <- (winsA.(i) +. winsB.(i)) /. !nn
+	  done;
+	  newmega := h /. !mm;
+	  norm1 newgamma;
+	  let diffs = Array.mapi (fun i v -> log v -. log !gamma.(i)) newgamma in
+	    lastChange := magnitude (log !newmega -. log !omega) diffs;
+	    gamma := Array.copy newgamma;
+	    omega := !newmega
+      done;
+      !lastChange, !omega, normalize !gamma
 	
 
 let logHomelikelihood w l theta r =
@@ -259,6 +332,9 @@ let logHomelikelihood w l theta r =
     done;
     !ans
 
+(*
+This goodness of fit statistic is only valid when each pair of teams debates a large number of times.
+*)
 let appropriatenessHome w l theta r =
   let n = Array.length w in
   let ans = ref 0.0 in
@@ -272,7 +348,7 @@ let appropriatenessHome w l theta r =
     done;
     2.0 *. !ans
       
-let epsilon = 1.0e-6
+let epsilon = 1.0e-12
 
 let () = 
   for year = 2004 to 2009 do 
@@ -298,10 +374,6 @@ let () =
 	  let noms,full,aw,al,(neweps,ranks),(newHomeeps,theta,gamma) = answers.(i) in
 	  let ll = loglikelihood full ranks in
 	  let lh = logHomelikelihood aw al theta gamma in
-(*
-	  let gfl = appropriateness full ranks in
-	  let gfh = appropriatenessHome aw al theta gamma in
-*)
 	    printf "number of teams: %i\n" (List.length noms);
 	    printf "epsilon: %g\n" epsilon;
 	    printf "new epsilon: %g\n" neweps;
@@ -313,12 +385,8 @@ let () =
 	    printf "probability of bias: %g\n" (chisq_P (2.0 *. (lh -. ll)) 1.0); 
 	    printf "probability of non-bias: %g\n" (chisq_Q (2.0 *. (lh -. ll)) 1.0); 
 	    printf "inverse probability of non-bias: %g\n" (1.0/.(chisq_Q (2.0 *. (lh -. ll)) 1.0)); 
-(*
-	    printf "simple appropriateness: %g\n" gfl;
-	    printf "probability of simple appropriateness: %g\n" (chisq_P gfl (let m = float (List.length noms) in m*.(m-.1.0)/.2.0-.m+.1.0));
-	    printf "biased appropriateness: %g\n" gfh;
-	    printf "probability of biased appropriateness: %g\n" (chisq_P gfh (let m = List.length noms in float (2*m*(m-1)-(m+1))));
-*)
+	    printf "natural log of inverse probability of non-bias: %g\n" (-.log (chisq_Q (2.0 *. (lh -. ll)) 1.0)); 
+	    printf "log base 10 of inverse probability of non-bias: %g\n" ((-.log (chisq_Q (2.0 *. (lh -. ll)) 1.0))/.(log 10.0));
 	    let pairup i x = (x,n.(List.nth noms i)) in
 	    let basic = Array.mapi pairup ranks in
 	    let turn = Array.mapi pairup gamma in

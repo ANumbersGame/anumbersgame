@@ -1,0 +1,150 @@
+year:
+2004
+number of teams: 125
+epsilon: 1e-09
+new epsilon: 9.62269e-10
+new home epsilon: 9.87324e-10
+aff bias: 0.957896
+neg bias: 1.04395
+simple log likelihood: -642.253
+biased log likelihood: -642.077
+Twice difference of log likelihood: 0.350965
+probability of bias: 0.446433
+probability of non-bias: 0.553567
+inverse probability of non-bias: 1.80646
+log of inverse probability of non-bias: 0.591372
+log of inverse probability of non-bias: 0.256829
+|| *team* || *simple ranking* || *side-corrected ranking* || *team* ||
+||*	Berkley Singh/Shalmon	||116.003776	||117.263256	||*	Berkley Singh/Shalmon	||
+||*	Harvard Tarloff/Klinger	||50.950065	||51.238706	||*	Harvard Tarloff/Klinger	||
+||*	Emory Beckley/Liu	||42.559794	||43.044053	||*	Emory Beckley/Liu	||
+||*	Nwstrn Morales/Lux	||35.804843	||35.598935	||*	Nwstrn Morales/Lux	||
+||*	Emory Wolmer/Phillips	||29.486385	||29.558977	||*	Emory Wolmer/Phillips	||
+||*	Georgia Ramachandrappa/Watson	||28.699095	||28.966316	||*	Georgia Ramachandrappa/Watson	||
+||*	MictSt Stahl/Strauss	||26.607468	||26.406143	||*	MictSt Stahl/Strauss	||
+||*	Nwstrn Gottbreht/Branson	||20.843407	||20.737711	||*	Nwstrn Gottbreht/Branson	||
+year:
+2005
+number of teams: 140
+epsilon: 1e-09
+new epsilon: 9.38456e-10
+new home epsilon: 9.69667e-10
+aff bias: 0.842515
+neg bias: 1.18692
+simple log likelihood: -1056.46
+biased log likelihood: -1051.7
+Twice difference of log likelihood: 9.53066
+probability of bias: 0.997979
+probability of non-bias: 0.00202067
+inverse probability of non-bias: 494.884
+log of inverse probability of non-bias: 6.20432
+log of inverse probability of non-bias: 2.6945
+|| *team* || *simple ranking* || *side-corrected ranking* || *team* ||
+||*	Harvard Tarloff/Klinger	||76.714158	||79.098988	||*	Harvard Tarloff/Klinger	||
+||*	Nwstrn Morales/Branson	||72.808439	||73.260428	||*	Nwstrn Morales/Branson	||
+||*	Berkley Nathan/Wickersham	||30.454849	||30.808712	||*	Berkley Nathan/Wickersham	||
+|| 	Emory Phillips/Allen	||27.601538	||29.217468	|| 	Emory Phillips/Allen	||
+||*	MictSt VanHorn/Hardy	||17.982362	||18.619534	||*	MictSt VanHorn/Hardy	||
+||*	Dartmth Smith/Clark	||17.034783	||17.770389	||*	Dartmth Smith/Clark	||
+||*	Texas More/Apel	||16.275314	||16.664346	||*	Texas More/Apel	||
+|| 	Kentuc Schy/Theodosopoulos	||15.381466	||15.734559	|| 	Kentuc Schy/Theodosopoulos	||
+year:
+2006
+number of teams: 175
+epsilon: 1e-09
+new epsilon: 9.58865e-10
+new home epsilon: 9.53404e-10
+aff bias: 0.899393
+neg bias: 1.11186
+simple log likelihood: -1660.74
+biased log likelihood: -1657.8
+Twice difference of log likelihood: 5.89784
+probability of bias: 0.984841
+probability of non-bias: 0.0151594
+inverse probability of non-bias: 65.9655
+log of inverse probability of non-bias: 4.18913
+log of inverse probability of non-bias: 1.81932
+|| *team* || *simple ranking* || *side-corrected ranking* || *team* ||
+||*	Harvard Klinger/Mirchandani	||108.980572	||110.036059	||*	Harvard Klinger/Mirchandani	||
+||*	Nwstrn Branson/Chestnut	||79.988538	||81.625737	||*	Nwstrn Branson/Chestnut	||
+||*	Emory Phillips/Ghavi	||66.327937	||67.964206	||*	Emory Phillips/Ghavi	||
+||*	Berkley Wickersham/Burshteyn	||64.989532	||65.387290	||*	MictSt Burke/Harrigan	||
+||*	MictSt Burke/Harrigan	||64.318725	||64.673099	||*	Berkley Wickersham/Burshteyn	||
+||*	WakeFr Carroll/Hall	||49.998353	||50.169717	||*	WakeFr Carroll/Hall	||
+||*	Dartmth Smith/Clark	||40.437785	||40.775024	||*	Dartmth Smith/Clark	||
+||*	Emory Levkovitz/Chaudoin	||34.843780	||35.743742	||*	Emory Levkovitz/Chaudoin	||
+year:
+2007
+number of teams: 194
+epsilon: 1e-09
+new epsilon: 9.79644e-10
+new home epsilon: 9.79358e-10
+aff bias: 1.01081
+neg bias: 0.989302
+simple log likelihood: -1980.67
+biased log likelihood: -1980.63
+Twice difference of log likelihood: 0.0723514
+probability of bias: 0.212057
+probability of non-bias: 0.787943
+inverse probability of non-bias: 1.26913
+log of inverse probability of non-bias: 0.238329
+log of inverse probability of non-bias: 0.103505
+|| *team* || *simple ranking* || *side-corrected ranking* || *team* ||
+||*	Oklhma Cleary/Johnson	||36.840599	||36.850055	||*	Oklhma Cleary/Johnson	||
+||*	Georgia Culpepper/Rabinowitz	||36.525634	||36.561535	||*	Georgia Culpepper/Rabinowitz	||
+||*	Dartmth Clark/Olsen	||28.464022	||28.442223	||*	Dartmth Clark/Olsen	||
+||*	Kansas Jennings/Bricker	||27.112224	||27.170955	||*	Kansas Jennings/Bricker	||
+||*	WayneS Murillo/Timmons	||25.572070	||25.582704	||*	WayneS Murillo/Timmons	||
+||*	Emory Hamraie/Hoehn	||23.898865	||23.872704	||*	Emory Hamraie/Hoehn	||
+||*	USC Iftimie/Smith	||19.205589	||19.208743	||*	USC Iftimie/Smith	||
+||*	UMKC Gordon/Foster	||18.869129	||18.884436	||*	UMKC Gordon/Foster	||
+year:
+2008
+number of teams: 188
+epsilon: 1e-09
+new epsilon: 9.84779e-10
+new home epsilon: 9.3553e-10
+aff bias: 0.973024
+neg bias: 1.02772
+simple log likelihood: -1949.27
+biased log likelihood: -1949.04
+Twice difference of log likelihood: 0.466482
+probability of bias: 0.50539
+probability of non-bias: 0.49461
+inverse probability of non-bias: 2.02179
+log of inverse probability of non-bias: 0.703985
+log of inverse probability of non-bias: 0.305737
+|| *team* || *simple ranking* || *side-corrected ranking* || *team* ||
+||*	Berkle Burshteyn/Polin	||55.749259	||55.874902	||*	Berkle Burshteyn/Polin	||
+||*	Emory Hoehn/Weil	||46.132264	||46.298108	||*	Emory Hoehn/Weil	||
+||*	Kansas Jennings/Bricker	||36.261197	||36.338474	||*	Kansas Jennings/Bricker	||
+||*	Dartmth Olsen/Kernoff	||32.482323	||32.602309	||*	Dartmth Olsen/Kernoff	||
+||*	Harvard Anders/Murray	||31.431252	||31.447838	||*	Harvard Anders/Murray	||
+||*	WakeFr Lamballe/Gannon	||29.208795	||29.186184	||*	WakeFr Lamballe/Gannon	||
+||*	Nwstrn Warden/Fisher	||25.817984	||25.986464	||*	Nwstrn Warden/Fisher	||
+|| 	Emory Pramanick/Inamullah	||25.411305	||25.184307	|| 	Emory Pramanick/Inamullah	||
+year:
+2009
+number of teams: 176
+epsilon: 1e-09
+new epsilon: 9.49311e-10
+new home epsilon: 9.7569e-10
+aff bias: 1.07362
+neg bias: 0.931425
+simple log likelihood: -1790.57
+biased log likelihood: -1789.16
+Twice difference of log likelihood: 2.81315
+probability of bias: 0.906505
+probability of non-bias: 0.0934945
+inverse probability of non-bias: 10.6958
+log of inverse probability of non-bias: 2.36985
+log of inverse probability of non-bias: 1.02921
+|| *team* || *simple ranking* || *side-corrected ranking* || *team* ||
+||*	Nwstrn Warden/Fisher	||145.922400	||147.942669	||*	Nwstrn Warden/Fisher	||
+||*	Kansas Johnson/Bricker	||110.956914	||111.033628	||*	Kansas Johnson/Bricker	||
+||*	Wake Lamballe/Gannon	||87.515469	||87.108250	||*	Wake Lamballe/Gannon	||
+|| 	MictSt Eyzaguirre/Lanning	||70.566108	||71.074340	|| 	MictSt Eyzaguirre/Lanning	||
+||*	Cal Burshteyn/Polin	||70.152439	||69.687030	||*	Cal Burshteyn/Polin	||
+||*	Emory Schwab/Miller	||52.422167	||52.032596	||*	Emory Schwab/Miller	||
+||*	Emory Weil/Senghas	||41.664667	||41.697778	||*	Emory Weil/Senghas	||
+||*	Harvard Rebrovick/Smith	||33.444719	||33.701030	||*	Harvard Rebrovick/Smith	||
