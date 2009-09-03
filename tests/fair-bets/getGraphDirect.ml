@@ -16,9 +16,41 @@ let acros yr =
 
 let wins side yr =
   "select affteam, negteam, count(*) as many
-   from rounds, ballots, tournaments
-   where rounds.year = ballots.year
+   from rounds, ballots, tournaments,
+(select year, tournament, level, count(distinct affteam) as teams
+from rounds
+group by year, tournament, level   
+) as must,
+teams as aff, teams as neg
+   where 
+
+aff.year = rounds.year
+and aff.id = rounds.affteam
+
+and neg.year = rounds.year
+and neg.id = rounds.negteam
+
+/*
+and aff.firstroundApplicant = 'yes'
+and neg.firstroundApplicant = 'yes'
+*/
+
+and must.tournament = rounds.tournament
+and must.year = rounds.year
+and must.level = rounds.level
+/*
+and must.teams > 60
+
+and (roundNum >= 5)
+*/
+/*
+and tournaments.shortname = 'NDT'
+*/
+   and rounds.year = ballots.year
    and rounds.id = ballots.round
+/*
+   and rounds.level = 'JV'
+*/
    and ballots.decision = '"^side^"'
    and rounds.year = "^string_of_int yr^"
 /*
@@ -88,15 +120,40 @@ let assocList_to_arr a =
     List.iter f a;
     ans
 
-let mat_add x y =
-  let ans = Array.map Array.copy x in
-  let n = Array.length ans in
+let mat_transpose a =
+  let n = Array.length a in
+  let ans = Array.make_matrix n n 0.0 in
     for i = 0 to n-1 do
       for j = 0 to n-1 do
-	ans.(i).(j) <- ans.(i).(j) +. y.(j).(i)
+	ans.(i).(j) <- a.(j).(i) 
       done
     done;
     ans
+
+
+let mat_add x y =
+
+  let n = Array.length x in
+  let m = Array.length y in
+  let l = ref (Array.make_matrix 0 0 0.0) in
+  let r = ref (Array.make_matrix 0 0 0.0) in
+  let t = ref (fun i -> i) in
+    if n > m
+    then begin
+      l := Array.map Array.copy x;
+      r := y
+    end else begin
+      l := Array.map Array.copy y;
+      r := x;
+      t := mat_transpose
+    end;
+    for i = 0 to Array.length(!l)-1 do
+      for j = 0 to Array.length(!l)-1 do
+	if i < Array.length(!r) && j < Array.length(!r)
+	then !l.(i).(j) <- !l.(i).(j) +. !r.(j).(i)
+      done
+    done;
+    !t !l
 
 let balance year =
   let (w,l,n) = getEvery year in
