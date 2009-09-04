@@ -74,22 +74,22 @@ You can click on a column header to re-order the teams based on the data in that
 
 <wiki:gadget url="http://www.google.com/ig/modules/simple-table.xml" height="290" width="850" border="0" up__table_query_url="http://spreadsheets.google.com/tq?key=0Ar__ITZ_kU5fdHl5MlFZcFpSN0Z4bGp6SlNjTFpCUFE&range=A1:F7&gid=5&headers=-1" up__table_query_refresh_interval="300" up_disableHtml="0"/> 
 
-==2007-2008, security guarantee: 10.3% neg bias, statistically significant with {{{p < 1/40,000}}} ==
+==2007-2008, security guarantee: estimated 10.3% neg bias, statistically significant with {{{p < 1/40,000}}} ==
 
-<wiki:gadget url="http://www.google.com/ig/modules/simple-table.xml" height="340" width="800" border="0" up__table_query_url="http://spreadsheets.google.com/tq?range=A1:F7&headers=-1&key=0Ar__ITZ_kU5fdHl5MlFZcFpSN0Z4bGp6SlNjTFpCUFE&gid=4" up__table_query_refresh_interval="300" up_disableHtml="0"/> 
+<wiki:gadget url="http://www.google.com/ig/modules/simple-table.xml" height="340" width="850" border="0" up__table_query_url="http://spreadsheets.google.com/tq?range=A1:F7&headers=-1&key=0Ar__ITZ_kU5fdHl5MlFZcFpSN0Z4bGp6SlNjTFpCUFE&gid=4" up__table_query_refresh_interval="300" up_disableHtml="0"/> 
 
 ==2006-2007, courts: no statistically significant topic bias==
 
-<wiki:gadget url="http://www.google.com/ig/modules/simple-table.xml" height="270" width="800" border="0" up__table_query_url="http://spreadsheets.google.com/tq?key=0Ar__ITZ_kU5fdHl5MlFZcFpSN0Z4bGp6SlNjTFpCUFE&range=A1:F6&gid=3&headers=-1" up__table_query_refresh_interval="300" up_disableHtml="0"/> 
+<wiki:gadget url="http://www.google.com/ig/modules/simple-table.xml" height="270" width="850" border="0" up__table_query_url="http://spreadsheets.google.com/tq?key=0Ar__ITZ_kU5fdHl5MlFZcFpSN0Z4bGp6SlNjTFpCUFE&range=A1:F6&gid=3&headers=-1" up__table_query_refresh_interval="300" up_disableHtml="0"/> 
 
-==2005-2006, China: 8.0% neg bias, statistically significant with {{{p < 1/1000}}} ==
+==2005-2006, China: estimated 8.0% neg bias, statistically significant with {{{p < 1/1000}}} ==
 
-<wiki:gadget url="http://www.google.com/ig/modules/simple-table.xml" height="290" width="800" border="0" up__table_query_url="http://spreadsheets.google.com/tq?key=0Ar__ITZ_kU5fdHl5MlFZcFpSN0Z4bGp6SlNjTFpCUFE&range=A1:F8&gid=2&headers=-1" up__table_query_refresh_interval="300" up_disableHtml="0"/> 
+<wiki:gadget url="http://www.google.com/ig/modules/simple-table.xml" height="290" width="850" border="0" up__table_query_url="http://spreadsheets.google.com/tq?key=0Ar__ITZ_kU5fdHl5MlFZcFpSN0Z4bGp6SlNjTFpCUFE&range=A1:F8&gid=2&headers=-1" up__table_query_refresh_interval="300" up_disableHtml="0"/> 
 
-==2004-2005, energy: 12.4% neg bias, statistically significant with {{{p < 1/1,000,000}}} ==
+==2004-2005, energy: estimated 12.4% neg bias, statistically significant with {{{p < 1/1,000,000}}} ==
 
-<wiki:gadget url="http://www.google.com/ig/modules/simple-table.xml" height="360" width="800" border="0" up__table_query_url="http://spreadsheets.google.com/tq?range=A1:F9&headers=1&key=0Ar__ITZ_kU5fdHl5MlFZcFpSN0Z4bGp6SlNjTFpCUFE&gid=0" up__table_query_refresh_interval="300" up_disableHtml="0"/> 
+<wiki:gadget url="http://www.google.com/ig/modules/simple-table.xml" height="360" width="850" border="0" up__table_query_url="http://spreadsheets.google.com/tq?range=A1:F9&headers=1&key=0Ar__ITZ_kU5fdHl5MlFZcFpSN0Z4bGp6SlNjTFpCUFE&gid=0" up__table_query_refresh_interval="300" up_disableHtml="0"/> 
 
 ==2003-2004, Europe: no statistically significant topic bias==
 
-<wiki:gadget url="http://www.google.com/ig/modules/simple-table.xml" height="290" width="800" border="0" up__table_query_url="http://spreadsheets.google.com/tq?key=0Ar__ITZ_kU5fdHl5MlFZcFpSN0Z4bGp6SlNjTFpCUFE&range=A1:F6&gid=1&headers=-1" up__table_query_refresh_interval="300" up_disableHtml="0"/> 
+<wiki:gadget url="http://www.google.com/ig/modules/simple-table.xml" height="290" width="850" border="0" up__table_query_url="http://spreadsheets.google.com/tq?key=0Ar__ITZ_kU5fdHl5MlFZcFpSN0Z4bGp6SlNjTFpCUFE&range=A1:F6&gid=1&headers=-1" up__table_query_refresh_interval="300" up_disableHtml="0"/> 
