@@ -64,9 +64,13 @@ Smaller samples can exhibit large biases that are not statistically significant.
   * http://www.cross-x.com/vb/showthread.php?p=1451260
   * http://www.cs.jhu.edu/~jonathan/debate/ceda-l/archive/CEDA-L-Oct-1996/msg00528.html
 
-=Comparison to NDT first-round at-large bids=
+=Comparison to Copeland Contenders=
 
 As a sanity check that the Bradley-Terry ratings correspond with conventional wisdom on team strength, we can compare the BT ratings (with and without side bias correction) to the [http://groups.wfu.edu/NDT/HistoricalLists/copeland.html top five first-round teams]. (N.B.: The first-rounds were ranked in mid-February, while the Bradley-Terry ratings are based on the entire season.)
+
+The column labeled "Bradley-Terry rating" is just a team's score, {{{pi}}} (see the "Methodology" section above). The "Bradley-Terry with side bias rating" is a teams score {{{pi}}} under the most likely side bias amplifier. These scores can take on any positive number.
+
+It is not particularly fruitful to compare scores from different years. They roughly correspond to how strong a team is compared to the field, but a Copeland contender can have their score inflated by better novice recruitment, which would make them stronger in comparison.
 
 You can click on a column header to re-order the teams based on the data in that column.
 
