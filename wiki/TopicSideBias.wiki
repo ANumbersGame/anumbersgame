@@ -59,8 +59,21 @@ Smaller samples can exhibit large biases that are not statistically significant.
   * [http://www.ndtceda.com/pipermail/edebate/2003-June/049812.html Ryan Galloway listed] 14 years of NDT final round results, finding a large aff bias.
   * [http://www.ndtceda.com/pipermail/edebate/2003-June/049814.html Terrance Shuman contrasted] Galloway's list and the overall NDT elim results, finding less evidence for aff bias. [http://www.ndtceda.com/pipermail/edebate/2003-June/049838.html He later provided even more NDT elim numbers showing little side bias]
   * [http://www.ndtceda.com/pipermail/edebate/2006-May/067145.html Ede Warner compared] aff advantage to home-field advantage, and questioned whether the topic committee should focus on neutralizing side bias. He also called for keeping records on side bias if the topic committee is tasked with reducing it.
-  * http://www.cross-x.com/vb/showthread.php?p=1451260 http://osdir.com/ml/education.region.usa.edebate/2007-04/msg00331.html http://debate-central.ncpa.org/forum/viewtopic.php?id=32544&action=new http://www.mail-archive.com/edebate@www.ndtceda.com/msg01256.html http://www.ndtceda.com/pipermail/edebate/2007-April/070777.html http://article.gmane.org/gmane.education.region.usa.edebate/1363
-  * http://www.cs.jhu.edu/~jonathan/debate/ceda-l/archive/CEDA-L-Oct-1996/msg00528.html
+  * [http://article.gmane.org/gmane.education.region.usa.edebate/1363 The Debater's Choice Awards, 2007], an opt-in email poll of college debaters conducted in April 2007, asked: (Alternate links: [http://www.cross-x.com/vb/showthread.php?p=1451260 1] [http://osdir.com/ml/education.region.usa.edebate/2007-04/msg00331.html 2] [http://debate-central.ncpa.org/forum/viewtopic.php?id=32544&action=new 3] [http://www.mail-archive.com/edebate@www.ndtceda.com/msg01256.html 4] [http://www.ndtceda.com/pipermail/edebate/2007-April/070777.html 5])
+<blockquote>
+39. Do you perceive a negative side bias in contemporary intercollegiate debate?
+
+YES, 45 votes
+
+NO, 21 votes
+
+
+40. Do you believe that the topic committee should aim to craft resolutions that would attempt to increase the Affirmative win percentage?
+
+NO, 37 votes
+
+YES, 28 votes
+</blockquote>
 
 =Comparison to Copeland Contenders=
 
