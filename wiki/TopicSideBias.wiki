@@ -57,7 +57,7 @@ Smaller samples can exhibit large biases that are not statistically significant.
   * [http://www.cross-x.com/vb/showthread.php?p=1485132 There was a long discussion] about side bias on the cross-x.com message board.
   * [http://www.ndtceda.com/pipermail/edebate/1997-October/000956.html Arnie Madsen suggested] measuring side bias by restricting analysis to weed out confounding factors; in particular, he suggested comparing "win-loss percentage on this topic to previous years by examining results in non-side constrained power matched debates, and elimination round debates, at the same tournaments in this and previous years"
   * http://www.ndtceda.com/pipermail/edebate/2003-June/049822.html
-  * http://www.ndtceda.com/pipermail/edebate/2003-June/049812.html
+  * [http://www.ndtceda.com/pipermail/edebate/2003-June/049812.html Ryan Galloway listed] 14 years of NDT final round results, finding a large aff bias.
   * http://www.ndtceda.com/pipermail/edebate/2003-June/049814.html
   * http://www.ndtceda.com/pipermail/edebate/2003-June/049838.html
   * [http://www.ndtceda.com/pipermail/edebate/2006-May/067145.html Ede Warner compared] aff advantage to home-field advantage, and questioned whether the topic committee should focus on neutralizing side bias. He also called for keeping records on side bias if the topic committee is tasked with reducing it.
