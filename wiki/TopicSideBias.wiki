@@ -16,7 +16,7 @@ The basic idea is to compare how much better the model fits the data after addin
 
 Thar charts below show the side bias values for which the Bradley-Terry rankings are statistically indistinguishable from the most likely side bias. The yellow line traces the maximum likelihood estimates of the side bias.
 
-The energy, China, and security guarantee topics have small, yet highly statistically significant ({{{p < .001}}}) negative topic bias. The other three topics show no statistically significant bias either way.
+The energy, China, and security guarantee topics have small, yet highly statistically significant ({{{p < .001}}}), negative topic bias. The other three topics show no statistically significant bias either way.
 
 None of this data analysis would be possible without the excellent work done by Jon Bruschke at DebateResultsDotCom.
 
