@@ -12,6 +12,8 @@ After calculating the parameter {{{t}}}, one can decide whether there is a side 
 
 The basic idea is to compare how much better the model fits the data after adding a side bias parameter. Adding _any_ parameter to the model will improve the fit, but adding parameters that are essentially random should improve the fit much less. For instance, if we added an amplifier parameter for teams with an odd number of vowels in their last names, we would expect the model to fit the data only slightly better. Comparing the improvement when using the side-biased model with the expected improvement when using a model that adds no real predicative power over the basic Bradley-Terry model, we can obtain an estimate of the probability that the side bias parameter {{{t}}} is no better than a random amplifier. Three of the topics in the past six years have side bias that would occur by chance less than once every thousand times. The other three years have side bias that would occur by chance more than once every ten times.
 
+The results are given as intervals around a percentage. The percentage is {{{100*(t-1)}}} when {{{t > 1}}} (indicating an aff advantage), or {{{100*(1/t -1)}}}  when {{{t < 1}}} (indicating neg advantage). The confidence interval indicates the side biases that are indistinguishable from {{{t}}} at the {{{p = .10}}} confidence level. This is calculated using the likelihood-ratio test, following Davidson and Beaver.
+
 =Results=
 
 Thar charts below show the side bias values for which the Bradley-Terry rankings are statistically indistinguishable from the most likely side bias. The yellow line traces the maximum likelihood estimates of the side bias.
