@@ -20,7 +20,7 @@ The energy, China, and security guarantee topics have small, yet highly statisti
 
 None of this data analysis would be possible without the excellent work done by Jon Bruschke at DebateResultsDotCom.
 
-http://chart.apis.google.com/chart?cht=lc&chs=400x350&chm=b,0000ffaa,0,1,1|r,ff0000,0,0.499,0.501|o,000000,2,-1,5,1&chd=t:-4.3,-16.8,-12.2,-2.1,-14.5,-7.3|4.3,-8.2,-3.8,6.0,-6.2,0.4|-0.0,-12.4,-8.0,1.9,-10.3,-3.4&chds=-55,55,-55,55,-55,55&chxt=x,x,y,y,x&chxl=2:||50%25%20neg||40%25%20neg||30%25%20neg||20%25%20neg||10%25%20neg||even||10%25%20aff||20%25%20aff||30%25%20aff||40%25%20aff||50%25%20aff||0:|03-04|04-05|05-06|06-07|07-08|08-09|1:|Europe|energy|China|courts|security|agriculture|4:|||||guarantee||3:||bias|&chco=000000,000000,ffff00&chtt=Topic+side+bias|90%25+confidence+interval&chg=0,9.09,4,3,0,4.5&chdlp=t&dummy=img.png
+http://chart.apis.google.com/chart?cht=lc&chs=500x350&chm=b,0000ffaa,0,1,1|r,ff0000,0,0.665,0.667|o,000000,2,-1,5,1&chd=t:-4.3,-16.8,-12.2,-2.1,-14.5,-7.3|4.3,-8.2,-3.8,6.0,-6.2,0.4|-0.0,-12.4,-8.0,1.9,-10.3,-3.4&chds=-20,10,-20,10,-20,10&chxt=x,x,y,y,x&chxl=2:|||10%25%20neg||even||10%25%20aff|0:|03-04|04-05|05-06|06-07|07-08|08-09|1:|Europe|energy|China|courts|security|agriculture|4:|||||guarantee||3:||bias|&chco=000000,000000,ffff00&chtt=Topic+side+bias|90%25+confidence+interval&chg=0,33.33,4,3,0,0&chdlp=t&dummy=img.png
 
 The charts below restrict the considered ballots to progressively smaller subsets, so the statistical confidence of side bias tends to be lower. The larger shaded regions indicate larger uncertainty about side bias.
 
