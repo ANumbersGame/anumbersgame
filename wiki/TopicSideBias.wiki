@@ -1,6 +1,8 @@
-One way to measure if a topic was biased towards the aff or the neg is to simply check the number of ballots that went aff. There is a confounding variable of team ability, though, since power matching at tournaments is a very rough way to match teams of equal ability. The large number of rounds between teams of very unequal ability may swamp any topic bias visibility.
+#summary Do some resolutions make it easier for the affirmative to win?
 
 =Methodology=
+
+One way to measure if a topic was biased towards the aff or the neg is to simply check the number of ballots that went aff. There is a confounding variable of team ability, though, since power matching at tournaments is a very rough way to match teams of equal ability. The large number of rounds between teams of very unequal ability may swamp any topic bias visibility.
 
 If we account for team quality, we can more accurately measure topic side bias. This has been done before with home-field advantage and presentation order using the *Bradley-Terry* model for paired comparisons.
 
@@ -76,6 +78,7 @@ NO, 37 votes
 
 YES, 28 votes
 </blockquote>
+  * In an attempt to dispel unsubstantiated whining in theory debates, [http://lucydebate.blogspot.com/2008/10/terrible-arguments-now-with-data.html Ryan Ricard collected] win percentages from a few high school tournaments on the 2008-2009 energy topic, noting: "Come on people. It's the 21st century here. Quit making statistical claims without statistics." He found a slight neg bias.
 
 =Comparison to Copeland Contenders=
 
