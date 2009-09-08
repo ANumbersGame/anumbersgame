@@ -45,7 +45,7 @@ As an example, if the neg bias amplifier is 10%:
 
 *The largest side bias in the past six years was the 12.37% neg bias on the energy topic. With this neg bias, in an otherwise evenly matched round, the neg has only a 52.91% chance of winning.*
 
-The side bias in the past six years, though statistically significant, is not very large. Statistically significance does not imply significance in everyday life. *With a large number of trials, even small effects can be statistically significant, and the DebateResultsDotCom database contains 98,204 ballots.* Statistical significance does not imply that the topic committee should change their focus, or that elims should be paired differently, or that judges should change their decision calculus.
+The side bias in the past six years, though statistically significant for three years, is not very large. Statistically significance does not imply significance in everyday life. *With a large number of trials, even small effects can be statistically significant, and the DebateResultsDotCom database contains 98,204 ballots.* Statistical significance does not imply that the topic committee should change their focus, or that elims should be paired differently, or that judges should change their decision calculus.
 
 Smaller samples can exhibit large biases that are not statistically significant. Generally, no confidence level less than 95% is considered statistically significant.
 
