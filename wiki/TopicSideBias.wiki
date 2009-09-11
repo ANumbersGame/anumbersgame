@@ -4,7 +4,20 @@ There is discussion every summer about the side bias of prospective controversy 
 
 =Methodology=
 
+==Counting ballots==
+
 One way to measure if a topic was biased towards the aff or the neg is to simply check the number of ballots that went aff. There is a confounding variable of team ability, though, since power matching at tournaments is a very rough way to match teams of equal ability. The large number of rounds between teams of very unequal ability may swamp any topic bias visibility.
+
+Consider a season conducted by {{{n}}} pairs of teams such that:
+
+  * Every team debates every other team some large number of times
+  * In debates between teams from pair {{{i}}} and pair {{{i+1}}}, the team from pair {{{i}}} wins 90% of the time, regardless of side
+  * In debates between teams from pair {{{i}}} and pair {{{i+k}}} where {{{k > 1}}}, the team from pair {{{i}}} wins almost 100% of the time, regardless of side
+  * When two teams from the same pair debate, the affirmative wins 90% of the time
+
+This season exhibits large differences between teams in different pairs. These differences swamp the strong aff bias between equally matched teams: as the number of teams gets larger, the total percentage of rounds won by the neg gets closer to {{{50%}}}, even though any team would be wise to flip aff.
+
+==Bradley-Terry==
 
 If we account for team quality, we can more accurately measure topic side bias. This has been done before with home-field advantage and presentation order using the *Bradley-Terry* model for paired comparisons.
 
