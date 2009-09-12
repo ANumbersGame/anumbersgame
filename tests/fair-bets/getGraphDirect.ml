@@ -30,10 +30,10 @@ and aff.id = rounds.affteam
 and neg.year = rounds.year
 and neg.id = rounds.negteam
 
-/*
+
 and aff.firstroundApplicant = 'yes'
 and neg.firstroundApplicant = 'yes'
-*/
+
 
 and must.tournament = rounds.tournament
 and must.year = rounds.year
@@ -41,7 +41,7 @@ and must.level = rounds.level
 /*
 and must.teams > 60
 
-and (roundNum >= 5)
+and (roundNum < 0)
 */
 /*
 and tournaments.shortname = 'NDT'
