@@ -6,7 +6,7 @@ Right now, the only raw data used is from DebateResultsDotCom.
 
 As of September 11, 2009, the available pages are:
 
-  * [TopicSideBias measurements of aff or neg bias in topics from past years]
+  * [TopicSideBias Measurements of aff or neg bias in topics from past years]
   * [RatingSystems A list of rating and ranking systems, focused on those used for college policy debate]
   * [SpeakerPointScale The effects of changing speaker point range and granularity]
   * [TournamentCharts Transitive prelim rounds win graphs for tournaments]
