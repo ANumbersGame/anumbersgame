@@ -151,6 +151,18 @@ let mlhneg = flArray
     [|0;0;0;0;1;0|]|]
 *)
 
+let mlhaffwin = flArray
+  [|[|0;82;10;10|];
+    [|82;0;10;10|];
+    [|10;10;0;82|];
+    [|10;10;82;0|]|]
+
+let mlhafflos = flArray
+  [|[|0;1;1;1|];
+    [|1;0;1;1|];
+    [|100;100;0;1|];
+    [|100;100;1;0|]|]
+
 let mlh n =
   let aff = Array.make_matrix n n 0 in
   let neg = Array.make_matrix n n 0 in
@@ -168,3 +180,63 @@ let mlh n =
     neg.(n-1).(n-2) <- 1;
     flArray aff, flArray neg
       
+let mlhBarely n =
+  let aff = Array.make_matrix (2*n) (2*n) 0 in
+  let neg = Array.make_matrix (2*n) (2*n) 0 in
+    for i = 0 to n-1 do
+      aff.(2*i).(2*i+1) <- 9;
+      aff.(2*i+1).(2*i) <- 9;
+      if i < n-1
+      then begin
+	aff.(2*i).(2*i+2) <- 9;
+	aff.(2*i).(2*i+3) <- 9;
+	
+	aff.(2*i+1).(2*i+2) <- 9;
+	aff.(2*i+1).(2*i+3) <- 9;
+      end;
+      if i > 0
+      then begin
+	aff.(2*i).(2*i-1) <- 1;
+	aff.(2*i).(2*i-2) <- 1;
+	
+	aff.(2*i+1).(2*i-1) <- 1;
+	aff.(2*i+1).(2*i-2) <- 1;
+      end;
+      for j = 2*i+4 to 2*n-1 do
+	aff.(2*i).(j) <- 10;
+	aff.(2*i+1).(j) <- 10;
+      done
+    done;
+    for i = 0 to n-1 do
+      neg.(2*i).(2*i+1) <- 1;
+      neg.(2*i+1).(2*i) <- 1;
+      if i < n-1
+      then begin
+	neg.(2*i+2).(2*i) <- 9;
+	neg.(2*i+3).(2*i) <- 9;
+	
+	neg.(2*i+2).(2*i+1) <- 9;
+	neg.(2*i+3).(2*i+1) <- 9;
+      end;
+      if i > 0
+      then begin
+	neg.(2*i-1).(2*i) <- 1;
+	neg.(2*i-2).(2*i) <- 1;
+	
+	neg.(2*i-1).(2*i+1) <- 1;
+	neg.(2*i-2).(2*i+1) <- 1;
+      end;
+      for j = 2*i+4 to 2*n-1 do
+	neg.(j).(2*i) <- 10;
+	neg.(j).(2*i+1) <- 10;
+      done
+    done;
+    let sum x =
+      let ans = ref 0 in
+	for i = 0 to 2*n-1 do
+	  for j = 0 to 2*n-1 do
+	    ans := !ans + x.(i).(j)
+	  done
+	done;
+	!ans in
+      flArray aff, flArray neg, sum aff, sum neg

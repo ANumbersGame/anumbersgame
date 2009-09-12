@@ -332,6 +332,17 @@ let logHomelikelihood w l theta r =
     done;
     !ans
 
+let logHomelikelihoodDiff w l theta r conte g =
+  let n = Array.length w in
+  let ans = ref 0.0 in
+    for i = 0 to n-1 do
+      for j = 0 to n-1 do
+	ans := !ans +. w.(i).(j) *. log (((theta *. r.(i))/.((theta *. r.(i)) +. r.(j)))/.((conte *. g.(i))/.((conte *. g.(i)) +. g.(j))));
+	ans := !ans +. l.(i).(j) *. log ((r.(j)/.((theta *. r.(i)) +. r.(j)))/.(g.(j)/.((conte *. g.(i)) +. g.(j))));
+      done
+    done;
+    !ans
+
 (*
 This goodness of fit statistic is only valid when each pair of teams debates a large number of times.
 *)
@@ -348,7 +359,106 @@ let appropriatenessHome w l theta r =
     done;
     2.0 *. !ans
       
-let epsilon = 1.0e-12
+let maxHomeFix t a b eps =
+  let magnitude x =  Array.fold_left (fun p q -> max p q) 0.0 (Array.map abs_float x) in
+  let winsA = Array.map sum a in
+  let n = Array.length a in
+  let winsB = Array.make n 0.0 in
+    for i = 0 to n-1 do
+      for j = 0 to n-1 do
+	winsB.(j) <- winsB.(j) +. b.(i).(j)
+      done 
+    done;
+    let gamma = ref (Array.make n 1.0) in
+    let newgamma = Array.make n 1.0 in
+    let lastChange = ref 1.0 in
+      while !lastChange > eps do
+	for i = 0 to n-1 do
+	  let nn = ref 0.0 in
+	    for j = 0 to n-1 do
+	      nn := !nn +. (a.(i).(j) +. b.(i).(j)) *. t /. (t *. !gamma.(i) +. !gamma.(j));
+	      nn := !nn +. (a.(j).(i) +. b.(j).(i))      /. (t *. !gamma.(j) +. !gamma.(i));
+	    done;
+	    newgamma.(i) <- (winsA.(i) +. winsB.(i)) /. !nn
+	done;
+	norm1 newgamma;
+	let diffs = Array.mapi (fun i v -> log v -. log !gamma.(i)) newgamma in
+	  lastChange := magnitude diffs;
+	  gamma := Array.copy newgamma;
+      done;
+      !lastChange, normalize !gamma
+
+let rec slopeHomeLikely a b theta r eps like delt =
+  let t = log theta in
+  let tlo = t -. delt in
+  let thi = t +. delt in
+  let oper v = 
+    let _,ans = maxHomeFix (exp v) a b eps in
+      logHomelikelihoodDiff a b theta r (exp v) ans
+  in
+  let tlolik,thilik = oper tlo, oper thi in
+  let sloplo = tlolik /. delt in
+  let slophi = -. thilik /. delt in
+    printf "t: %g\n" t;
+    printf "delt: %g\n" delt;
+    printf "tlo: %g\n" tlo;
+    printf "thi: %g\n" thi;
+    printf "tlolik: %g\n" tlolik;
+    printf "thilik: %g\n" thilik;
+    printf "sloplo: %g\n" sloplo;
+    printf "slophi: %g\n" slophi;
+    if (sloplo <= 0.0) || (slophi >= 0.0)
+    then slopeHomeLikely a b theta r eps like (2.0 *. delt)
+    else sqrt(delt /. (sloplo -. slophi)),delt
+
+let rec findInterval tlo thi a b eps theta r like oth g ll =
+  if oth = theta
+  then begin
+    let newoth = oth +. 0.1 in
+    let _,newg = maxHomeFix newoth a b eps in
+    let newll = logHomelikelihood a b newoth newg in
+      findInterval tlo thi a b eps theta r like newoth newg newll
+  end else begin
+    if ll > thi
+    then begin
+      printf "too close: %g\n" oth;
+      flush stdout; (*
+		      print_string "too high: ";
+		      print_float oth;
+		      print_newline ();
+		      flush stdout; *)
+      let newoth = oth -. (theta -. oth) in
+      let _,newg = maxHomeFix newoth a b eps in
+      let newll = logHomelikelihood a b newoth newg in
+	findInterval tlo thi a b eps theta r like newoth newg newll
+    end else begin
+      if ll < tlo
+      then begin
+	printf "too far: %g\n" oth;
+	flush stdout;
+	let newoth = theta +. (oth -. theta)/.2.0 in
+	let _,newg = maxHomeFix newoth a b eps in
+	let newll = logHomelikelihood a b newoth newg in
+	  if newll > thi
+	  then findInterval tlo thi a b eps newoth newg newll oth g ll
+	  else begin
+	    if newll < tlo
+	    then findInterval tlo thi a b eps theta r like newoth newg newll
+	    else begin 
+	      printf "ok: %g\n" newoth;
+	      flush stdout;
+	      newll, newoth, newg
+	    end
+	  end
+      end else begin
+	printf "ok: %g\n" oth;
+	flush stdout;
+	ll,oth,g
+      end
+    end
+  end
+
+let epsilon = 1.0e-9
 
 let () = 
   for year = 2004 to 2009 do 
@@ -373,20 +483,35 @@ let () =
 	for i = 0 to many-1 do
 	  let noms,full,aw,al,(neweps,ranks),(newHomeeps,theta,gamma) = answers.(i) in
 	  let ll = loglikelihood full ranks in
-	  let lh = logHomelikelihood aw al theta gamma in
+	  let lh = logHomelikelihood aw al theta gamma in (*
+	  let logthetasd,_ = slopeHomeLikely aw al theta gamma epsilon lh (2.0 *. epsilon) in *)
+	  let bhi = lh -. (chisq_Pinv 0.89 1.0)/.2.0 in
+	  let blo = lh -. (chisq_Pinv 0.91 1.0)/.2.0 in
+	  let lll,oth,_ = findInterval blo bhi aw al epsilon theta gamma lh 1.0 ranks ll in
+	  let opp = exp (log theta +. (log theta -. log oth)) in
+	  let _,newg = maxHomeFix opp aw al epsilon in
+	  let newll = logHomelikelihood aw al opp newg in
+	  let l4,o4,_ = findInterval blo bhi aw al epsilon theta gamma lh opp newg newll in
 	    printf "number of teams: %i\n" (List.length noms);
 	    printf "epsilon: %g\n" epsilon;
 	    printf "new epsilon: %g\n" neweps;
 	    printf "new home epsilon: %g\n" newHomeeps;
 	    printf "aff bias: %g\nneg bias: %g\n" theta (1.0/.theta);
+	    printf "likelihoods %g %g %g\n" lh lll l4;
+	    flush stdout;
+	    printf "toward-zero %g%%: %g %g\n" (100.0 *. chisq_P (2.0 *. (lh -. lll)) 1.0) oth (1.0/.oth);
+	    printf "away-zero %g%%: %g %g\n" (100.0 *. chisq_P (2.0 *. (lh -. l4)) 1.0) o4 (1.0/.o4);
 	    printf "simple log likelihood: %g\n" ll;
 	    printf "biased log likelihood: %g\n" lh;
 	    printf "Twice difference of log likelihood: %g\n" (2.0 *. (lh -. ll));
+	    flush stdout;
 	    printf "probability of bias: %g\n" (chisq_P (2.0 *. (lh -. ll)) 1.0); 
 	    printf "probability of non-bias: %g\n" (chisq_Q (2.0 *. (lh -. ll)) 1.0); 
 	    printf "inverse probability of non-bias: %g\n" (1.0/.(chisq_Q (2.0 *. (lh -. ll)) 1.0)); 
 	    printf "natural log of inverse probability of non-bias: %g\n" (-.log (chisq_Q (2.0 *. (lh -. ll)) 1.0)); 
-	    printf "log base 10 of inverse probability of non-bias: %g\n" ((-.log (chisq_Q (2.0 *. (lh -. ll)) 1.0))/.(log 10.0));
+	    printf "log base 10 of inverse probability of non-bias: %g\n" ((-.log (chisq_Q (2.0 *. (lh -. ll)) 1.0))/.(log 10.0)); (*
+	    printf "standard deviation around natural log bias: %g\n" logthetasd;
+            printf "2sd confidence interval: (%g,%g)\n" (exp(log(theta) -. 2.0 *. logthetasd)) (exp(log(theta) +. 2.0 *. logthetasd)); *)
 	    let pairup i x = (x,n.(List.nth noms i)) in
 	    let basic = Array.mapi pairup ranks in
 	    let turn = Array.mapi pairup gamma in
