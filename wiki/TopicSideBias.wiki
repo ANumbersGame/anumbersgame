@@ -76,7 +76,6 @@ In addition to the discussion every summer about the side bias of prospective to
   * [http://www.ndtceda.com/pipermail/edebate/2007-March/070410.html In response to Will Repko, Gary Larson crunched] the numbers on CEDA nationals side bias, finding little evidence of negative side bias, adding that "While there is an undeniable temptation to write topics so that no side bias appears to occur in the last seven rounds of a tournament, the topic must also effectively serve the 100's of teams that will be debating it during the year." ([http://osdir.com/ml/education.region.usa.edebate/2007-03/msg00388.html mirror 1], [http://www.mail-archive.com/edebate@www.ndtceda.com/msg00908.html mirror 2], [http://article.gmane.org/gmane.education.region.usa.edebate/996 mirror 3])
   * [http://www.ndtceda.com/pipermail/edebate/2001-October/035749.html Ryan Galloway explained] that a small side bias isn't as worrisome as the educational sacrifices made to correct side bias, with a caveat that some past topics had side biases that were too large to ignore.
   * [http://www.ndtceda.com/pipermail/edebate/2001-October/035737.html Later, Ryan Galloway speculated] that the alternative to slight neg bias might be massive aff bias.
-  * [http://www.cross-x.com/vb/showthread.php?p=1485132 There was a long discussion] about side bias on the cross-x.com message board.
   * [http://www.ndtceda.com/pipermail/edebate/1997-October/000956.html Arnie Madsen suggested] measuring side bias by restricting analysis to weed out confounding factors; in particular, he suggested comparing "win-loss percentage on this topic to previous years by examining results in non-side constrained power matched debates, and elimination round debates, at the same tournaments in this and previous years"
   * [http://www.ndtceda.com/pipermail/edebate/2003-June/049812.html Ryan Galloway listed] 14 years of NDT final round results, finding a large aff bias.
   * [http://www.ndtceda.com/pipermail/edebate/2003-June/049814.html Terrance Shuman contrasted] Galloway's list with the overall NDT elim results, finding less evidence for aff bias. [http://www.ndtceda.com/pipermail/edebate/2003-June/049838.html He later provided] even more NDT elim numbers showing little side bias.
@@ -98,6 +97,7 @@ YES, 28 votes
 </blockquote>
   * In an attempt to dispel unsubstantiated whining in theory debates, [http://lucydebate.blogspot.com/2008/10/terrible-arguments-now-with-data.html Ryan Ricard collected] win percentages from a few high school tournaments on the 2008-2009 energy topic, noting: "Come on people. It's the 21st century here. Quit making statistical claims without statistics." He found a slight neg bias.
   * [http://www.wiforensics.com/2006/12/are-debate-topics-fair-a-statistical-analysis/ Nick Bubb analyzed] the 2006 Wisconsin state high school debate tournament, finding no statistical evidence for side bias in 60 rounds of LD and 60 rounds of policy
+  * [http://www.cross-x.com/vb/showthread.php?p=1485132 There was a long discussion] about side bias on the cross-x.com message board.
 
 =Comparison to Copeland Contenders=
 
