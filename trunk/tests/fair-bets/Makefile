@@ -1,6 +1,6 @@
 .PHONY: all clean
 
-all: fairBets maximumLikelihood maximumLikelihood.opt
+all: fairBets maximumLikelihood maximumLikelihood.opt mletop
 
 eig.cmx: eig.ml Makefile
 	ocamlfind ocamlopt -package lacaml -c eig.ml
