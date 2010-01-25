@@ -105,7 +105,7 @@ As a sanity check that the Bradley-Terry ratings correspond with conventional wi
 
 The column labeled "Bradley-Terry rating" is just a team's score, {{{pi}}} (see the "Methodology" section above). The "Bradley-Terry with side bias rating" is a teams score {{{pi}}} under the most likely side bias amplifier. These scores can take on any positive number.
 
-It is not particularly fruitful to compare scores from different years. They roughly correspond to how strong a team is compared to the field, but a Copeland contender can have their score inflated by better novice recruitment, which would make them stronger in comparison.
+It is not particularly fruitful to compare scores from different years. They roughly correspond to how strong a team is compared to the field, but a Copeland contender can have their score inflated by more novice recruitment, which would make them stronger in comparison.
 
 You can click on a column header to re-order the teams based on the data in that column.
 
