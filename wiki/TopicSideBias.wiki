@@ -37,11 +37,11 @@ The results are given as intervals around a percentage. The percentage is {{{100
 
 Thar charts below show the side bias values for which the Bradley-Terry rankings are statistically indistinguishable from the most likely side bias. The yellow line traces the maximum likelihood estimates of the side bias.
 
-The energy, China, and security guarantee topics have small, yet highly statistically significant ({{{p < .001}}}), negative topic bias. The other three topics show no statistically significant bias either way.
+The energy, China, and security guarantee topics have small, yet highly statistically significant ({{{p < .001}}}), negative topic bias. The other four topics show no statistically significant bias either way.
 
 None of this data analysis would be possible without the excellent work done by Jon Bruschke at DebateResultsDotCom.
 
-http://chart.apis.google.com/chart?cht=lc&chs=500x350&chm=b,0000ffaa,0,1,1|r,ff0000,0,0.665,0.669|o,000000,2,-1,5,1&chd=t:-4.3,-16.8,-12.2,-2.1,-14.5,-7.3|4.3,-8.2,-3.8,6.0,-6.2,0.4|-0.0,-12.4,-8.0,1.9,-10.3,-3.4&chds=-20,10,-20,10,-20,10&chxt=x,x,y,y,x&chxl=2:|||10%25%20neg||even||10%25%20aff|0:|03-04|04-05|05-06|06-07|07-08|08-09|1:|Europe|energy|China|courts|security|agriculture|4:|||||guarantee||3:||bias|&chco=000000,000000,ffff00&chtt=Topic+side+bias|90%25+confidence+interval&chg=0,33.33,4,3,0,0&chdlp=t&dummy=img.png
+http://chart.apis.google.com/chart?cht=lc&chs=500x350&chm=b,0000ffaa,0,1,1|r,ff0000,0,0.665,0.669|o,000000,2,-1,5,1|o,000000,0,-1,5,1|o,000000,1,-1,5,1&chd=t:-4.3,-16.8,-12.2,-2.1,-14.5,-7.3,-0.9|4.3,-8.2,-3.8,6.0,-6.2,0.4,8.6|-0.0,-12.4,-8.0,1.9,-10.3,-3.4,4.7&chds=-20,10,-20,10,-20,10&chxt=x,x,y,y,x&chxl=2:|||10%25%20neg||even||10%25%20aff|0:|03-04|04-05|05-06|06-07|07-08|08-09|09-10|1:|Europe|energy|China|courts|security|agriculture|nuclear|4:|||||guarantee||arsenal|3:||bias|&chco=000000,000000,ffff00&chtt=Topic+side+bias|90%25+confidence+interval&chg=0,33.33,4,3,0,0&chdlp=t&dummy=img.png
 
 The charts below restrict the considered ballots to progressively smaller subsets, so the statistical confidence of side bias tends to be lower. The larger shaded regions indicate larger uncertainty about side bias.
 
@@ -62,9 +62,9 @@ As an example, if the neg bias amplifier is 10%:
 || 1 || 99 || 99% || 99.09% ||
 || 50 || 50 || 50% || 52.38% ||
 
-*The largest side bias in the past six years was the 12.37% neg bias on the energy topic. With this neg bias, in an otherwise evenly matched round, the neg has only a 52.91% chance of winning.*
+*The largest side bias in the past seven years was the 12.37% neg bias on the energy topic. With this neg bias, in an otherwise evenly matched round, the neg has only a 52.91% chance of winning.*
 
-The side bias in the past six years, though statistically significant for three years, is not very large. Statistically significance does not imply significance in everyday life. *With a large number of trials, even small effects can be statistically significant, and the DebateResultsDotCom database contains 98,204 ballots.* Statistical significance does not imply that the topic committee should change their focus, or that elims should be paired differently, or that judges should change their decision calculus.
+The side bias in the past seven years, though statistically significant for three years, is not very large. Statistically significance does not imply significance in everyday life. *With a large number of trials, even small effects can be statistically significant, and the DebateResultsDotCom database contains 115,237 ballots.* Statistical significance does not imply that the topic committee should change their focus, or that elims should be paired differently, or that judges should change their decision calculus.
 
 Smaller samples can exhibit large biases that are not statistically significant. Generally, no confidence level less than 95% is considered statistically significant.
 
