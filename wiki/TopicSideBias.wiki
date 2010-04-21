@@ -111,6 +111,10 @@ You can click on a column header to re-order the teams based on the data in that
 
 If you can't view the tables below, try [http://spreadsheets.google.com/pub?key=tyy2QYpZR7FxljzJScLZBPQ&output=html viewing the whole spreadsheet as HTML] or [http://docs.google.com/ logging in to Google Docs].
 
+==2009-2010, nuclear arsenal: estimated 4.7% aff bias, barely statistically significant with {{{p = 0.044}}} ==
+
+<wiki:gadget url="http://www.google.com/ig/modules/simple-table.xml" height="330" width="850" border="0" up__table_query_url="http://spreadsheets.google.com/tq?range=A1:F8&headers=1&key=0Ar__ITZ_kU5fdHl5MlFZcFpSN0Z4bGp6SlNjTFpCUFE&gid=7" up__table_query_refresh_interval="300" up_disableHtml="0"/> 
+
 ==2008-2009, agriculture: no statistically significant topic bias==
 
 <wiki:gadget url="http://www.google.com/ig/modules/simple-table.xml" height="290" width="850" border="0" up__table_query_url="http://spreadsheets.google.com/tq?key=0Ar__ITZ_kU5fdHl5MlFZcFpSN0Z4bGp6SlNjTFpCUFE&range=A1:F7&gid=5&headers=-1" up__table_query_refresh_interval="300" up_disableHtml="0"/> 
