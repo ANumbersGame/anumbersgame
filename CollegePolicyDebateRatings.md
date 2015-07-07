@@ -1,0 +1,1 @@
+See [RatingSystems#Debate\_Specific](RatingSystems#Debate_Specific.md).
